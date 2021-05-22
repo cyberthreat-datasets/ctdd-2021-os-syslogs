@@ -1,0 +1,132 @@
+Aug 11 21:12:09 jy-syn-flood-tool-t1498 systemd[1]: Starting Docker Application Container Engine...
+Aug 11 21:12:10 jy-syn-flood-tool-t1498 kernel: [  813.255724] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=80.82.78.82 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=7925 PROTO=TCP SPT=45271 DPT=4047 WINDOW=1024 RES=0x00 SYN URGP=0 
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.446885028-05:00"" level=info msg=""Starting up"""
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.472748139-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"""
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 kernel: [  815.273926] audit: type=1400 audit(1597198332.635:25): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=19235 comm=""apparmor_parser"""
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.648248979-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.648640590-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.648912947-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.649130759-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.783322316-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.783377289-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.783413509-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.783429458-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
+"Aug 11 21:12:12 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:12.792883510-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2"""
+"Aug 11 21:12:13 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:13.830317084-05:00"" level=warning msg=""Your kernel does not support swap memory limit"""
+"Aug 11 21:12:13 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:13.830374256-05:00"" level=warning msg=""Your kernel does not support cgroup rt period"""
+"Aug 11 21:12:13 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:13.830388875-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime"""
+"Aug 11 21:12:13 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:13.832017871-05:00"" level=info msg=""Loading containers: start."""
+Aug 11 21:12:13 jy-syn-flood-tool-t1498 kernel: [  816.503239] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Aug 11 21:12:13 jy-syn-flood-tool-t1498 kernel: [  816.515896] Bridge firewalling registered
+Aug 11 21:12:14 jy-syn-flood-tool-t1498 kernel: [  816.795781] Initializing XFRM netlink socket
+Aug 11 21:12:14 jy-syn-flood-tool-t1498 kernel: [  816.896262] Netfilter messages via NETLINK v0.30.
+Aug 11 21:12:14 jy-syn-flood-tool-t1498 kernel: [  816.908602] ctnetlink v0.93: registering with nfnetlink.
+"Aug 11 21:12:14 jy-syn-flood-tool-t1498 systemd-udevd[19294]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable."
+"Aug 11 21:12:14 jy-syn-flood-tool-t1498 networkd-dispatcher[1178]: WARNING:Unknown index 3 seen, reloading interface list"
+Aug 11 21:12:14 jy-syn-flood-tool-t1498 systemd-networkd[11596]: docker0: Link UP
+"Aug 11 21:12:14 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:14.961719571-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"""
+"Aug 11 21:12:15 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:15.176768410-05:00"" level=info msg=""Loading containers: done."""
+"Aug 11 21:12:15 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:15.641770175-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6"
+"Aug 11 21:12:15 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:15.642910188-05:00"" level=info msg=""Daemon has completed initialization"""
+Aug 11 21:12:15 jy-syn-flood-tool-t1498 systemd[1]: Started Docker Application Container Engine.
+"Aug 11 21:12:15 jy-syn-flood-tool-t1498 dockerd[19141]: time=""2020-08-11T21:12:15.936989708-05:00"" level=info msg=""API listen on /var/run/docker.sock"""
+Aug 11 21:12:18 jy-syn-flood-tool-t1498 kernel: [  821.075566] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=84.38.187.194 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=25540 PROTO=TCP SPT=31021 DPT=3390 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:12:19 jy-syn-flood-tool-t1498 kernel: [  822.388500] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.24 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=8032 PROTO=TCP SPT=52175 DPT=21294 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:12:30 jy-syn-flood-tool-t1498 kernel: [  833.536041] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=40.114.8.176 DST=10.0.2.7 LEN=52 TOS=0x02 PREC=0x00 TTL=112 ID=28517 DF PROTO=TCP SPT=60725 DPT=5901 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Aug 11 21:12:31 jy-syn-flood-tool-t1498 systemd-networkd[11596]: Could not set hostname: Method call timed out
+Aug 11 21:12:31 jy-syn-flood-tool-t1498 systemd-networkd[11596]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug 11 21:12:33 jy-syn-flood-tool-t1498 kernel: [  836.535021] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=40.114.8.176 DST=10.0.2.7 LEN=52 TOS=0x02 PREC=0x00 TTL=112 ID=28518 DF PROTO=TCP SPT=60725 DPT=5901 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Aug 11 21:12:48 jy-syn-flood-tool-t1498 kernel: [  850.769014] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=164.132.183.195 DST=10.0.2.7 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=20237 DF PROTO=TCP SPT=37063 DPT=42 WINDOW=5840 RES=0x00 SYN URGP=0 
+Aug 11 21:12:58 jy-syn-flood-tool-t1498 kernel: [  861.154446] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.11 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=10965 PROTO=TCP SPT=51240 DPT=36196 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:13:00 jy-syn-flood-tool-t1498 kernel: [  862.792634] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=185.175.93.14 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=27209 PROTO=TCP SPT=47715 DPT=46530 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:13:04 jy-syn-flood-tool-t1498 kernel: [  867.151390] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=152.136.34.209 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=16524 PROTO=TCP SPT=57054 DPT=9788 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:13:05 jy-syn-flood-tool-t1498 kernel: [  868.332736] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=159.89.157.126 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=31234 DPT=1433 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug 11 21:13:21 jy-syn-flood-tool-t1498 kernel: [  884.246564] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.44 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=9059 PROTO=TCP SPT=45892 DPT=1476 WINDOW=1024 RES=0x00 SYN URGP=0 
+"Aug 11 21:13:30 jy-syn-flood-tool-t1498 systemd-resolved[11621]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
+"Aug 11 21:13:30 jy-syn-flood-tool-t1498 systemd-resolved[11621]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]"
+Aug 11 21:13:59 jy-syn-flood-tool-t1498 kernel: [  921.665308] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.143 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=27607 PROTO=TCP SPT=53106 DPT=39048 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:14:16 jy-syn-flood-tool-t1498 systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 11 21:14:16 jy-syn-flood-tool-t1498 systemd[1]: Started Cleanup of Temporary Directories.
+Aug 11 21:14:17 jy-syn-flood-tool-t1498 kernel: [  940.111159] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.134 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=60753 PROTO=TCP SPT=53107 DPT=39430 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:14:20 jy-syn-flood-tool-t1498 kernel: [  943.311298] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=45182 PROTO=TCP SPT=40268 DPT=3802 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:14:46 jy-syn-flood-tool-t1498 launch_jupyter.sh[1174]: [I 21:14:46.109 LabApp] New terminal with automatic name: 5
+Aug 11 21:14:48 jy-syn-flood-tool-t1498 kernel: [  970.981283] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=82.219.197.5 DST=10.0.2.7 LEN=52 TOS=0x00 PREC=0x00 TTL=113 ID=12168 DF PROTO=TCP SPT=57641 DPT=5901 WINDOW=64240 RES=0x00 SYN URGP=0 
+Aug 11 21:14:48 jy-syn-flood-tool-t1498 kernel: [  971.467018] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=74.218.240.190 DST=10.0.2.7 LEN=52 TOS=0x00 PREC=0x40 TTL=111 ID=28644 DF PROTO=TCP SPT=27379 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug 11 21:14:51 jy-syn-flood-tool-t1498 kernel: [  973.969310] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=82.219.197.5 DST=10.0.2.7 LEN=52 TOS=0x00 PREC=0x00 TTL=113 ID=12169 DF PROTO=TCP SPT=57641 DPT=5901 WINDOW=64240 RES=0x00 SYN URGP=0 
+Aug 11 21:14:51 jy-syn-flood-tool-t1498 kernel: [  974.363526] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=74.218.240.190 DST=10.0.2.7 LEN=52 TOS=0x00 PREC=0x40 TTL=111 ID=28645 DF PROTO=TCP SPT=27379 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug 11 21:15:04 jy-syn-flood-tool-t1498 kernel: [  987.590998] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=172.93.4.78 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=62184 PROTO=TCP SPT=57151 DPT=9204 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:15:24 jy-syn-flood-tool-t1498 launch_jupyter.sh[1174]: TermSocket.open: 5
+Aug 11 21:15:24 jy-syn-flood-tool-t1498 launch_jupyter.sh[1174]: TermSocket.open: Opened 5
+Aug 11 21:15:29 jy-syn-flood-tool-t1498 pcp-pmie[1970]: High aggregate context switch rate 24922ctxsw/s@jy-syn-flood-tool-t1498
+Aug 11 21:15:29 jy-syn-flood-tool-t1498 pcp-pmie[1970]: High 1-minute load average 175load@jy-syn-flood-tool-t1498
+Aug 11 21:15:30 jy-syn-flood-tool-t1498 kernel: [ 1013.260013] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.146 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=28196 PROTO=TCP SPT=53097 DPT=39058 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:15:38 jy-syn-flood-tool-t1498 kernel: [ 1021.118155] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.9 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=12218 PROTO=TCP SPT=48570 DPT=11404 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:16:02 jy-syn-flood-tool-t1498 kernel: [ 1045.222451] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=68.183.89.147 DST=10.0.2.7 LEN=60 TOS=0x00 PREC=0x00 TTL=47 ID=12604 DF PROTO=TCP SPT=45022 DPT=22 WINDOW=64240 RES=0x00 SYN URGP=0 
+Aug 11 21:16:39 jy-syn-flood-tool-t1498 kernel: [ 1081.822305] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.26 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=42869 PROTO=TCP SPT=51371 DPT=4500 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:16:47 jy-syn-flood-tool-t1498 kernel: [ 1089.844223] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=46876 PROTO=TCP SPT=40268 DPT=2708 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:17:01 jy-syn-flood-tool-t1498 CRON[19787]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd-networkd[11596]: ens3: DHCP lease lost
+"Aug 11 21:17:04 jy-syn-flood-tool-t1498 dbus-daemon[1024]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.33' (uid=100 pid=11596 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: Starting Hostname Service...
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: Started ntp-systemd-netif.service.
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd-networkd[11596]: ens3: DHCPv4 address 10.0.2.7/24 via 10.0.2.1
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd-networkd[11596]: ens3: Configured
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: Stopping Network Time Service...
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[18959]: ntpd exiting on signal 15 (Terminated)
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: Stopped Network Time Service.
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[18959]: 129.79.5.100 local addr 10.0.2.7 -> <null>
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: Starting Network Time Service...
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[19791]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[19791]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19820]: ntpd 4.2.8p10@1.3728-o (1): Starting
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19820]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 111:115
+"Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: Failed to start Hostname Service.
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 systemd[1]: Started Network Time Service.
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: proto: precision = 0.054 usec (-24)
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
+"Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37"
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: Listen and drop on 0 v6wildcard [::]:123
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: Listen normally on 2 lo 127.0.0.1:123
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: Listen normally on 3 ens3 10.0.2.7:123
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: Listen normally on 4 ens3 [fe80::f816:3eff:fed1:d605%2]:123
+Aug 11 21:17:04 jy-syn-flood-tool-t1498 ntpd[19823]: Listening on routing socket on fd #21 for interface updates
+Aug 11 21:17:05 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 209.222.98.149
+Aug 11 21:17:06 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 204.2.134.164
+Aug 11 21:17:06 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 45.55.58.103
+Aug 11 21:17:07 jy-syn-flood-tool-t1498 kernel: [ 1109.938334] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=49561 PROTO=TCP SPT=40268 DPT=3426 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:17:07 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 65.182.224.39
+Aug 11 21:17:07 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 13.86.101.172
+Aug 11 21:17:08 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 104.236.167.15
+Aug 11 21:17:08 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 74.208.235.60
+Aug 11 21:17:08 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 50.205.244.108
+Aug 11 21:17:09 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 162.159.200.1
+Aug 11 21:17:09 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 138.236.128.112
+Aug 11 21:17:09 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 91.189.89.198
+Aug 11 21:17:10 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 91.189.91.157
+Aug 11 21:17:10 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 99.104.170.138
+Aug 11 21:17:10 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 50.205.244.22
+Aug 11 21:17:11 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 91.189.94.4
+Aug 11 21:17:11 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 108.61.73.244
+Aug 11 21:17:11 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 2606:4700:f1::123
+Aug 11 21:17:12 jy-syn-flood-tool-t1498 ntpd[19823]: Soliciting pool server 91.189.89.199
+Aug 11 21:17:21 jy-syn-flood-tool-t1498 kernel: [ 1124.213225] neighbour: arp_cache: neighbor table overflow!
+Aug 11 21:17:22 jy-syn-flood-tool-t1498 kernel: [ 1125.123296] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.155 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=13934 PROTO=TCP SPT=52065 DPT=7542 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:17:29 jy-syn-flood-tool-t1498 systemd-networkd[11596]: Could not set hostname: Method call timed out
+Aug 11 21:17:29 jy-syn-flood-tool-t1498 systemd-networkd[11596]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug 11 21:17:29 jy-syn-flood-tool-t1498 pcp-pmie[1970]: High per CPU processor utilization 100%util[cpu0]@jy-syn-flood-tool-t1498 100%util[cpu1]@jy-syn-flood-tool-t1498
+Aug 11 21:17:29 jy-syn-flood-tool-t1498 pcp-pmie[1970]: High average processor utilization 100%util@jy-syn-flood-tool-t1498
+Aug 11 21:17:48 jy-syn-flood-tool-t1498 kernel: [ 1151.508439] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=118.128.190.153 DST=10.0.2.7 LEN=60 TOS=0x00 PREC=0x00 TTL=44 ID=22779 DF PROTO=TCP SPT=49194 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug 11 21:17:59 jy-syn-flood-tool-t1498 kernel: [ 1162.194916] neighbour: arp_cache: neighbor table overflow!
+Aug 11 21:18:11 jy-syn-flood-tool-t1498 kernel: [ 1174.148543] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.47 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=35947 PROTO=TCP SPT=44157 DPT=4073 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:18:28 jy-syn-flood-tool-t1498 kernel: [ 1190.852128] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=40.114.8.176 DST=10.0.2.7 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=33442 DF PROTO=TCP SPT=53042 DPT=5901 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Aug 11 21:18:38 jy-syn-flood-tool-t1498 kernel: [ 1201.364257] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=80.82.77.245 DST=10.0.2.7 LEN=57 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=UDP SPT=41243 DPT=41004 LEN=37 
+Aug 11 21:19:01 jy-syn-flood-tool-t1498 kernel: [ 1224.253396] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.137 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=6640 PROTO=TCP SPT=53918 DPT=39656 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:19:22 jy-syn-flood-tool-t1498 kernel: [ 1245.237875] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=44346 PROTO=TCP SPT=40268 DPT=1632 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:19:54 jy-syn-flood-tool-t1498 kernel: [ 1276.823444] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.141 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=11686 PROTO=TCP SPT=52564 DPT=64193 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:20:06 jy-syn-flood-tool-t1498 kernel: [ 1288.953541] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=18200 PROTO=TCP SPT=40268 DPT=7103 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:20:32 jy-syn-flood-tool-t1498 kernel: [ 1315.066489] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.137 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=19557 PROTO=TCP SPT=53918 DPT=39131 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:20:39 jy-syn-flood-tool-t1498 kernel: [ 1321.859563] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.222 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=56281 PROTO=TCP SPT=53106 DPT=39675 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 11 21:21:01 jy-syn-flood-tool-t1498 kernel: [ 1344.494268] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d1:d6:05:fa:16:3e:7a:01:fb:08:00 SRC=138.68.94.142 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=22869 PROTO=TCP SPT=50861 DPT=28331 WINDOW=1024 RES=0x00 SYN URGP=0 

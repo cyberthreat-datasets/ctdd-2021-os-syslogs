@@ -1,0 +1,179 @@
+Aug  1 21:28:35 mw-backdoor-003 systemd[1]: Starting Docker Application Container Engine...
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.462929075-05:00"" level=info msg=""Starting up"""
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.474527757-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"""
+"Aug  1 21:28:38 mw-backdoor-003 kernel: [  282.357400] audit: type=1400 audit(1596335318.559:21): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=10422 comm=""apparmor_parser"""
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.569411718-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.569619266-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.569861162-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.570040732-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.824346071-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.824413664-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.824449220-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.824471497-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
+"Aug  1 21:28:38 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:38.834938282-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2"""
+"Aug  1 21:28:39 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:39.141039112-05:00"" level=warning msg=""Your kernel does not support swap memory limit"""
+"Aug  1 21:28:39 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:39.141079849-05:00"" level=warning msg=""Your kernel does not support cgroup rt period"""
+"Aug  1 21:28:39 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:39.141109761-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime"""
+"Aug  1 21:28:39 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:39.143132759-05:00"" level=info msg=""Loading containers: start."""
+Aug  1 21:28:39 mw-backdoor-003 kernel: [  283.153714] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Aug  1 21:28:39 mw-backdoor-003 kernel: [  283.158974] Bridge firewalling registered
+Aug  1 21:28:39 mw-backdoor-003 kernel: [  283.458144] Initializing XFRM netlink socket
+Aug  1 21:28:39 mw-backdoor-003 kernel: [  283.486473] Netfilter messages via NETLINK v0.30.
+Aug  1 21:28:39 mw-backdoor-003 kernel: [  283.499207] ctnetlink v0.93: registering with nfnetlink.
+"Aug  1 21:28:39 mw-backdoor-003 systemd-udevd[10478]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable."
+"Aug  1 21:28:39 mw-backdoor-003 networkd-dispatcher[1067]: WARNING:Unknown index 3 seen, reloading interface list"
+"Aug  1 21:28:39 mw-backdoor-003 systemd-timesyncd[602]: Network configuration changed, trying to establish connection."
+Aug  1 21:28:39 mw-backdoor-003 systemd-timesyncd[602]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
+Aug  1 21:28:39 mw-backdoor-003 systemd-networkd[779]: docker0: Link UP
+"Aug  1 21:28:39 mw-backdoor-003 systemd-timesyncd[602]: Network configuration changed, trying to establish connection."
+Aug  1 21:28:39 mw-backdoor-003 systemd-timesyncd[602]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
+"Aug  1 21:28:39 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:39.964359389-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"""
+"Aug  1 21:28:40 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:40.035837300-05:00"" level=info msg=""Loading containers: done."""
+"Aug  1 21:28:41 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:41.200327570-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6"
+"Aug  1 21:28:41 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:41.201548554-05:00"" level=info msg=""Daemon has completed initialization"""
+"Aug  1 21:28:41 mw-backdoor-003 dockerd[10364]: time=""2020-08-01T21:28:41.441075722-05:00"" level=info msg=""API listen on /var/run/docker.sock"""
+Aug  1 21:28:41 mw-backdoor-003 systemd[1]: Started Docker Application Container Engine.
+Aug  1 21:28:50 mw-backdoor-003 kernel: [  293.818562] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.102 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=33557 PROTO=TCP SPT=54682 DPT=26481 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:28:53 mw-backdoor-003 kernel: [  297.647427] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.2 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=18517 PROTO=TCP SPT=48436 DPT=50196 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:29:13 mw-backdoor-003 systemd-networkd[779]: ens3: DHCP lease lost
+"Aug  1 21:29:13 mw-backdoor-003 dbus-daemon[983]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=779 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+"Aug  1 21:29:13 mw-backdoor-003 systemd-timesyncd[602]: Network configuration changed, trying to establish connection."
+Aug  1 21:29:13 mw-backdoor-003 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 21:29:13 mw-backdoor-003 systemd[1]: Starting Hostname Service...
+Aug  1 21:29:13 mw-backdoor-003 systemd-networkd[779]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 21:29:13 mw-backdoor-003 systemd-networkd[779]: ens3: Configured
+Aug  1 21:29:13 mw-backdoor-003 systemd[10658]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 21:29:13 mw-backdoor-003 systemd[10658]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+"Aug  1 21:29:13 mw-backdoor-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 21:29:13 mw-backdoor-003 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 21:29:13 mw-backdoor-003 systemd[1]: Failed to start Hostname Service.
+Aug  1 21:29:18 mw-backdoor-003 kernel: [  322.666046] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=80.82.64.72 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=7338 PROTO=TCP SPT=59430 DPT=8275 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:29:38 mw-backdoor-003 systemd-networkd[779]: Could not set hostname: Method call timed out
+Aug  1 21:29:38 mw-backdoor-003 systemd-networkd[779]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 21:29:41 mw-backdoor-003 kernel: [  344.860446] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=185.153.197.32 DST=10.0.2.5 LEN=40 TOS=0x08 PREC=0x20 TTL=232 ID=44585 PROTO=TCP SPT=51028 DPT=11002 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:29:47 mw-backdoor-003 kernel: [  350.801719] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.132 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=12321 PROTO=TCP SPT=41208 DPT=31632 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:29:51 mw-backdoor-003 kernel: [  355.032289] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=21037 PROTO=TCP SPT=55206 DPT=7249 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:30:09 mw-backdoor-003 kernel: [  372.826426] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=89.248.172.85 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=16373 PROTO=TCP SPT=53026 DPT=51104 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:30:27 mw-backdoor-003 kernel: [  391.050994] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=180.120.170.135 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=49776 DF PROTO=TCP SPT=37007 DPT=22 WINDOW=14520 RES=0x00 SYN URGP=0 
+Aug  1 21:30:28 mw-backdoor-003 kernel: [  392.049241] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=180.120.170.135 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=49777 DF PROTO=TCP SPT=37007 DPT=22 WINDOW=14520 RES=0x00 SYN URGP=0 
+"Aug  1 21:30:29 mw-backdoor-003 systemd-resolved[800]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
+Aug  1 21:30:30 mw-backdoor-003 kernel: [  394.053301] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=180.120.170.135 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=49778 DF PROTO=TCP SPT=37007 DPT=22 WINDOW=14520 RES=0x00 SYN URGP=0 
+"Aug  1 21:30:29 mw-backdoor-003 systemd-resolved[800]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]"
+Aug  1 21:30:32 mw-backdoor-003 kernel: [  396.072727] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=180.120.170.135 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=42845 DF PROTO=TCP SPT=50911 DPT=2222 WINDOW=14520 RES=0x00 SYN URGP=0 
+Aug  1 21:30:33 mw-backdoor-003 kernel: [  397.070704] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=180.120.170.135 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=42846 DF PROTO=TCP SPT=50911 DPT=2222 WINDOW=14520 RES=0x00 SYN URGP=0 
+Aug  1 21:30:35 mw-backdoor-003 kernel: [  399.074785] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=180.120.170.135 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=42847 DF PROTO=TCP SPT=50911 DPT=2222 WINDOW=14520 RES=0x00 SYN URGP=0 
+Aug  1 21:30:41 mw-backdoor-003 kernel: [  405.517411] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=37.233.77.228 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=54321 PROTO=TCP SPT=43104 DPT=8883 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug  1 21:30:46 mw-backdoor-003 kernel: [  410.101228] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:c3:52:b2:08:00 SRC=10.0.2.4 DST=10.0.2.5 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=20782 DF PROTO=TCP SPT=49916 DPT=1881 WINDOW=62720 RES=0x00 SYN URGP=0 
+Aug  1 21:30:53 mw-backdoor-003 kernel: [  417.259178] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:c3:52:b2:08:00 SRC=10.0.2.4 DST=10.0.2.5 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=20785 DF PROTO=TCP SPT=49916 DPT=1881 WINDOW=62720 RES=0x00 SYN URGP=0 
+Aug  1 21:31:17 mw-backdoor-003 kernel: [  441.579367] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:c3:52:b2:08:00 SRC=10.0.2.4 DST=10.0.2.5 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=20787 DF PROTO=TCP SPT=49916 DPT=1881 WINDOW=62720 RES=0x00 SYN URGP=0 
+Aug  1 21:31:38 mw-backdoor-003 kernel: [  462.526873] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=95.87.241.183 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=1409 DF PROTO=TCP SPT=35044 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 21:32:02 mw-backdoor-003 kernel: [  486.433484] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=149.165.170.210 DST=10.0.2.5 LEN=52 TOS=0x00 PREC=0x00 TTL=63 ID=13483 DF PROTO=TCP SPT=50492 DPT=1881 WINDOW=62720 RES=0x00 SYN URGP=0 
+Aug  1 21:32:17 mw-backdoor-003 kernel: [  501.739193] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=149.165.170.210 DST=10.0.2.5 LEN=52 TOS=0x00 PREC=0x00 TTL=63 ID=13487 DF PROTO=TCP SPT=50492 DPT=1881 WINDOW=62720 RES=0x00 SYN URGP=0 
+Aug  1 21:32:34 mw-backdoor-003 kernel: [  517.867037] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=149.165.170.210 DST=10.0.2.5 LEN=52 TOS=0x00 PREC=0x00 TTL=63 ID=13488 DF PROTO=TCP SPT=50492 DPT=1881 WINDOW=62720 RES=0x00 SYN URGP=0 
+Aug  1 21:32:50 mw-backdoor-003 kernel: [  534.282519] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:c3:52:b2:08:00 SRC=10.0.2.4 DST=10.0.2.5 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=64352 DF PROTO=TCP SPT=49920 DPT=1881 WINDOW=62720 RES=0x00 SYN URGP=0 
+Aug  1 21:33:20 mw-backdoor-003 kernel: [  564.320655] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=193.228.108.122 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=49 ID=32723 DF PROTO=TCP SPT=44882 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 21:33:31 mw-backdoor-003 kernel: [  575.072086] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=159.203.102.122 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=59358 PROTO=TCP SPT=52219 DPT=26670 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:33:57 mw-backdoor-003 kernel: [  601.614242] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.12 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=7974 PROTO=TCP SPT=49163 DPT=8596 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:34:12 mw-backdoor-003 systemd-networkd[779]: ens3: DHCP lease lost
+"Aug  1 21:34:12 mw-backdoor-003 dbus-daemon[983]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=779 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug  1 21:34:12 mw-backdoor-003 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 21:34:12 mw-backdoor-003 systemd[1]: Starting Hostname Service...
+Aug  1 21:34:12 mw-backdoor-003 systemd-networkd[779]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 21:34:12 mw-backdoor-003 systemd-networkd[779]: ens3: Configured
+Aug  1 21:34:12 mw-backdoor-003 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 21:34:12 mw-backdoor-003 systemd[10738]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 21:34:12 mw-backdoor-003 systemd[10738]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+"Aug  1 21:34:12 mw-backdoor-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 21:34:12 mw-backdoor-003 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 21:34:12 mw-backdoor-003 systemd[1]: Failed to start Hostname Service.
+Aug  1 21:34:37 mw-backdoor-003 systemd-networkd[779]: Could not set hostname: Method call timed out
+Aug  1 21:34:37 mw-backdoor-003 systemd-networkd[779]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 21:34:40 mw-backdoor-003 kernel: [  644.719545] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=106.13.78.121 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x60 TTL=234 ID=9249 PROTO=TCP SPT=49827 DPT=5883 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:34:41 mw-backdoor-003 kernel: [  645.038395] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=184.105.139.117 DST=10.0.2.5 LEN=35 TOS=0x00 PREC=0x00 TTL=52 ID=62447 DF PROTO=UDP SPT=59341 DPT=177 LEN=15 
+Aug  1 21:35:04 mw-backdoor-003 kernel: [  668.780083] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=24180 PROTO=TCP SPT=55206 DPT=1528 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:35:31 mw-backdoor-003 kernel: [  695.678291] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.9 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=13295 PROTO=TCP SPT=49632 DPT=11049 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:35:38 mw-backdoor-003 kernel: [  702.421778] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.17 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=48280 PROTO=TCP SPT=57756 DPT=50526 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:36:03 mw-backdoor-003 kernel: [  727.175271] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=193.32.161.149 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=245 PROTO=TCP SPT=53073 DPT=22092 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:36:21 mw-backdoor-003 kernel: [  745.228269] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=106.13.86.199 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=5271 PROTO=TCP SPT=50957 DPT=29864 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:36:40 mw-backdoor-003 kernel: [  764.771791] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=220.132.176.25 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=4826 DF PROTO=TCP SPT=8039 DPT=23 WINDOW=14600 RES=0x00 SYN URGP=0 
+Aug  1 21:36:41 mw-backdoor-003 systemd-networkd[779]: ens3: Configured
+Aug  1 21:36:41 mw-backdoor-003 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 21:37:04 mw-backdoor-003 kernel: [  788.059567] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=160.16.148.161 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=47 ID=60479 DF PROTO=TCP SPT=42896 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 21:37:11 mw-backdoor-003 kernel: [  795.072174] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=160.16.148.161 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=47 ID=60482 DF PROTO=TCP SPT=42896 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 21:37:45 mw-backdoor-003 systemd-timesyncd[602]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
+Aug  1 21:37:45 mw-backdoor-003 kernel: [  829.685930] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.132 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=29668 PROTO=TCP SPT=41208 DPT=31599 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:37:55 mw-backdoor-003 kernel: [  839.763390] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.7 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=48606 PROTO=TCP SPT=49443 DPT=5706 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:38:10 mw-backdoor-003 kernel: [  854.296356] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=89.248.168.217 DST=10.0.2.5 LEN=57 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=UDP SPT=47256 DPT=1081 LEN=37 
+Aug  1 21:38:49 mw-backdoor-003 kernel: [  892.874697] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=111.231.231.171 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=43 ID=55062 DF PROTO=TCP SPT=43404 DPT=6379 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 21:38:51 mw-backdoor-003 kernel: [  895.061133] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=83.97.20.35 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=54321 PROTO=TCP SPT=49851 DPT=2480 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug  1 21:39:00 mw-backdoor-003 systemd[1]: Starting Cleanup of Temporary Directories...
+Aug  1 21:39:00 mw-backdoor-003 systemd[1]: Started Cleanup of Temporary Directories.
+Aug  1 21:39:11 mw-backdoor-003 kernel: [  915.572463] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=65347 PROTO=TCP SPT=55206 DPT=1769 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:39:49 mw-backdoor-003 kernel: [  953.452959] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=185.153.197.32 DST=10.0.2.5 LEN=40 TOS=0x08 PREC=0x20 TTL=232 ID=25496 PROTO=TCP SPT=51028 DPT=9913 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:40:06 mw-backdoor-003 kernel: [  970.465861] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=185.153.197.32 DST=10.0.2.5 LEN=40 TOS=0x08 PREC=0x20 TTL=232 ID=50830 PROTO=TCP SPT=51028 DPT=3032 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:40:43 mw-backdoor-003 kernel: [ 1007.673600] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=46.161.27.48 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=28321 PROTO=TCP SPT=48294 DPT=40000 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:41:03 mw-backdoor-003 kernel: [ 1027.250925] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=202.131.69.18 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=60296 DF PROTO=TCP SPT=37643 DPT=22 WINDOW=5840 RES=0x00 SYN URGP=0 
+Aug  1 21:41:06 mw-backdoor-003 kernel: [ 1030.247718] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=202.131.69.18 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=60297 DF PROTO=TCP SPT=37643 DPT=22 WINDOW=5840 RES=0x00 SYN URGP=0 
+Aug  1 21:41:15 mw-backdoor-003 kernel: [ 1039.637037] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=167.172.69.52 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=58589 PROTO=TCP SPT=47520 DPT=17168 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:41:39 mw-backdoor-003 systemd-networkd[779]: ens3: DHCP lease lost
+"Aug  1 21:41:39 mw-backdoor-003 dbus-daemon[983]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=779 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+"Aug  1 21:41:39 mw-backdoor-003 systemd-timesyncd[602]: Network configuration changed, trying to establish connection."
+Aug  1 21:41:39 mw-backdoor-003 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 21:41:39 mw-backdoor-003 systemd[1]: Starting Hostname Service...
+Aug  1 21:41:39 mw-backdoor-003 systemd-networkd[779]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 21:41:39 mw-backdoor-003 systemd-networkd[779]: ens3: Configured
+Aug  1 21:41:39 mw-backdoor-003 systemd[10892]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 21:41:39 mw-backdoor-003 systemd[10892]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+"Aug  1 21:41:39 mw-backdoor-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 21:41:39 mw-backdoor-003 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 21:41:39 mw-backdoor-003 systemd[1]: Failed to start Hostname Service.
+Aug  1 21:41:57 mw-backdoor-003 systemd[1]: Stopping User Manager for UID 0...
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Stopped target Default.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Stopped target Basic System.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Stopped target Sockets.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Closed D-Bus User Message Bus Socket.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Closed REST API socket for snapd user session agent.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Stopped target Timers.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Closed GnuPG network certificate management daemon.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Stopped target Paths.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Reached target Shutdown.
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Starting Exit the Session...
+Aug  1 21:41:57 mw-backdoor-003 systemd[9842]: Received SIGRTMIN+24 from PID 10942 (kill).
+Aug  1 21:41:57 mw-backdoor-003 systemd[1]: Stopped User Manager for UID 0.
+Aug  1 21:41:57 mw-backdoor-003 systemd[1]: Removed slice User Slice of root.
+Aug  1 21:42:04 mw-backdoor-003 systemd-networkd[779]: Could not set hostname: Method call timed out
+Aug  1 21:42:04 mw-backdoor-003 systemd-networkd[779]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 21:42:20 mw-backdoor-003 launch_jupyter.sh[981]: [I 21:42:20.175 LabApp] New terminal with automatic name: 3
+Aug  1 21:42:20 mw-backdoor-003 launch_jupyter.sh[981]: TermSocket.open: 3
+Aug  1 21:42:20 mw-backdoor-003 launch_jupyter.sh[981]: TermSocket.open: Opened 3
+Aug  1 21:42:27 mw-backdoor-003 kernel: [ 1111.716746] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.134 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=44021 PROTO=TCP SPT=41208 DPT=31502 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:42:41 mw-backdoor-003 kernel: [ 1125.502112] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=103.114.104.68 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=25314 PROTO=TCP SPT=54910 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:42:41 mw-backdoor-003 kernel: [ 1125.502171] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=103.114.104.68 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=25314 PROTO=TCP SPT=54910 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:42:42 mw-backdoor-003 kernel: [ 1125.922244] TCP: request_sock_TCP: Possible SYN flooding on port 1818. Sending cookies.  Check SNMP counters.
+Aug  1 21:42:43 mw-backdoor-003 kernel: [ 1127.398982] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=185.175.93.104 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=24545 PROTO=TCP SPT=44105 DPT=8003 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:42:50 mw-backdoor-003 kernel: [ 1134.410205] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:20:06:71:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.132 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=44299 PROTO=TCP SPT=41208 DPT=31637 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 21:43:15 mw-backdoor-003 launch_jupyter.sh[981]: [I 21:43:15.361 LabApp] New terminal with automatic name: 4
+Aug  1 21:43:15 mw-backdoor-003 launch_jupyter.sh[981]: TermSocket.open: 4
+Aug  1 21:43:15 mw-backdoor-003 launch_jupyter.sh[981]: TermSocket.open: Opened 4
+Aug  1 21:43:28 mw-backdoor-003 systemd[1]: Created slice User Slice of root.
+Aug  1 21:43:28 mw-backdoor-003 systemd[1]: Starting User Manager for UID 0...
+Aug  1 21:43:28 mw-backdoor-003 systemd[1]: Started Session c2 of user root.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Starting D-Bus User Message Bus Socket.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Reached target Timers.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Listening on REST API socket for snapd user session agent.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Reached target Paths.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Listening on GnuPG network certificate management daemon.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Listening on D-Bus User Message Bus Socket.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Reached target Sockets.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Reached target Basic System.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Reached target Default.
+Aug  1 21:43:28 mw-backdoor-003 systemd[10992]: Startup finished in 65ms.
+Aug  1 21:43:28 mw-backdoor-003 systemd[1]: Started User Manager for UID 0.

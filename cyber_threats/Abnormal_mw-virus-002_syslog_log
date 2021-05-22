@@ -1,0 +1,152 @@
+Aug  1 01:23:42 mw-virus-002 systemd[1]: Starting Docker Application Container Engine...
+Aug  1 01:23:42 mw-virus-002 systemd[1]: Started Audit the activities of users and processes on your system..
+"Aug  1 01:23:44 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:44.637542477-05:00"" level=info msg=""Starting up"""
+"Aug  1 01:23:44 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:44.643434966-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"""
+"Aug  1 01:23:44 mw-virus-002 kernel: [  541.704872] audit: type=1400 audit(1596263024.926:21): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=10115 comm=""apparmor_parser"""
+"Aug  1 01:23:44 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:44.947289222-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
+"Aug  1 01:23:44 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:44.947611849-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
+"Aug  1 01:23:44 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:44.947966939-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
+"Aug  1 01:23:44 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:44.948331411-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.108663245-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.112065280-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.112211429-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.112242318-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.125489128-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2"""
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.284974313-05:00"" level=warning msg=""Your kernel does not support swap memory limit"""
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.285009872-05:00"" level=warning msg=""Your kernel does not support cgroup rt period"""
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.285020355-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime"""
+"Aug  1 01:23:45 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:45.286472232-05:00"" level=info msg=""Loading containers: start."""
+Aug  1 01:23:45 mw-virus-002 kernel: [  542.136819] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Aug  1 01:23:45 mw-virus-002 kernel: [  542.142136] Bridge firewalling registered
+Aug  1 01:23:45 mw-virus-002 kernel: [  542.316344] Initializing XFRM netlink socket
+Aug  1 01:23:45 mw-virus-002 kernel: [  542.338202] Netfilter messages via NETLINK v0.30.
+Aug  1 01:23:45 mw-virus-002 kernel: [  542.351003] ctnetlink v0.93: registering with nfnetlink.
+"Aug  1 01:23:45 mw-virus-002 systemd-udevd[10169]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable."
+"Aug  1 01:23:45 mw-virus-002 networkd-dispatcher[1050]: WARNING:Unknown index 3 seen, reloading interface list"
+Aug  1 01:23:45 mw-virus-002 systemd-networkd[737]: docker0: Link UP
+Aug  1 01:23:45 mw-virus-002 launch_jupyter.sh[1059]: [I 01:23:45.843 LabApp] New terminal with automatic name: 2
+Aug  1 01:23:45 mw-virus-002 kernel: [  542.730187] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=37472 PROTO=TCP SPT=55206 DPT=9600 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:23:46 mw-virus-002 launch_jupyter.sh[1059]: TermSocket.open: 2
+Aug  1 01:23:46 mw-virus-002 launch_jupyter.sh[1059]: TermSocket.open: Opened 2
+"Aug  1 01:23:46 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:46.349526171-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"""
+"Aug  1 01:23:46 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:46.654195486-05:00"" level=info msg=""Loading containers: done."""
+Aug  1 01:23:47 mw-virus-002 kernel: [  543.796494] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=65137 PROTO=TCP SPT=54239 DPT=8361 WINDOW=1024 RES=0x00 SYN URGP=0 
+"Aug  1 01:23:47 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:47.474550103-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6"
+"Aug  1 01:23:47 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:47.496882471-05:00"" level=info msg=""Daemon has completed initialization"""
+Aug  1 01:23:47 mw-virus-002 systemd[1]: Started Docker Application Container Engine.
+"Aug  1 01:23:47 mw-virus-002 dockerd[10029]: time=""2020-08-01T01:23:47.741628939-05:00"" level=info msg=""API listen on /var/run/docker.sock"""
+Aug  1 01:23:49 mw-virus-002 kernel: [  546.595134] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=54604 PROTO=TCP SPT=54239 DPT=20689 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:23:54 mw-virus-002 kernel: [  551.332823] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=89.165.3.29 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=13971 PROTO=TCP SPT=43334 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:23:54 mw-virus-002 kernel: [  551.763430] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=27386 PROTO=TCP SPT=54239 DPT=61543 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:23:55 mw-virus-002 kernel: [  552.589940] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=167.88.161.157 DST=10.0.2.12 LEN=40 TOS=0x08 PREC=0x20 TTL=241 ID=54321 PROTO=TCP SPT=42132 DPT=554 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug  1 01:23:56 mw-virus-002 kernel: [  553.079939] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.16 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=61013 PROTO=TCP SPT=49088 DPT=13604 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:24:03 mw-virus-002 kernel: [  560.525810] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.12 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=15105 PROTO=TCP SPT=45046 DPT=8590 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:24:04 mw-virus-002 kernel: [  560.794073] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=141.98.80.22 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=123 PROTO=TCP SPT=65534 DPT=16070 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:24:06 mw-virus-002 kernel: [  563.566815] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=87.251.73.231 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=232 ID=54707 PROTO=TCP SPT=41209 DPT=9000 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:24:12 mw-virus-002 kernel: [  569.003155] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=13178 PROTO=TCP SPT=54239 DPT=36135 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:24:12 mw-virus-002 launch_jupyter.sh[1059]: [I 01:24:12.460 LabApp] New terminal with automatic name: 3
+Aug  1 01:24:12 mw-virus-002 launch_jupyter.sh[1059]: TermSocket.open: 3
+Aug  1 01:24:12 mw-virus-002 launch_jupyter.sh[1059]: TermSocket.open: Opened 3
+Aug  1 01:24:15 mw-virus-002 kernel: [  572.423562] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=36220 PROTO=TCP SPT=54239 DPT=55248 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:24:20 mw-virus-002 systemd-timesyncd[592]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
+Aug  1 01:24:27 mw-virus-002 kernel: [  584.350046] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=41598 PROTO=TCP SPT=54239 DPT=36179 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:24:56 mw-virus-002 kernel: [  613.228601] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=51359 PROTO=TCP SPT=54239 DPT=61469 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:25:01 mw-virus-002 CRON[10390]: (pcp) CMD ( /usr/lib/pcp/bin/pmlogger_check -C)
+Aug  1 01:25:01 mw-virus-002 systemd-networkd[737]: ens3: DHCP lease lost
+"Aug  1 01:25:01 mw-virus-002 dbus-daemon[922]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.0' (uid=100 pid=737 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug  1 01:25:01 mw-virus-002 systemd[1]: Starting Hostname Service...
+"Aug  1 01:25:01 mw-virus-002 systemd-timesyncd[592]: Network configuration changed, trying to establish connection."
+Aug  1 01:25:01 mw-virus-002 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 01:25:01 mw-virus-002 systemd-networkd[737]: ens3: DHCPv4 address 10.0.2.12/24 via 10.0.2.1
+Aug  1 01:25:01 mw-virus-002 systemd-networkd[737]: ens3: Configured
+Aug  1 01:25:01 mw-virus-002 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 01:25:01 mw-virus-002 systemd[10431]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 01:25:01 mw-virus-002 systemd[10431]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+"Aug  1 01:25:01 mw-virus-002 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 01:25:01 mw-virus-002 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 01:25:01 mw-virus-002 systemd[1]: Failed to start Hostname Service.
+Aug  1 01:25:22 mw-virus-002 kernel: [  638.865904] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=44272 PROTO=TCP SPT=54239 DPT=38077 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:25:26 mw-virus-002 systemd-networkd[737]: Could not set hostname: Method call timed out
+Aug  1 01:25:26 mw-virus-002 systemd-networkd[737]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 01:25:28 mw-virus-002 kernel: [  645.310177] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=89.248.172.16 DST=10.0.2.12 LEN=44 TOS=0x10 PREC=0x00 TTL=116 ID=55762 PROTO=TCP SPT=29011 DPT=3542 WINDOW=4004 RES=0x00 SYN URGP=0 
+Aug  1 01:25:47 mw-virus-002 kernel: [  663.972074] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=45814 PROTO=TCP SPT=54239 DPT=35794 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:26:10 mw-virus-002 kernel: [  686.903790] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=55523 PROTO=TCP SPT=54239 DPT=32920 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:26:29 mw-virus-002 kernel: [  705.938675] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=29175 PROTO=TCP SPT=54239 DPT=34424 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:26:48 mw-virus-002 kernel: [  725.300041] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=15976 PROTO=TCP SPT=54239 DPT=27530 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:26:59 mw-virus-002 kernel: [  736.550413] eternal[10835]: segfault at 0 ip 0000000000000000 sp 00000000ff848a80 error 14 in eternal[8049000+1000]
+Aug  1 01:27:12 mw-virus-002 kernel: [  749.221765] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=45172 PROTO=TCP SPT=54239 DPT=31688 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:27:36 mw-virus-002 kernel: [  772.984184] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=37058 PROTO=TCP SPT=54239 DPT=37950 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:27:47 mw-virus-002 kernel: [  784.304430] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=218.56.158.81 DST=10.0.2.12 LEN=44 TOS=0x00 PREC=0x00 TTL=233 ID=177 PROTO=TCP SPT=30740 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:28:01 mw-virus-002 CRON[10845]: (pcp) CMD ( /usr/lib/pcp/bin/pmie_check -C)
+Aug  1 01:28:07 mw-virus-002 kernel: [  804.291673] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=106.12.91.102 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=232 ID=62323 PROTO=TCP SPT=41633 DPT=1985 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:28:27 mw-virus-002 launch_jupyter.sh[1059]: [I 01:28:27.154 LabApp] EOF on FD 13; stopping reading
+Aug  1 01:28:27 mw-virus-002 launch_jupyter.sh[1059]: [I 01:28:27.265 LabApp] Terminal 2 closed
+Aug  1 01:28:27 mw-virus-002 launch_jupyter.sh[1059]: Websocket closed
+Aug  1 01:28:31 mw-virus-002 systemd[1]: Stopping User Manager for UID 0...
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Stopped target Default.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Stopped target Basic System.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Stopped target Timers.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Stopped target Paths.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Stopped target Sockets.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Closed REST API socket for snapd user session agent.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Closed D-Bus User Message Bus Socket.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Closed GnuPG network certificate management daemon.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Reached target Shutdown.
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Starting Exit the Session...
+Aug  1 01:28:31 mw-virus-002 systemd[9506]: Received SIGRTMIN+24 from PID 11000 (kill).
+Aug  1 01:28:31 mw-virus-002 systemd[1]: Stopped User Manager for UID 0.
+Aug  1 01:28:31 mw-virus-002 systemd[1]: Removed slice User Slice of root.
+Aug  1 01:28:32 mw-virus-002 kernel: [  828.888258] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=40880 PROTO=TCP SPT=54239 DPT=29848 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:28:32 mw-virus-002 launch_jupyter.sh[1059]: [I 01:28:32.829 LabApp] EOF on FD 16; stopping reading
+Aug  1 01:28:32 mw-virus-002 launch_jupyter.sh[1059]: [I 01:28:32.931 LabApp] Terminal 1 closed
+Aug  1 01:28:32 mw-virus-002 launch_jupyter.sh[1059]: Websocket closed
+Aug  1 01:28:35 mw-virus-002 launch_jupyter.sh[1059]: Websocket closed
+Aug  1 01:28:50 mw-virus-002 kernel: [  847.464946] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=92.63.196.28 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=6958 PROTO=TCP SPT=59507 DPT=5800 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:29:09 mw-virus-002 kernel: [  866.630565] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=37718 PROTO=TCP SPT=55206 DPT=8364 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:29:38 mw-virus-002 kernel: [  895.444152] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=23690 PROTO=TCP SPT=54239 DPT=34782 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:29:48 mw-virus-002 kernel: [  905.154240] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=28981 PROTO=TCP SPT=54239 DPT=8018 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:29:48 mw-virus-002 systemd[1]: Starting Cleanup of Temporary Directories...
+Aug  1 01:29:48 mw-virus-002 systemd[1]: Started Cleanup of Temporary Directories.
+Aug  1 01:29:59 mw-virus-002 systemd-networkd[737]: ens3: DHCP lease lost
+"Aug  1 01:29:59 mw-virus-002 dbus-daemon[922]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.0' (uid=100 pid=737 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug  1 01:29:59 mw-virus-002 systemd[1]: Starting Hostname Service...
+Aug  1 01:29:59 mw-virus-002 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 01:29:59 mw-virus-002 systemd-networkd[737]: ens3: DHCPv4 address 10.0.2.12/24 via 10.0.2.1
+Aug  1 01:29:59 mw-virus-002 systemd-networkd[737]: ens3: Configured
+Aug  1 01:29:59 mw-virus-002 systemd[11025]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 01:29:59 mw-virus-002 systemd[11025]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+"Aug  1 01:29:59 mw-virus-002 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 01:29:59 mw-virus-002 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 01:29:59 mw-virus-002 systemd[1]: Failed to start Hostname Service.
+Aug  1 01:30:11 mw-virus-002 kernel: [  928.611404] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=55892 PROTO=TCP SPT=54239 DPT=38206 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:30:24 mw-virus-002 systemd-networkd[737]: Could not set hostname: Method call timed out
+Aug  1 01:30:24 mw-virus-002 systemd-networkd[737]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 01:30:25 mw-virus-002 launch_jupyter.sh[1059]: [I 01:30:25.585 LabApp] 302 GET / (98.196.234.218) 6.30ms
+Aug  1 01:30:27 mw-virus-002 kernel: [  944.663954] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=2886 PROTO=TCP SPT=54239 DPT=1774 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:30:28 mw-virus-002 launch_jupyter.sh[1059]: [I 01:30:28.648 LabApp] Build is up to date
+Aug  1 01:30:30 mw-virus-002 launch_jupyter.sh[1059]: [I 01:30:30.924 LabApp] New terminal with automatic name: 1
+Aug  1 01:30:31 mw-virus-002 launch_jupyter.sh[1059]: TermSocket.open: 1
+Aug  1 01:30:31 mw-virus-002 launch_jupyter.sh[1059]: TermSocket.open: Opened 1
+Aug  1 01:30:42 mw-virus-002 systemd[1]: Created slice User Slice of root.
+Aug  1 01:30:42 mw-virus-002 systemd[1]: Starting User Manager for UID 0...
+Aug  1 01:30:42 mw-virus-002 systemd[1]: Started Session c2 of user root.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Reached target Timers.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Reached target Paths.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Starting D-Bus User Message Bus Socket.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Listening on GnuPG network certificate management daemon.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Listening on REST API socket for snapd user session agent.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Listening on D-Bus User Message Bus Socket.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Reached target Sockets.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Reached target Basic System.
+Aug  1 01:30:42 mw-virus-002 systemd[1]: Started User Manager for UID 0.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Reached target Default.
+Aug  1 01:30:42 mw-virus-002 systemd[11108]: Startup finished in 77ms.
+Aug  1 01:30:53 mw-virus-002 kernel: [  970.489754] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:8e:e5:f0:fa:16:3e:7a:01:fb:08:00 SRC=79.124.62.86 DST=10.0.2.12 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=6003 PROTO=TCP SPT=54239 DPT=45287 WINDOW=1024 RES=0x00 SYN URGP=0 

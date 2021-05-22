@@ -1,0 +1,46 @@
+Jul 30 18:16:00 mw-spyware-001 systemd[1]: Starting Docker Application Container Engine...
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.217384756-05:00"" level=info msg=""Starting up"""
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.232980928-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"""
+"Jul 30 18:16:03 mw-spyware-001 kernel: [  796.831078] audit: type=1400 audit(1596150963.397:21): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=11331 comm=""apparmor_parser"""
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.418551743-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.418592738-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.418626705-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.418691550-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.483587370-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.483632354-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.483661514-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.483765735-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.494213471-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2"""
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.552031632-05:00"" level=warning msg=""Your kernel does not support swap memory limit"""
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.552348382-05:00"" level=warning msg=""Your kernel does not support cgroup rt period"""
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.552634898-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime"""
+"Jul 30 18:16:03 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:03.554631455-05:00"" level=info msg=""Loading containers: start."""
+Jul 30 18:16:03 mw-spyware-001 kernel: [  797.058008] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Jul 30 18:16:03 mw-spyware-001 kernel: [  797.062886] Bridge firewalling registered
+Jul 30 18:16:03 mw-spyware-001 kernel: [  797.294443] Initializing XFRM netlink socket
+Jul 30 18:16:03 mw-spyware-001 kernel: [  797.313464] Netfilter messages via NETLINK v0.30.
+Jul 30 18:16:03 mw-spyware-001 kernel: [  797.325891] ctnetlink v0.93: registering with nfnetlink.
+"Jul 30 18:16:03 mw-spyware-001 systemd-udevd[11390]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable."
+"Jul 30 18:16:03 mw-spyware-001 networkd-dispatcher[951]: WARNING:Unknown index 3 seen, reloading interface list"
+Jul 30 18:16:03 mw-spyware-001 systemd-networkd[732]: docker0: Link UP
+"Jul 30 18:16:04 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:04.064760897-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"""
+"Jul 30 18:16:04 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:04.125422432-05:00"" level=info msg=""Loading containers: done."""
+"Jul 30 18:16:04 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:04.737520661-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6"
+"Jul 30 18:16:04 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:04.768917634-05:00"" level=info msg=""Daemon has completed initialization"""
+"Jul 30 18:16:04 mw-spyware-001 dockerd[11271]: time=""2020-07-30T18:16:04.942782005-05:00"" level=info msg=""API listen on /var/run/docker.sock"""
+Jul 30 18:16:04 mw-spyware-001 systemd[1]: Started Docker Application Container Engine.
+Jul 30 18:16:05 mw-spyware-001 kernel: [  798.767800] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:f2:dd:8f:fa:16:3e:7a:01:fb:08:00 SRC=185.39.11.32 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=13015 PROTO=TCP SPT=54763 DPT=4001 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jul 30 18:16:23 mw-spyware-001 kernel: [  816.958884] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:f2:dd:8f:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.102 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=50943 PROTO=TCP SPT=50074 DPT=22781 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jul 30 18:16:24 mw-spyware-001 kernel: [  817.861849] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:f2:dd:8f:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=42956 PROTO=TCP SPT=55206 DPT=1414 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jul 30 18:16:57 mw-spyware-001 kernel: [  850.818149] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:f2:dd:8f:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.148 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=39387 PROTO=TCP SPT=44050 DPT=30700 WINDOW=1024 RES=0x00 SYN URGP=0 
+"Jul 30 18:16:57 mw-spyware-001 systemd-resolved[756]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
+Jul 30 18:16:57 mw-spyware-001 kernel: [  851.313891] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:f2:dd:8f:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.14 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=24253 PROTO=TCP SPT=50183 DPT=22786 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jul 30 18:17:01 mw-spyware-001 CRON[11585]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+"Jul 30 18:17:04 mw-spyware-001 systemd-resolved[756]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
+Jul 30 18:17:04 mw-spyware-001 kernel: [  857.624419] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:f2:dd:8f:fa:16:3e:7a:01:fb:08:00 SRC=117.51.141.241 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=45 ID=21635 DF PROTO=TCP SPT=52510 DPT=22 WINDOW=64240 RES=0x00 SYN URGP=0 
+Jul 30 18:17:04 mw-spyware-001 postfix/pickup[10167]: 338CBF08: uid=1000 from=<ubuntu@mw-spyware-001>
+Jul 30 18:17:04 mw-spyware-001 postfix/cleanup[11593]: 338CBF08: message-id=<20200730231704.338CBF08@mw-spyware-001.openstacklocal>
+"Jul 30 18:17:04 mw-spyware-001 postfix/qmgr[10168]: 338CBF08: from=<ubuntu@mw-spyware-001>, size=10179, nrcpt=1 (queue active)"
+Jul 30 18:17:04 mw-spyware-001 postfix/smtp[11599]: connect to gmail-smtp-in.l.google.com[2607:f8b0:4001:c05::1b]:25: Network is unreachable
+"Jul 30 18:17:05 mw-spyware-001 postfix/smtp[11599]: 338CBF08: to=<rjayaramsiva1995@gmail.com>, relay=gmail-smtp-in.l.google.com[172.217.214.26]:25, delay=0.99, delays=0.22/0.02/0.31/0.45, dsn=2.0.0, status=sent (250 2.0.0 OK  1596151025 e12si5033183ile.124 - gsmtp)"
+Jul 30 18:17:05 mw-spyware-001 postfix/qmgr[10168]: 338CBF08: removed

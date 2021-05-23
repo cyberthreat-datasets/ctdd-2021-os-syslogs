@@ -1,1 +1,1 @@
-# ctdd-2021-os-syslogs
+# Cyber Threat Detection Dataset

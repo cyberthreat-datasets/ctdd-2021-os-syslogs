@@ -1,0 +1,517 @@
+Log Key,Message,Occurrences
+11,ens3 Configured,195741
+17,Could not set hostname Method call timed out,183124
+14,<*> Main process exited code <*> status <*>,183040
+15,<*> Failed with result 'exit-code'.,183037
+6,"[system] Activating via systemd service name 'org.freedesktop.hostname1' unit 'dbus-org.freedesktop.hostname1.service' requested by ' <*>.<*>' uid <*> pid <*> comm """"/lib/systemd/systemd-networkd """" label """"unconfined""""",183023
+10,ens3 DHCPv4 address <*>/<*> via <*>,183022
+8,Starting Hostname Service...,183021
+5,ens3 DHCP lease lost,183021
+16,Failed to start Hostname Service.,183019
+12,<*> Failed to set up mount namespacing No such file or directory,183018
+13,<*> Failed at step NAMESPACE spawning <*> No such file or directory,183018
+18,Could not set hostname Failed to activate service 'org.freedesktop.hostname1' timed out service_start_timeout 25000ms,182965
+9,Started ntp-systemd-netif.service.,101637
+26,Low random number entropy available <*>,91214
+20,pcp CMD <*> -C,62665
+7,Network configuration changed trying to establish connection.,27948
+19,Synchronized to time server <*> <*> <*> .,27903
+470,<*> <*> address record for <*> on <*>,17914
+466,<*> mDNS multicast group on interface <*> with address <*>.,17914
+4,root CMD cd / && run-parts --report <*>,16447
+97,High aggregate context switch rate <*>,10776
+27,[I <*>.<*> LabApp] <*>,9345
+467,New relevant interface <*> for mDNS.,8960
+478,Interface ens3.IPv4 no longer relevant for mDNS.,8955
+114,[W <*>.<*> LabApp] WebSocket ping timeout after <*> ms.,5545
+3,Server returned error NXDOMAIN mitigating potential DNS violation DVE-<*>-<*> retrying transaction with reduced feature level UDP.,5415
+32,Started Message of the Day.,1312
+29,Starting Message of the Day...,1312
+39,<*> Daily apt upgrade and clean <*>,1302
+33,Starting Daily apt download activities...,1300
+34,Started Daily apt download activities.,1299
+91,debug running <*> on /dev/sda<*>,1079
+113,[I <*>.<*> LabApp] Saving file at <*>,831
+86,"* """"If you've been waiting for the perfect Kubernetes dev solution for",808
+87,"macOS the wait is over. Learn how to install Microk8s on macOS.""""",808
+88,https //www.techrepublic.com/article/how-to-install-microk8s-on-macos/,808
+48,TermSocket.open <*>,787
+22,Started Cleanup of Temporary Directories.,687
+21,Starting Cleanup of Temporary Directories...,687
+28,root CMD test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond,663
+35,pcp CMD /usr/lib/pcp/bin/pmie_daily -X xz -x <*>,652
+36,pcp CMD /usr/lib/pcp/bin/pmlogger_daily,652
+37,pcp CMD /usr/lib/pcp/bin/pmlogger_daily_report -o /var/log/pcp/sa,650
+235,File <*> line <*> in <*>,551
+80,Reloading.,493
+130,[W <*>.<*> LabApp] Forbidden,489
+255,[W <*>.<*> LabApp] <*> <*> <*> <*> <*> <*> referer http //<*> <*>,485
+74,Traceback most recent call last,460
+233,[W <*>.<*> LabApp] Replacing stale connection <*>,439
+95,debug /dev/sda15 is a <*> partition,415
+103,[<*>.<*>] audit type <*> audit <*>.<*> <*> pid <*> uid <*> auid <*> ses <*> msg <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> terminal <*> res success',379
+107,[<*>.<*>] audit type <*> audit <*>.<*> <*> item <*> name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> nametype <*> cap_fp <*> cap_fi <*> cap_fe <*> cap_fver <*>,370
+69,Websocket closed,368
+70,[I <*>.<*> LabApp] Starting buffering for <*>,368
+159,sudo snap install microk8s --channel <*>.<*>/candidate --classic,362
+158,* Are you ready for Kubernetes <*>.<*>? It's nearly here! Try RC3 with,362
+160,https <*> has docs and details.,361
+108,<*> audit type <*> audit <*>.<*> <*> proctitle <*>,319
+79,E Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code <*>,317
+78,Could not create manager No space left on device,317
+56,<*> D-Bus User Message Bus Socket.,290
+44,[W <*>.<*> LabApp] Could not determine jupyterlab build status without nodejs,277
+106,[<*>.<*>] audit type <*> audit <*>.<*> <*> saddr <*>,230
+85,[I <*>.<*> LabApp] Restoring connection for <*>,228
+77,tornado.iostream.StreamClosedError Stream is closed,217
+250,tornado.websocket.WebSocketClosedError,216
+245,Task exception was never retrieved,216
+249,raise WebSocketClosedError,216
+248,During handling of the above exception another exception occurred,216
+247,await fut,216
+246,future <Task finished coro <WebSocketProtocol13.write_message.<locals>.wrapper done defined at /home/ubuntu/.local/lib/python3.<*>/site-packages/tornado/websocket.py <*>> exception WebSocketClosedError >,216
+57,Listening on GnuPG cryptographic agent and passphrase cache <*> <*> <*> <*> .,204
+62,<*> User Manager for UID <*>.,202
+50,<*> User Manager for UID <*>...,202
+65,<*> Audit the activities of users and processes on your <*>,192
+55,<*> <*> GnuPG cryptographic agent and passphrase cache.,188
+53,<*> <*> GnuPG network certificate management daemon.,188
+61,<*> target Basic System.,188
+59,<*> <*> REST API socket for snapd user session agent.,188
+58,<*> <*> GnuPG cryptographic agent ssh-agent emulation .,188
+138,Closed GnuPG cryptographic agent and passphrase cache <*> <*> <*> <*> .,172
+104,<*> kauditd_printk_skb <*> callbacks suppressed,155
+51,Started Session <*> of user <*>,154
+30,* MicroK8s gets a native Windows installer and command-line integration.,140
+31,https //ubuntu.com/blog/microk8s-installers-windows-and-macos,140
+105,[<*>.<*>] audit type <*> audit <*>.<*> <*> auid <*> ses <*> op <*> key <*> list <*> res <*>,140
+129,[W <*>.<*> LabApp] <*> <*> <*> <*> <*> <*> referer None,139
+145,[W <*>.<*> LabApp] delete <*>,138
+509,[ <*>.<*>] audit <*> <*> <*> audit_backlog_limit <*>,120
+49,Created slice User Slice of <*>,116
+60,Reached target Sockets.,112
+244,[W <*>.<*> LabApp] <*> <*> <*> <*> <*> <*> <*> <*> is not UTF-<*> encoded,108
+81,<*> Failed to <*> <*> <*> No space left on device,107
+131,<*> <*>.<*> LabApp] <*> <*> <*> <*> <*> referer http //<*> <*>/lab?,105
+52,Reached target Timers.,102
+54,Reached target Paths.,102
+63,Reached target Default.,102
+64,Startup finished in <*>,102
+40,Starting Discard unused blocks...,100
+42,Started Discard unused blocks.,100
+144,Removed slice User Slice of <*>,100
+89,/ <*> <*> <*> bytes trimmed,98
+83,Stopped target Sockets.,96
+139,Stopped target Timers.,86
+140,Stopped target Paths.,86
+141,Reached target Shutdown.,86
+142,Starting Exit the Session...,86
+137,Stopped target Default.,86
+143,Received SIGRTMIN+<*> from PID <*> <*> .,86
+300,"time <*> <*>"""" level warning msg """"Your kernel does not support <*>",84
+136,/etc/ssh/sshd_config line <*> Deprecated option <*>,84
+96,debug /dev/sda15 is not an HFS+ partition exiting,83
+92,debug /dev/sda14 type not recognised; skipping,83
+94,debug Not on UEFI platform,83
+93,debug os detected by /usr/lib/os-probes/50mounted-tests,83
+172,[I <*>.<*> LabApp] Kernel restarted <*>,79
+112,[W <*>.<*> LabApp] Notebook <*> is not trusted,78
+25,<*> Failed with result 'resources'.,77
+126,daemon.go <*> <*> waiting for running hooks,76
+98,/tmp <*> MiB <*> bytes trimmed,69
+501,Soliciting pool server <*>,69
+71,[I <*>.<*> LabApp] Uploading file to <*>,66
+186,"time <*> <*>"""" level info msg """"Loading containers <*>",64
+23,Failed to add watch on <*> too many watches,64
+132,<*> Packetbeat analyzes network traffic and sends the data to <*>,63
+232,[W <*>.<*> LabApp] <*> <*> <*> <*> <*> Kernel does not exist <*>,63
+133,<*> Metricbeat is a lightweight shipper for <*>,63
+492,<*> local addr <*> -> <null>,63
+257,[ <*>.<*>] audit type <*> audit <*>.<*> <*> <*>,59
+296,"time <*> <*>"""" level info msg """"scheme \""""unix\"""" not registered fallback to default scheme"""" module grpc",54
+297,"time <*> <*>"""" level info msg """"ccResolverWrapper sending update to cc {[{unix ///run/containerd/containerd.sock <*> <nil>}] <nil>}"""" module grpc",54
+298,"time <*> <*>"""" level info msg """"ClientConn switching balancer to \""""pick_first\"""""""" module grpc",54
+295,"time <*> <*>"""" level info msg """"parsed scheme \""""unix\"""""""" module grpc",54
+309,[W <*>.<*> LabApp] zmq message arrived on closed channel,51
+499,Listen normally on <*> <*> <*>,48
+192,Started Docker Application Container Engine.,47
+2,Startup finished in <*> kernel + <*> userspace <*>,46
+109,[<*>.<*>] audit type <*> audit <*>.<*> <*> argc <*> a0 <*>,45
+251,High per CPU processor utilization <*>,44
+193,"time <*> <*>"""" level info msg """"API listen on /var/run/docker.sock""""",44
+128,[W <*>.<*> LabApp] Couldn't authenticate WebSocket connection,42
+165,<*> LSB Record successful boot for <*>,40
+305,link_config autonegotiation is unset or enabled the speed and duplex are not writable.,40
+127,daemon stop requested to wait for socket activation,39
+38,"[origin software """"rsyslogd"""" swVersion """"<*>.<*>.<*>"""" x-pid """"<*>"""" x-info """"http //www.rsyslog.com""""] rsyslogd was HUPed",39
+146,<*> Killing process <*> <*> with signal SIGKILL.,38
+101,<*> audit type <*> audit <*>.<*> <*> audit_pid <*> old <*> auid <*> ses <*> res <*>,37
+340,High average processor utilization <*>,37
+168,message repeated <*> times [ <*>,37
+190,"time <*> <*>"""" level info msg """"Docker daemon"""" commit 369ce74a3c graphdriver s overlay2 version <*>.<*>.<*>",37
+191,"time <*> <*>"""" level info msg """"Daemon has completed initialization""""",37
+82,[system] Reloaded configuration,36
+393,Restart unresponsive PMDAs pmdalinux[<*>]@practicum-summer-<*>-<*>,36
+194,[W <*>.<*> LabApp] JupyterLab server extension not enabled manually loading...,35
+197,[I <*>.<*> LabApp] Serving notebooks from local directory /home/ubuntu,35
+198,[I <*>.<*> LabApp] The Jupyter Notebook is running at,35
+200,[I <*>.<*> LabApp] Use Control-C to stop this server and shut down all kernels twice to skip confirmation .,35
+41,<*> <*>.<*> <*> <*> bytes trimmed,33
+167,Timed out waiting for reply from <*> <*> <*> .,33
+303,<*> <*> Netfilter messages via NETLINK v0.<*>.,32
+304,<*> <*> ctnetlink v0.<*> registering with nfnetlink.,32
+306,WARNING Unknown index <*> seen reloading interface list,32
+163,...done.,32
+156,<*> Filebeat sends log files to Logstash or directly to <*>,32
+498,Listen and drop on <*> <*> <*>,32
+307,docker0 Link UP,32
+302,<*> <*> Initializing XFRM netlink socket,31
+116,<*> Socket activation for snappy daemon.,30
+115,<*> Wait until snapd is fully <*>,30
+111,[W <*>.<*> LabApp] Failed to fetch package metadata for <*> URLError SSLError <*> '[SSL CERTIFICATE_VERIFY_FAILED] certificate verify failed _ssl.c <*> ',30
+121,patch.go <*> Patching system state level <*> to sublevel <*>...,30
+301,[ <*>.<*>] Bridge firewalling registered,29
+134,<*> OpenBSD Secure Shell server...,28
+135,<*> OpenBSD Secure Shell server.,28
+299,"time <*> <*>"""" level info msg """"[graphdriver] using prior storage driver overlay2""""",27
+294,"time <*> <*>"""" level info msg """"detected <*> nameserver assuming systemd-resolved so using resolv.conf /run/systemd/resolve/resolv.conf""""",27
+293,"time <*> <*>"""" level info msg """"Starting up""""",27
+90,[<*>.<*>] SGI XFS with ACLs security attributes realtime no debug enabled,26
+434,<*> Failed to <*> Cannot allocate memory,24
+211,"File """"/home/ubuntu/.local/lib/python3.<*>/site-packages/tornado/gen.py"""" line <*> in run",24
+170,Reached target Cloud-init target.,23
+432,ens3 Failed to save link data to /run/systemd/netif/links/<*> No space left on device,23
+117,<*> Load AppArmor profiles managed internally by <*>,23
+169,Started Execute cloud user/final scripts.,23
+24,ntp-systemd-netif.path Failed to queue unit startup job No space left on device,22
+187,Cloud-init v. <*>.<*>-<*>-gbb4131a2-0ubuntu1~<*>.<*>.<*> running <*> <*> at <*> <*> <*> <*> <*> <*>. Up <*>.<*> seconds.,22
+110,[I <*>.<*> LabApp] Build is up to date,22
+185,Starting Execute cloud user/final scripts...,21
+188,2020-<*>-<*> <*> <*> - stages.py[WARNING] Could not find module named cc_snappy searched ['cc_snappy' 'cloudinit.config.cc_snappy'],21
+189,Cloud-init v. <*>.<*>-<*>-gbb4131a2-0ubuntu1~<*>.<*>.<*> finished at <*> <*> <*> <*> <*> <*>. Datasource DataSourceOpenStack [net ver <*>]. Up <*>.<*> seconds,21
+228,"""""Accept-Language"""" """"en-US en;q <*>.<*>""""",20
+219,"""""Connection"""" """"keep-alive""""",20
+217,[E <*>.<*> LabApp] {,20
+218,"""""Host"""" """"<*> <*>""""",20
+226,"""""Referer"""" """"http //<*> <*>",20
+230,},20
+227,"""""Accept-Encoding"""" """"gzip deflate""""",20
+164,<*> LSB automatic crash report generation.,20
+308,[I <*>.<*> LabApp] EOF on FD <*>; stopping reading,20
+512,[ <*>.<*>] nf_conntrack nf_conntrack table full dropping packet,20
+162,* <*> automatic crash report generation apport,20
+161,<*> LSB automatic crash report generation...,20
+47,[I <*>.<*> LabApp] New terminal with <*> name <*>,19
+171,[I <*>.<*> LabApp] Creating new <*> in <*>,19
+45,[I <*>.<*> LabApp] Kernel started <*>,18
+223,"""""Content-Type"""" """"application/json""""",18
+224,"""""Accept"""" """"*/*""""",18
+43,[I <*>.<*> LabApp] <*> POST /login?next %2Flab%3F <*> <*>,18
+320,Couldn't write '<*>' to <*> ignoring No such file or directory,18
+377,Started Network Service.,17
+212,value future.result,17
+375,Starting Network Service...,17
+254,[W <*>.<*> LabApp] <*> <*> <*> <*> <*> No such file or directory <*>,17
+67,<*> Scheduled restart job restart counter is at <*>.,17
+66,<*> Service hold-off time over scheduling restart.,17
+495,proto precision <*>.<*> usec <*>,16
+494,Command line /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u <*> <*>,16
+493,ntpd <*>.<*>.8p10@<*>.<*>-o <*> Starting,16
+496,leapsecond file '/usr/share/zoneinfo/leap-seconds.list' good hash signature,16
+497,leapsecond file '/usr/share/zoneinfo/leap-seconds.list' loaded expire <*>-<*>-28T<*>Z last <*>-<*>-01T<*>Z ofs <*>,16
+490,ntpd exiting on signal <*> Terminated,16
+491,Stopped Network Time Service.,16
+489,Stopping Network Time Service...,16
+500,Listening on routing socket on fd #<*> for interface updates,16
+488,Starting Docker Application Container Engine...,15
+220,"""""Content-Length"""" """"<*>""""",15
+225,"""""Origin"""" """"http //<*> <*>""""",15
+400,user@<*>.service Failed at step EXEC spawning /lib/systemd/systemd Resource temporarily unavailable,14
+399,user@<*>.service Failed to execute command Resource temporarily unavailable,14
+401,user@<*>.service Failed with result 'protocol'.,14
+508,[ <*>.<*>] [UFW BLOCK] IN ens3 OUT MAC fa <*> 3e <*> <*> <*> fa <*> 3e 7a <*> fb <*> <*> SRC <*> DST <*> LEN <*> TOS <*> PREC <*> TTL <*> ID <*> PROTO UDP SPT <*> DPT <*> LEN <*>,14
+206,Mounted Arbitrary Executable File Formats File System.,14
+205,Mounting Arbitrary Executable File Formats File System...,14
+258,[ <*>.<*>] audit type <*> audit <*>.<*> <*> item <*> name <*> inode <*> dev <*> <*> mode <*> ouid <*> ogid <*> rdev <*> <*> nametype <*> cap_fp <*> cap_fi <*> cap_fe <*> cap_fver <*>,14
+511,[ <*>.<*>] <*> <*> callbacks suppressed,12
+174,"<*> audit type <*> audit <*>.<*> <*> pid <*> uid <*> auid <*> ses <*> msg 'unit <*> comm """"systemd"""" exe """"/lib/systemd/systemd"""" hostname ? addr ? terminal ? res <*>",12
+204,[<*>.<*>] hrtimer interrupt took <*> ns,12
+435,Failed to start ntp-systemd-netif.service.,12
+119,find <NASCII>/var/lib/snapd/apparmor/profiles/<NASCII> No such file or directory,11
+154,Started Fail2Ban Service.,11
+210,yield maybe_future km.restart_kernel kernel_id,11
+155,Server ready,11
+153,Starting Fail2Ban Service...,11
+152,Stopped Fail2Ban Service.,11
+151,Shutdown successful,11
+150,Stopping Fail2Ban Service...,11
+208,[E <*>.<*> LabApp] Exception restarting kernel,11
+209,"File """"/home/ubuntu/.local/lib/python3.<*>/site-packages/notebook/services/kernels/handlers.py"""" line <*> in post",11
+214,"File """"/home/ubuntu/.local/lib/python3.<*>/site-packages/notebook/services/kernels/kernelmanager.py"""" line <*> in restart_kernel",11
+123,daemon.go <*> adjusting startup timeout by 30s pessimistic estimate of 30s plus 5s per snap,10
+166,* Recording successful boot for GRUB,10
+173,Failed to acquire watch file descriptor No space left on device,10
+84,Stopping Sockets.,10
+125,Started Snap Daemon.,10
+124,helpers.go <*> error trying to compare the snap system key system-key versions not comparable,10
+120,AppArmor status apparmor is enabled and all features are available,10
+448,[W <*>.<*> LabApp] <*> GET /files/Project%20docs/custom.css <*> Blocking request from unknown origin,10
+118,Starting Snap Daemon...,10
+447,[W <*>.<*> LabApp] Blocking request with no referer,10
+122,daemon.go <*> started snapd/<*>.<*>.<*>+<*>.<*>.<*> series <*>; classic ubuntu/<*>.<*> amd64 linux/<*>.<*>.<*>-<*>-generic.,10
+454,Unknown username <*> in message bus configuration file,9
+99,Stopping Security Auditing Service...,9
+177,<*> Create Static Device Nodes in <*>,9
+264,[W <*>.<*> LabApp] Timeout waiting for kernel_info reply from <*>,9
+202,[W <*>.<*> LabApp] <*> needs to be included in build,9
+201,[W <*>.<*> LabApp] Build recommended,9
+102,Stopped Security Auditing Service.,9
+256,[<*>.<*>] audit type <*> audit <*>.<*> <*> table filter family <*> entries <*>,9
+100,The audit daemon is exiting.,9
+222,"""""User-Agent"""" """"Mozilla/<*>.<*> Windows NT <*>.<*>; Win64; x64 AppleWebKit/<*>.<*> KHTML like Gecko Chrome/<*> Safari/<*>.<*>""""",8
+238,app.launch_new_instance,8
+182,Starting Flush Journal to Persistent Storage...,8
+180,Started udev Coldplug all Devices.,8
+239,app.initialize argv,8
+338,[W <*>.<*> LabApp] <*> <*> <*> <*> '_xsrf' argument missing from POST,8
+241,self.init_sockets,8
+263,[W <*>.<*> LabApp] <*> <*> <*> <*> Session not found session_id <*>,8
+240,return method app *args **kwargs,8
+417,[W <*>.<*> LabApp] <*> <*> <*> <*> File already exists <*>,8
+277,yielded next result,7
+312,Started Load Kernel Modules.,7
+178,Inserted module 'iscsi_tcp',7
+179,Started Set the console keyboard layout.,7
+184,Started Load/Save Random Seed.,7
+311,Inserted module 'ib_iser',7
+148,<*> Failed with result 'timeout'.,7
+313,Mounting Kernel Configuration File System...,7
+332,[I <*>.<*> LabApp] Discarding <*> buffered messages for <*>,7
+315,Starting Apply Kernel Variables...,7
+317,Mounted FUSE Control File System.,7
+314,Mounting FUSE Control File System...,7
+316,Mounted Kernel Configuration File System.,7
+426,to the client in order to avoid crashing it.,6
+429,Current values,6
+428,`--NotebookApp.iopub_data_rate_limit`.,6
+430,NotebookApp.iopub_data_rate_limit <*>.<*> bytes/sec,6
+427,To change this limit set the config variable,6
+425,The notebook server will temporarily stop sending output,6
+438,/home/ubuntu/.local/lib/python3.<*>/site-packages/past/builtins/misc.py <*> DeprecationWarning the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses,6
+439,from imp import reload,6
+424,[W <*>.<*> LabApp] IOPub data rate exceeded.,6
+360,<*> Tell Plymouth To Write Out Runtime <*>,6
+431,NotebookApp.rate_limit_window <*>.<*> secs,6
+310,Started LVM2 metadata daemon.,6
+318,Started Monitoring of LVM2 mirrors snapshots etc. using dmeventd or progress polling.,6
+260,"[ <*>.<*>] audit type <*> audit <*>.<*> <*> pid <*> uid <*> auid <*> ses <*> msg 'op PAM <*> acct """"root"""" exe <*> hostname ? addr ? terminal /dev/pts/<*> res success'",6
+207,[W <*>.<*> LabApp] Timeout waiting for kernel_info_reply <*>,6
+216,tornado.util.TimeoutError Timeout waiting for restart,6
+147,auditbeat.service State 'stop-sigterm' timed out. Killing.,6
+288,"""""Cache-Control"""" """"no-cache""""",6
+287,"""""Pragma"""" """"no-cache""""",6
+275,"""""User-Agent"""" """"Mozilla/<*>.<*> Macintosh; Intel Mac OS X <*>_<*>_<*> AppleWebKit/<*>.<*> KHTML like Gecko Chrome/<*> Safari/<*>.<*>""""",6
+284,"""""User-Agent"""" """"Mozilla/<*>.<*> X11; Ubuntu; Linux x86_<*>; rv <*>.<*> Gecko/<*> Firefox/<*>.<*>""""",6
+213,yielded self.gen.throw *exc_info # type ignore,6
+215,yield future,6
+330,tornado.web.HTTPError HTTP <*> Not Found Kernel does not exist <*>,5
+149,"[<*>.<*>] audit type <*> audit <*>.<*> <*> argc <*> a0 """"/usr/share/auditbeat/bin/auditbeat"""" a1 """"-environment"""" a2 """"systemd"""" a3 """"-c"""" a4 """"/etc/auditbeat/auditbeat.yml"""" a5 """"-path.home"""" a6 """"/usr/share/auditbeat"""" a7 """"-path.config"""" a8 """"/etc/auditbeat"""" a9 """"-path.data"""" a10 """"/var/lib/auditbeat"""" a11 """"-path.logs"""" a12 """"/var/log/auditbeat""""",5
+397,"s.bind """"tcp //%s %i"""" % self.ip port",5
+229,"""""Cookie"""" """"username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> M2YyYTIzMTlkN2RjNDRjNTk1NGJhY2RkMjc2ZGI5ODc |d63bf55a7816644752f34e2dc6dd7df351d2fdf68ed574b3da5236c4b84071d8\""""; _xsrf <*>|aadc4100|4d93c68d029686417156b62d0d9c59be|<*>""""",5
+221,"""""X-Xsrftoken"""" """"<*>|aadc4100|4d93c68d029686417156b62d0d9c59be|<*>""""",5
+328,self._check_kernel_id kernel_id,5
+449,<*> <*>.<*> LabApp] <*> <*> <*> <*> <*> Modeling & Predict Stock Market Movements Using Natural Language processing.docx,5
+231,[I <*>.<*> LabApp] Kernel shutdown <*>,5
+398,zmq.error.ZMQError Address already in use,5
+395,self.shell_port self._bind_socket self.shell_socket self.shell_port,5
+329,raise web.HTTPError <*> u'Kernel does not exist %s' % kernel_id,5
+396,return self._try_bind_socket s port,5
+321,tmp.mount Directory /tmp to mount over is not empty mounting anyway.,5
+323,Mounting /run/shm...,5
+326,Mounted /run/shm.,5
+325,Started Apply Kernel Variables.,5
+324,Starting udev Kernel Device Manager...,5
+290,High <*>-minute load average <*>,5
+322,Mounting /tmp...,5
+319,Reached target Local File Systems Pre .,5
+327,Started Flush Journal to Persistent Storage.,4
+370,Skipping profile in /etc/apparmor.d/disable <*>,4
+262,[W <*>.<*> LabApp] delete <*> <*> Learning Algorithms for sourcing and evaluating VC and PE investment deals.pdf,4
+68,<*> Start request repeated too quickly.,4
+72,[E <*>.<*> LabApp] Uncaught exception GET <*> <*>,4
+347,Reached target Local Encrypted Volumes.,4
+285,"""""X-Xsrftoken"""" """"<*>|e6710082|178aabed7ef2c16d221eaa099ffee9fc|<*>""""",4
+436,[W <*>.<*> LabApp] iopub messages resumed,4
+286,"""""Cookie"""" """"username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> ZDJhMDc2MWZkMDJkNDM3MTk4NmRmYzI4M2Y4NGZhZjk |864147a28c5a9cf0e2999dc0c17358d1dcc6d5e345129f712cb644fd553fc42f\""""; _xsrf <*>|e6710082|178aabed7ef2c16d221eaa099ffee9fc|<*>""""",4
+348,Could not set WakeOnLan of ens3 to off Operation not supported,4
+349,Found device /dev/ttyS0.,4
+346,Started Dispatch Password Requests to Console Directory Watch.,4
+73,HTTPServerRequest protocol 'http' host '<*> <*>' method 'GET' uri <*> version 'HTTP/<*>.<*>' remote_ip '<*>',4
+502,[ <*>.<*>] <*> segfault at <*> ip <*> sp <*> error <*> in <*>,4
+199,[I <*>.<*> LabApp] http //practicum-summer-<*>-<*> <*>/,4
+196,[I <*>.<*> LabApp] JupyterLab application directory is /home/ubuntu/.local/share/jupyter/lab,4
+195,[I <*>.<*> LabApp] JupyterLab extension loaded from /home/ubuntu/.local/lib/python3.<*>/site-packages/jupyterlab,4
+183,Starting Load/Save Random Seed...,4
+345,Started udev Kernel Device Manager.,4
+75,"File """"/home/ubuntu/.local/lib/python3.<*>/site-packages/tornado/web.py"""" line <*> in _execute",4
+76,result await result,4
+242,self.context context zmq.Context,3
+237,exec code run_globals,3
+437,<*> <*>.<*> LabApp] <*> <*> <*> /Report - Predict Stock Market Movements Using Natural Language processing.docx,3
+272,MemoryError,3
+273,[W <*>.<*> LabApp] Unhandled error,3
+243,KeyboardInterrupt,3
+421,"""""Dnt"""" """"<*>""""",3
+410,[E <*>.<*> LabApp] Error while saving file <*> [Errno <*>] No such file or directory <*>,3
+412,with io.open os_path 'ab' as f,3
+411,self._save_large_file os_path model['content'] model.get 'format',3
+236,"""""__main__"""" mod_spec",3
+234,[I <*>.<*> LabApp] Kernel interrupted 30a8e6fe-<*>-474b-a58c-e5e8ce<*>,3
+487,,3
+46,[I <*>.<*> LabApp] <*> <*> for 3f888013-c769-474d-9b80-42f7142b1d25 1a38d39f-c856-4c49-b7fb-48bc49b4c5f<*>,3
+157,fatal open /etc/postfix/main.cf No such file or directory,3
+181,Started Remount Root and Kernel File Systems.,3
+203,[I <*>.<*> LabApp] Building jupyterlab assets build dev,3
+350,Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.,3
+351,Started Uncomplicated firewall.,3
+413,FileNotFoundError [Errno <*>] No such file or directory <*>,3
+455,<*> D-Bus System Message Bus.,2
+446,"""""Cookie"""" """"_xsrf <*>|42dd1266|de64618a90055a48ff08146ca6961ba1|<*>; username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> MmE5MmRmZjNlZGNlNDY3Zjg0ZmQ3NDhhYmMzZDJjYTI |5fcc446371f461af7c1cd3035a3f71b706e37543805e2822601d2cea01cb46ae\""""""""",2
+442,self.latex_count log_error raise_on_failure,2
+515,[ <*>.<*>] neighbour arp_cache neighbor table overflow!,2
+175,Started Availability of block devices.,2
+443,"""""at {link}."""".format formatter command_list[<*>] link link",2
+405,[W <*>.<*> LabApp] <*> <*> <*> <*> File or directory does not exist /home/ubuntu/Untitled.ipynb,2
+444,"""""Upgrade-Insecure-Requests"""" """"<*>""""",2
+445,"""""Accept"""" """"text/html application/xhtml+xml application/xml;q <*>.<*> image/webp image/apng */*;q <*>.<*> application/signed-exchange;v b3;q <*>.<*>""""",2
+414,"""""X-Xsrftoken"""" """"<*>|2a575048|797fe1a0889026c3ed32e08940755469|<*>""""",2
+433,Module is unknown,2
+415,"""""Cookie"""" """"_xsrf <*>|2a575048|797fe1a0889026c3ed32e08940755469|<*>; username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> YzkzMjNlZGZmZjg2NDM3YjkzZjA1OTE5NzZmOTgwMjI |dbcf5530438ccab3f104ecaa44e79eee5c2fce1daeeb7daec44506b51556d054\""""""""",2
+416,[E <*>.<*> LabApp] <*> PUT <*> <*> <*> referer http //<*> <*>/lab/workspaces/auto-Q,2
+420,Started Daemon for generating UUIDs.,2
+440,resources resource_dict,2
+265,[E <*>.<*> LabApp] Error opening stream HTTP <*> Not Found Kernel does not exist <*>,2
+486,<*> Jupyter Lab Launcher.,2
+253,#<*>/#<*>-TermSocket.open <*>,2
+441,self.run_latex tex_file,2
+292,<*> Update UTMP about System Runlevel <*>,2
+353,Found device QEMU_HARDDISK UEFI.,2
+367,Started Network Time Synchronization.,2
+278,path path type type format format content content,2
+342,"""""X-Xsrftoken"""" """"<*>|fb5c178e|0775443aad70c8be27fa58ca825c52a3|<*>""""",2
+343,"""""Cookie"""" """"username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> NDQ2NjFkYzkwOTJkNDVlNThkNzQyYjgzODZiYzViMWU |9d787db11236888bf6d64e45eabd0940091024bce0a7ce0ffee9b293deddeacb\""""; _xsrf <*>|fb5c178e|0775443aad70c8be27fa58ca825c52a3|<*>""""",2
+352,Mounted /tmp.,2
+354,Mounting /boot/efi...,2
+372,Starting Initial cloud-init job pre-networking ...,2
+371,Started AppArmor initialization.,2
+369,Started ebtables ruleset management.,2
+368,* Starting AppArmor profiles,2
+366,Started Update UTMP about System Boot/Shutdown.,2
+279,model self._file_model path content content format format,2
+365,Started Set console font and keymap.,2
+364,Starting Network Time Synchronization...,2
+363,Starting Update UTMP about System Boot/Shutdown...,2
+362,Started Create Volatile Files and Directories.,2
+361,Starting Create Volatile Files and Directories...,2
+355,Mounted /boot/efi.,2
+359,Starting Set console font and keymap...,2
+356,Reached target Local File Systems.,2
+357,Starting AppArmor initialization...,2
+339,[<*>.<*>] audit type <*> audit <*>.<*> <*> pid <*> uid <*> old-auid <*> auid <*> tty none old-ses <*> ses <*> res <*>,2
+358,Starting ebtables ruleset management...,2
+281,return bcontent.decode 'utf8' 'text',2
+388,. IN DS <*> <*> <*> <*>,2
+289,Some CPU busy executing in system mode <*>%sys[cpu0]@practicum-summer-<*>-<*>,2
+385,ignoring lo,2
+280,content format self._read_file os_path format,2
+331,[I <*>.<*> LabApp] KernelRestarter restarting kernel <*>/<*> keep random ports,2
+476,Successfully initialized wpa_supplicant,1
+510,Using degraded feature set UDP for DNS server <*>.,1
+282,"""""X-Xsrftoken"""" """"<*>|b7b7efbd|6f8e3bb1a1ac740537f22b2c38d382e2|<*>""""",1
+283,"""""Cookie"""" """"_xsrf <*>|b7b7efbd|6f8e3bb1a1ac740537f22b2c38d382e2|<*>; username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> OGE0NGJmODc5ODI4NDU0Y2FlZDU2NTk4MzE4MTMzMmU |bdec8afa0c6660b29c4e7f1657f8e8c7338f213eff3dffb43c4defc1274dec93\""""""""",1
+479,Busy executing in system mode <*>%sys@practicum-summer-<*>-<*>,1
+513,"[<*>.<*>] audit type <*> audit <*>.<*> <*> apparmor """"STATUS"""" operation """"profile_load"""" profile """"unconfined"""" name """"docker-default"""" pid <*> comm """"apparmor_parser""""",1
+477,Started WPA supplicant.,1
+337,user@<*>.service Processes still around after final SIGKILL. Entering failed mode.,1
+475,Starting WPA supplicant...,1
+514,[<*>.<*>] Bridge firewalling registered,1
+473,Starting Modem Manager...,1
+472,Server startup complete. Host name is practicum-summer-<*>-<*>.local. Local service cookie is <*>.,1
+471,Registering new address record for fe80 f816 3eff fe7c 7fbb on ens3.*.,1
+469,Network interface enumeration completed.,1
+468,Joining mDNS multicast group on interface ens3.IPv6 with address fe80 f816 3eff fe7c 7fbb.,1
+516,[ <*>.<*>] TCP request_sock_TCP Possible SYN flooding on port <*>. Sending cookies. Check SNMP counters.,1
+474,Failed to start Modem Manager.,1
+506,connect to gmail-smtp-in.l.google.com[<*> f8b0 <*> c05 1b] <*> Network is unreachable,1
+507,338CBF08 to <rjayaramsiva1995@gmail.com> relay gmail-smtp-in.l.google.com[<*>] <*> delay <*>.<*> delays <*>.<*>/<*>.<*>/<*>.<*>/<*>.<*> dsn <*>.<*>.<*> status sent <*> <*>.<*>.<*> OK <*> e12si5033183ile.<*> - gsmtp,1
+485,Launched Jupyter Notebook,1
+336,dispatcher <*> reaped,1
+335,No plugins found exiting,1
+341,https //www.microk8s.io/,1
+334,Init complete auditd <*>.<*>.<*> listening for events startup state enable,1
+333,Started dispatcher /sbin/audispd pid <*>,1
+344,[E <*>.<*> LabApp] <*> POST /api/kernels/6f910961-f63b-<*>-afef-f879decba523/restart?<*> <*> <*>.53ms referer http //<*> <*>/lab/workspaces/auto-j,1
+465,No service file found in /etc/avahi/services.,1
+484,#<*>-[I <*>.<*> LabApp] Kernel started cb0453d1-4cc0-4d2e-9f91-d0328a89595e,1
+176,Mounted Huge Pages File System.,1
+483,#<*>|#<*>/[I <*>.<*> LabApp] Kernel started 71f60ddc-<*>-<*>-<*>-8fb<*>,1
+482,[ <*>.<*>] random <*> urandom warning s missed due to ratelimiting,1
+481,[ <*>.<*>] random crng init done,1
+480,Started Create list of required static device nodes for the current kernel.,1
+503,338CBF08 uid <*> from <ubuntu@mw-spyware-<*>>,1
+504,338CBF08 message-id <<*>.338CBF08@mw-spyware-<*>.openstacklocal>,1
+505,338CBF08 from <ubuntu@mw-spyware-<*>> size <*> nrcpt <*> queue active,1
+394,fork of child failed Cannot allocate memory,1
+458,Starting Avahi mDNS/DNS-SD Stack...,1
+464,Successfully dropped remaining capabilities.,1
+463,Successfully called chroot .,1
+268,self.finish json.dumps model default date_default,1
+423,"""""Cookie"""" """"username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> YmEzNGEyNzkzYjQ1NGU1MDk5YzViOTdmN2IyYzdlNTU |81978428093c1db2589f3342a96f25d649a287c2bbb0bdec81199ba9a1e9de20\""""; _xsrf <*>|42dd1266|de64618a90055a48ff08146ca6961ba1|<*>""""",1
+422,"""""X-Xsrftoken"""" """"<*>|42dd1266|de64618a90055a48ff08146ca6961ba1|<*>""""",1
+383,ens3 Link UP,1
+384,ens3 Gained carrier,1
+419,"""""Cookie"""" """"username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> YzkzMjNlZGZmZjg2NDM3YjkzZjA1OTE5NzZmOTgwMjI |dbcf5530438ccab3f104ecaa44e79eee5c2fce1daeeb7daec44506b51556d054\""""; _xsrf <*>|9d6c5a06|51f36cadaf3039dafd85e60b930b6125|<*>""""",1
+418,"""""X-Xsrftoken"""" """"<*>|9d6c5a06|51f36cadaf3039dafd85e60b930b6125|<*>""""",1
+269,**kw .encode obj,1
+386,Not connected to system bus not setting hostname.,1
+387,Positive Trust Anchors,1
+291,Reached target Graphical Interface.,1
+389,Using system hostname 'practicum-summer-<*>-<*>'.,1
+390,Started Network Name Resolution.,1
+409,#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|[W <*>.<*> LabApp] Replacing stale connection ce9f8598-a2dc-4dc9-a1c8-d66c38c4dab6 9430f4c3-f230-4aa2-<*>-2c8eda2c01f<*>,1
+408,"""""Cookie"""" """"_xsrf <*>|092b9ecd|227afe6260718f8827a09eb1fb4b1a02|<*>; username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> ZGRmYzU2Mzg1ODQzNDdjOTk1YWQyZjE1YWU4YzYwYjI |9814c82a930d62f670257c1c5b9b76a869f65f40fb31c6a5afa7e740abfa624b\""""""""",1
+407,"""""X-Xsrftoken"""" """"<*>|092b9ecd|227afe6260718f8827a09eb1fb4b1a02|<*>""""",1
+406,[W <*>.<*> LabApp] Unknown error renaming file packages_test.ipynb [Errno <*>] No such file or directory '/home/ubuntu/packages_test.ipynb',1
+391,Reached target Host and Network Name Lookups.,1
+404,[<*>.<*>] sctp Hash tables configured bind <*>/<*>,1
+403,[<*>.<*>] DCCP Activated CCID <*> TCP-like,1
+402,"[<*>.<*>] audit type <*> audit <*>.<*> <*> argc <*> a0 """"/bin/sh"""" a1 """"/usr/bin/dpkg-maintscript-helper"""" a2 """"rm_conffile"""" a3 """"/etc/init/ureadahead-other.conf"""" a4 """"<*>.<*>.<*>-<*>~"""" a5 """"ureadahead"""" a6 """"--"""" a7 """"triggered"""" a8 """"/etc/init.d""""",1
+270,chunks self.iterencode o _one_shot True,1
+271,return _iterencode o <*>,1
+267,self._finish_model model location False,1
+266,yielded self.gen.send value,1
+382,Starting Wait for Network to be Configured...,1
+451,-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-[I <*>.<*> LabApp] Kernel started 866052f4-e362-<*>-8fff-f36f533b87ee,1
+462,Started Avahi mDNS/DNS-SD Stack.,1
+461,avahi-daemon <*>.<*> starting up.,1
+460,Successfully dropped root privileges.,1
+459,Found user 'avahi' UID <*> and group 'avahi' GID <*> .,1
+392,[<*>.<*>] Core dump to |/usr/share/apport/apport <*> <*> <*> <*> <*> !usr!bin!apt-get pipe failed,1
+457,Listening on Avahi mDNS/DNS-SD Stack Activation Socket.,1
+456,method return time <*>.<*> sender org.freedesktop.DBus -> destination <*>.<*> serial <*> reply_serial <*>,1
+276,"""""Cookie"""" """"_xsrf <*>|91c90190|008f425e165c285e35535f29e5cfc37a|<*>; username-<*>-<*>-<*>-<*>-<*> \""""<*>|<*> <*>|<*> <*>|<*> username-<*>-<*>-<*>-<*>-<*>|<*> ZTczMzk5MWEwMTJlNDUyYzg4MjVjYTQ2YzhlOGQ3MTY |0fb747f3353e28aa396138e8f40bb4fd28dcbb53d834f02bd0d0f8924cb22fce\""""""""",1
+453,[W <*>.<*> LabApp] error on read [Errno <*>] No route to host,1
+452,#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/TermSocket.open <*>,1
+450,kernel 8ded4598-d789-40e3-<*>-59bc63f2f441 restarted,1
+381,lo Link is not managed by us,1
+373,Started Initial cloud-init job pre-networking .,1
+374,Reached target Network Pre .,1
+376,Enumeration completed,1
+274,"""""X-Xsrftoken"""" """"<*>|91c90190|008f425e165c285e35535f29e5cfc37a|<*>""""",1
+378,lo Removing non-existent address <*>/<*> valid forever ignoring,1
+379,Starting Network Name Resolution...,1
+252,-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/#<*>-#<*>\#<*>|#<*>/[I <*>.<*> LabApp] Kernel started 7646ce7c-1c79-<*>-96df-bd3aa4dff7ac,1
+380,ens3 IPv6 successfully enabled,1
+259,[W <*>.<*> LabApp] jupyterlab-plotly changed from file ../extensions/jupyterlab-plotly-<*>.<*>.<*>.tgz to file ../extensions/jupyterlab-plotly-<*>.<*>.<*>.tgz,1
+261,Started Exit the Session.,1
+517,"[ <*>.<*>] audit type <*> audit <*>.<*> <*> apparmor """"DENIED"""" operation """"open"""" profile """"/usr/sbin/ntpd"""" name """"/opt/openssl/lib/libcrypto.so.<*>.<*>"""" pid <*> comm """"ntpd"""" requested_mask """"r"""" denied_mask """"r"""" fsuid <*> ouid <*>",1

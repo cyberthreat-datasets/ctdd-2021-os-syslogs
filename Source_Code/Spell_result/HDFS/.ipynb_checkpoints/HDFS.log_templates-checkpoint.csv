@@ -1,0 +1,53 @@
+Log Key,Message,Occurrences
+1,Receiving block <*> src <*> dest <*>,41598
+5,BLOCK* NameSystem.addStoredBlock blockMap updated <*> is added to <*> size <*>,40055
+3,PacketResponder <*> for block <*> terminating,40020
+4,Received block <*> of size <*> from <*>,40016
+14,BLOCK* NameSystem.allocateBlock /user/root/rand/_temporary/_task_<*>_<*>_m_<*>_<*>/part-<*>. <*>,13980
+15,Verification succeeded for <*>,1997
+12,<*> Served block <*> to <*>,407
+18,writeBlock <*> received exception java.io.IOException Could not read from stream,126
+7,Received block <*> src <*> dest <*> of size <*>,50
+9,<*> Starting thread to transfer block <*> to <*> <*>,45
+20,Receiving empty packet for block <*>,45
+8,<*>Transmitted block <*> to <*>,45
+10,BLOCK* ask <*> to replicate <*> to datanode s <*> <*>,45
+41,BLOCK* NameSystem.addStoredBlock Redundant addStoredBlock request received for <*> on <*> size <*>,8
+30,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir1/<*>,6
+37,writeBlock <*> received exception java.io.IOException Connection reset by peer,4
+36,Exception in receiveBlock for block <*> java.io.IOException Connection reset by peer,4
+34,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir0/<*>,3
+27,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir49/<*>,3
+19,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir39/<*>,2
+29,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir22/<*>,2
+16,writeBlock <*> received exception java.net.SocketTimeoutException,2
+33,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir7/<*>,2
+46,Changing block file offset of block <*> from <*> to <*> meta file offset to <*>,2
+17,PacketResponder <*> <*> Exception java.io.EOFException,2
+25,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir8/<*>,2
+50,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir9/<*>,2
+22,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir43/<*>,2
+39,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir55/<*>,2
+49,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir33/<*>,1
+48,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir13/<*>,1
+47,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir57/<*>,1
+40,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir3/<*>,1
+45,PacketResponder <*> for block <*> Interrupted.,1
+51,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir2/<*>,1
+44,writeBlock <*> received exception java.io.EOFException,1
+43,Exception in receiveBlock for block <*> java.io.EOFException,1
+42,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir59/<*>,1
+6,BLOCK* NameSystem.allocateBlock /mnt/hadoop/mapred/system/job_<*>_<*>/job.split. <*>,1
+13,BLOCK* NameSystem.allocateBlock /user/root/rand/_logs/history/ip-<*>-<*>-<*>-<*>.ec2.internal_<*>_job_<*>_<*>_conf.xml. <*>,1
+38,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir6/<*>,1
+11,BLOCK* NameSystem.allocateBlock /mnt/hadoop/mapred/system/job_<*>_<*>/job.xml. <*>,1
+21,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir12/<*>,1
+35,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir41/<*>,1
+32,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir63/<*>,1
+31,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir44/<*>,1
+28,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir31/<*>,1
+2,BLOCK* NameSystem.allocateBlock /mnt/hadoop/mapred/system/job_<*>_<*>/job.jar. <*>,1
+26,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir56/<*>,1
+24,BLOCK* NameSystem.allocateBlock /user/root/rand/_logs/history/ip-<*>-<*>-<*>-<*>.ec2.internal_<*>_job_<*>_<*>_root_random-writer. <*>,1
+23,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir30/<*>,1
+52,Deleting block <*> file /mnt/hadoop/dfs/data/current/subdir29/<*>,1

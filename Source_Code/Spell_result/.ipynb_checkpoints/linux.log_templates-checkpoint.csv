@@ -1,0 +1,35 @@
+Log Key,Message,Occurrences
+5,pam_unix <*> session session opened for user <*> by uid <*>,96321
+4,pam_unix <*> session session closed for user <*>,96134
+6,<*> line <*> Deprecated option <*>,668
+7,error Could not load host key <*>,662
+11,New session <*> of user <*>,350
+1,Removed session <*>.,346
+3,Disconnected from user <*> <*> port <*>,342
+2,Received disconnect from <*> port <*> <*> disconnected by user,341
+8,Connection from <*> port <*> on <*> port <*>,333
+9,Postponed publickey for <*> from <*> port <*> ssh2 [preauth],332
+10,Accepted publickey for <*> from <*> port <*> ssh2 RSA SHA256 <*>,332
+12,Starting session <*> for <*> from <*> port <*> id <*>,332
+14,Close session user <*> from <*> port <*> id <*>,298
+15,[system] Failed to activate service 'org.freedesktop.hostname1' timed out service_start_timeout 25000ms,295
+13,root TTY unknown ; PWD /root ; USER root ; COMMAND <*>,157
+27,<*> TTY pts/<*> ; PWD <*> ; USER root ; COMMAND <*>,136
+29,<*> /dev/pts/<*> ubuntu root,20
+28,<*> su for root by ubuntu,20
+19,Server listening on <*> port <*>.,17
+21,Watching system buttons on /dev/input/event1 AT Translated Set <*> keyboard,13
+22,New seat seat0.,13
+20,Watching system buttons on /dev/input/event0 Power Button,9
+30,Removed session c1.,5
+16,Read error from remote host <*> port <*> Connection timed out,4
+18,System is powering down hypervisor initiated shutdown .,3
+17,Creating /run/nologin blocking further logins...,3
+31,User child is on pid <*>,2
+26,PAM adding faulty module pam_limits.so,1
+25,PAM unable to dlopen pam_limits.so /lib/security/pam_limits.so cannot open shared object file No such file or directory,1
+24,Connection closed by invalid user ubuntu <*> port <*> [preauth],1
+23,Invalid user ubuntu from <*> port <*>,1
+32,pam_systemd su session Cannot create session Already running in a session,1
+33,pam_unix su auth authentication failure; logname uid <*> euid <*> tty /dev/pts/<*> ruser ubuntu rhost user root,1
+34,pam_authenticate Authentication failure,1

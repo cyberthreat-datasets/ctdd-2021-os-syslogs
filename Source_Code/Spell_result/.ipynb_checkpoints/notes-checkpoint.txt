@@ -1,0 +1,2 @@
+# View templates sorted
+awk -F',' '{printf "%d %s\n", length($2), $2}'  linux.log_templates.csv | sort -n -k1 -k2

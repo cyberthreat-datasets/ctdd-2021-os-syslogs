@@ -1,27 +1,27 @@
 Jul 25 22:21:58 mw-ransomware-001 systemd[1]: Starting Docker Application Container Engine...
 Jul 25 22:21:59 mw-ransomware-001 systemd[1]: Started Audit the activities of users and processes on your system..
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.177645482-05:00"" level=info msg=""Starting up"""
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.182081437-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"""
-"Jul 25 22:22:02 mw-ransomware-001 kernel: [  570.764467] audit: type=1400 audit(1595733722.262:21): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=8382 comm=""apparmor_parser"""
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.270106020-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.270189050-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.270240626-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.270288748-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.311402123-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.311448688-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.311479940-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.311500861-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.327255313-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2"""
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.992644622-05:00"" level=warning msg=""Your kernel does not support swap memory limit"""
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.992688544-05:00"" level=warning msg=""Your kernel does not support cgroup rt period"""
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.992702537-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime"""
-"Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.994145429-05:00"" level=info msg=""Loading containers: start."""
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.177645482-05:00"" level=info msg=""Starting up""
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.182081437-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf""
+Jul 25 22:22:02 mw-ransomware-001 kernel: [  570.764467] audit: type=1400 audit(1595733722.262:21): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=8382 comm=""apparmor_parser""
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.270106020-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.270189050-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.270240626-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.270288748-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.311402123-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.311448688-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.311479940-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.311500861-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.327255313-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2""
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.992644622-05:00"" level=warning msg=""Your kernel does not support swap memory limit""
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.992688544-05:00"" level=warning msg=""Your kernel does not support cgroup rt period""
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.992702537-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime""
+Jul 25 22:22:02 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:02.994145429-05:00"" level=info msg=""Loading containers: start.""
 Jul 25 22:22:03 mw-ransomware-001 kernel: [  571.672782] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
 Jul 25 22:22:03 mw-ransomware-001 kernel: [  571.692192] Bridge firewalling registered
 Jul 25 22:22:03 mw-ransomware-001 kernel: [  571.874109] Initializing XFRM netlink socket
 Jul 25 22:22:03 mw-ransomware-001 kernel: [  571.896352] Netfilter messages via NETLINK v0.30.
 Jul 25 22:22:03 mw-ransomware-001 kernel: [  571.909908] ctnetlink v0.93: registering with nfnetlink.
-"Jul 25 22:22:03 mw-ransomware-001 systemd-udevd[8442]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable."
+Jul 25 22:22:03 mw-ransomware-001 systemd-udevd[8442]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
 Jul 25 22:22:03 mw-ransomware-001 systemd[1]: Stopping User Manager for UID 0...
 Jul 25 22:22:03 mw-ransomware-001 systemd[7954]: Stopped target Default.
 Jul 25 22:22:03 mw-ransomware-001 systemd[7954]: Stopped target Basic System.
@@ -40,20 +40,20 @@ Jul 25 22:22:03 mw-ransomware-001 systemd[7954]: Starting Exit the Session...
 Jul 25 22:22:03 mw-ransomware-001 systemd[7954]: Received SIGRTMIN+24 from PID 8455 (kill).
 Jul 25 22:22:03 mw-ransomware-001 systemd[1]: Stopped User Manager for UID 0.
 Jul 25 22:22:03 mw-ransomware-001 systemd[1]: Removed slice User Slice of root.
-"Jul 25 22:22:03 mw-ransomware-001 networkd-dispatcher[1127]: WARNING:Unknown index 3 seen, reloading interface list"
+Jul 25 22:22:03 mw-ransomware-001 networkd-dispatcher[1127]: WARNING:Unknown index 3 seen, reloading interface list
 Jul 25 22:22:03 mw-ransomware-001 systemd-networkd[783]: docker0: Link UP
-"Jul 25 22:22:03 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:03.663036436-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"""
-"Jul 25 22:22:03 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:03.751299631-05:00"" level=info msg=""Loading containers: done."""
-"Jul 25 22:22:05 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:05.257621481-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6"
-"Jul 25 22:22:05 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:05.268860823-05:00"" level=info msg=""Daemon has completed initialization"""
+Jul 25 22:22:03 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:03.663036436-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address""
+Jul 25 22:22:03 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:03.751299631-05:00"" level=info msg=""Loading containers: done.""
+Jul 25 22:22:05 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:05.257621481-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6
+Jul 25 22:22:05 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:05.268860823-05:00"" level=info msg=""Daemon has completed initialization""
 Jul 25 22:22:05 mw-ransomware-001 systemd[1]: Started Docker Application Container Engine.
-"Jul 25 22:22:05 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:05.660439367-05:00"" level=info msg=""API listen on /var/run/docker.sock"""
+Jul 25 22:22:05 mw-ransomware-001 dockerd[8285]: time=""2020-07-25T22:22:05.660439367-05:00"" level=info msg=""API listen on /var/run/docker.sock""
 Jul 25 22:22:11 mw-ransomware-001 systemd-timesyncd[612]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
 Jul 25 22:22:29 mw-ransomware-001 kernel: [  597.838913] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:58:3f:3f:fa:16:3e:7a:01:fb:08:00 SRC=79.137.116.226 DST=10.0.2.7 LEN=447 TOS=0x00 PREC=0x00 TTL=47 ID=32098 DF PROTO=UDP SPT=5119 DPT=5060 LEN=427 
 Jul 25 22:22:47 mw-ransomware-001 kernel: [  616.465120] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:58:3f:3f:fa:16:3e:7a:01:fb:08:00 SRC=104.149.131.70 DST=10.0.2.7 LEN=121 TOS=0x08 PREC=0x40 TTL=239 ID=54321 PROTO=UDP SPT=55186 DPT=1900 LEN=101 
 Jul 25 22:22:53 mw-ransomware-001 systemd-networkd[783]: ens3: DHCP lease lost
-"Jul 25 22:22:53 mw-ransomware-001 systemd-timesyncd[612]: Network configuration changed, trying to establish connection."
-"Jul 25 22:22:53 mw-ransomware-001 dbus-daemon[990]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=783 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Jul 25 22:22:53 mw-ransomware-001 systemd-timesyncd[612]: Network configuration changed, trying to establish connection.
+Jul 25 22:22:53 mw-ransomware-001 dbus-daemon[990]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=783 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
 Jul 25 22:22:53 mw-ransomware-001 systemd[1]: Starting Hostname Service...
 Jul 25 22:22:53 mw-ransomware-001 systemd[1]: Started ntp-systemd-netif.service.
 Jul 25 22:22:53 mw-ransomware-001 systemd-networkd[783]: ens3: DHCPv4 address 10.0.2.7/24 via 10.0.2.1
@@ -61,7 +61,7 @@ Jul 25 22:22:53 mw-ransomware-001 systemd-networkd[783]: ens3: Configured
 Jul 25 22:22:53 mw-ransomware-001 systemd[1]: Started ntp-systemd-netif.service.
 Jul 25 22:22:53 mw-ransomware-001 systemd[8612]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
 Jul 25 22:22:53 mw-ransomware-001 systemd[8612]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
-"Jul 25 22:22:53 mw-ransomware-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Jul 25 22:22:53 mw-ransomware-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Jul 25 22:22:53 mw-ransomware-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Jul 25 22:22:53 mw-ransomware-001 systemd[1]: Failed to start Hostname Service.
 Jul 25 22:22:54 mw-ransomware-001 kernel: [  622.916932] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:58:3f:3f:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=45643 PROTO=TCP SPT=55206 DPT=7388 WINDOW=1024 RES=0x00 SYN URGP=0 
@@ -94,14 +94,14 @@ Jul 25 22:27:41 mw-ransomware-001 kernel: [  910.224752] [UFW BLOCK] IN=ens3 OUT
 Jul 25 22:27:45 mw-ransomware-001 kernel: [  914.217414] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:58:3f:3f:fa:16:3e:7a:01:fb:08:00 SRC=87.251.74.79 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=233 ID=21857 PROTO=TCP SPT=59756 DPT=2483 WINDOW=1024 RES=0x00 SYN URGP=0 
 Jul 25 22:27:50 mw-ransomware-001 kernel: [  918.741006] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:58:3f:3f:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.7 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=15775 PROTO=TCP SPT=55206 DPT=6001 WINDOW=1024 RES=0x00 SYN URGP=0 
 Jul 25 22:27:50 mw-ransomware-001 systemd-networkd[783]: ens3: DHCP lease lost
-"Jul 25 22:27:50 mw-ransomware-001 dbus-daemon[990]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=783 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Jul 25 22:27:50 mw-ransomware-001 dbus-daemon[990]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=783 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
 Jul 25 22:27:50 mw-ransomware-001 systemd[1]: Starting Hostname Service...
 Jul 25 22:27:50 mw-ransomware-001 systemd[1]: Started ntp-systemd-netif.service.
 Jul 25 22:27:50 mw-ransomware-001 systemd-networkd[783]: ens3: DHCPv4 address 10.0.2.7/24 via 10.0.2.1
 Jul 25 22:27:50 mw-ransomware-001 systemd-networkd[783]: ens3: Configured
 Jul 25 22:27:50 mw-ransomware-001 systemd[9079]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
 Jul 25 22:27:50 mw-ransomware-001 systemd[9079]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
-"Jul 25 22:27:50 mw-ransomware-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Jul 25 22:27:50 mw-ransomware-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Jul 25 22:27:50 mw-ransomware-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Jul 25 22:27:50 mw-ransomware-001 systemd[1]: Failed to start Hostname Service.
 Jul 25 22:28:01 mw-ransomware-001 CRON[9132]: (pcp) CMD ( /usr/lib/pcp/bin/pmie_check -C)

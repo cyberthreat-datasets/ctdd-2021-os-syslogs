@@ -1,36 +1,36 @@
 Aug 19 12:20:16 jy-malaria-t1055-008 systemd[1]: Starting Docker Application Container Engine...
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.606788433-05:00"" level=info msg=""Starting up"""
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.624760863-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"""
-"Aug 19 12:20:20 jy-malaria-t1055-008 kernel: [129842.622981] audit: type=1400 audit(1597857620.709:25): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=27860 comm=""apparmor_parser"""
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.721264973-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.721334703-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.721375952-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.721419717-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.813436380-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.813484643-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.813513859-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.813533702-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
-"Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.836645507-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2"""
-"Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.031714626-05:00"" level=warning msg=""Your kernel does not support swap memory limit"""
-"Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.031761505-05:00"" level=warning msg=""Your kernel does not support cgroup rt period"""
-"Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.031777766-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime"""
-"Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.033277969-05:00"" level=info msg=""Loading containers: start."""
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.606788433-05:00"" level=info msg=""Starting up""
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.624760863-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf""
+Aug 19 12:20:20 jy-malaria-t1055-008 kernel: [129842.622981] audit: type=1400 audit(1597857620.709:25): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=27860 comm=""apparmor_parser""
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.721264973-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.721334703-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.721375952-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.721419717-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.813436380-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.813484643-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.813513859-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.813533702-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug 19 12:20:20 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:20.836645507-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2""
+Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.031714626-05:00"" level=warning msg=""Your kernel does not support swap memory limit""
+Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.031761505-05:00"" level=warning msg=""Your kernel does not support cgroup rt period""
+Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.031777766-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime""
+Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.033277969-05:00"" level=info msg=""Loading containers: start.""
 Aug 19 12:20:21 jy-malaria-t1055-008 kernel: [129842.970710] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
 Aug 19 12:20:21 jy-malaria-t1055-008 kernel: [129842.983536] Bridge firewalling registered
 Aug 19 12:20:21 jy-malaria-t1055-008 kernel: [129843.253262] Initializing XFRM netlink socket
 Aug 19 12:20:21 jy-malaria-t1055-008 kernel: [129843.362081] Netfilter messages via NETLINK v0.30.
 Aug 19 12:20:21 jy-malaria-t1055-008 kernel: [129843.416526] ctnetlink v0.93: registering with nfnetlink.
-"Aug 19 12:20:21 jy-malaria-t1055-008 systemd-udevd[27914]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable."
-"Aug 19 12:20:21 jy-malaria-t1055-008 networkd-dispatcher[951]: WARNING:Unknown index 3 seen, reloading interface list"
+Aug 19 12:20:21 jy-malaria-t1055-008 systemd-udevd[27914]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug 19 12:20:21 jy-malaria-t1055-008 networkd-dispatcher[951]: WARNING:Unknown index 3 seen, reloading interface list
 Aug 19 12:20:21 jy-malaria-t1055-008 systemd-networkd[7491]: docker0: Link UP
-"Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.731884781-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"""
-"Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.805119654-05:00"" level=info msg=""Loading containers: done."""
-"Aug 19 12:20:22 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:22.238841538-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6"
-"Aug 19 12:20:22 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:22.240402132-05:00"" level=info msg=""Daemon has completed initialization"""
+Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.731884781-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address""
+Aug 19 12:20:21 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:21.805119654-05:00"" level=info msg=""Loading containers: done.""
+Aug 19 12:20:22 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:22.238841538-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6
+Aug 19 12:20:22 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:22.240402132-05:00"" level=info msg=""Daemon has completed initialization""
 Aug 19 12:20:22 jy-malaria-t1055-008 systemd[1]: Started Docker Application Container Engine.
-"Aug 19 12:20:22 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:22.419805340-05:00"" level=info msg=""API listen on /var/run/docker.sock"""
-"Aug 19 12:20:50 jy-malaria-t1055-008 systemd-resolved[7542]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
-"Aug 19 12:20:50 jy-malaria-t1055-008 systemd-resolved[7542]: message repeated 11 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]"
+Aug 19 12:20:22 jy-malaria-t1055-008 dockerd[27755]: time=""2020-08-19T12:20:22.419805340-05:00"" level=info msg=""API listen on /var/run/docker.sock""
+Aug 19 12:20:50 jy-malaria-t1055-008 systemd-resolved[7542]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Aug 19 12:20:50 jy-malaria-t1055-008 systemd-resolved[7542]: message repeated 11 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
 Aug 19 12:20:56 jy-malaria-t1055-008 kernel: [129878.191093] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:47:48:7f:fa:16:3e:7a:01:fb:08:00 SRC=92.63.196.33 DST=10.0.2.27 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=9961 PROTO=TCP SPT=41125 DPT=33384 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 19 12:21:10 jy-malaria-t1055-008 kernel: [129892.305255] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:47:48:7f:fa:16:3e:7a:01:fb:08:00 SRC=94.102.50.137 DST=10.0.2.27 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=14943 PROTO=TCP SPT=52137 DPT=2387 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 19 12:21:28 jy-malaria-t1055-008 kernel: [129910.795893] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:47:48:7f:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.141 DST=10.0.2.27 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=30777 PROTO=TCP SPT=54421 DPT=44123 WINDOW=1024 RES=0x00 SYN URGP=0 
@@ -38,7 +38,7 @@ Aug 19 12:22:00 jy-malaria-t1055-008 kernel: [129942.701269] [UFW BLOCK] IN=ens3
 Aug 19 12:22:02 jy-malaria-t1055-008 kernel: [129944.032450] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:47:48:7f:fa:16:3e:7a:01:fb:08:00 SRC=91.229.112.5 DST=10.0.2.27 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=51647 PROTO=TCP SPT=43893 DPT=1560 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 19 12:22:11 jy-malaria-t1055-008 kernel: [129953.191488] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:47:48:7f:fa:16:3e:7a:01:fb:08:00 SRC=91.229.112.2 DST=10.0.2.27 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=60314 PROTO=TCP SPT=43940 DPT=4591 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd-networkd[7491]: ens3: DHCP lease lost
-"Aug 19 12:22:15 jy-malaria-t1055-008 dbus-daemon[952]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.20' (uid=100 pid=7491 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug 19 12:22:15 jy-malaria-t1055-008 dbus-daemon[952]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.20' (uid=100 pid=7491 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: Starting Hostname Service...
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: Started ntp-systemd-netif.service.
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd-networkd[7491]: ens3: DHCPv4 address 10.0.2.27/24 via 10.0.2.1
@@ -46,7 +46,7 @@ Aug 19 12:22:15 jy-malaria-t1055-008 systemd-networkd[7491]: ens3: Configured
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: Started ntp-systemd-netif.service.
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[28233]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[28233]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
-"Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: Failed to start Hostname Service.
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: Stopping Network Time Service...
@@ -74,7 +74,7 @@ Aug 19 12:22:15 jy-malaria-t1055-008 ntpd[28269]: Command line: /usr/sbin/ntpd -
 Aug 19 12:22:15 jy-malaria-t1055-008 systemd[1]: Started Network Time Service.
 Aug 19 12:22:15 jy-malaria-t1055-008 ntpd[28272]: proto: precision = 0.056 usec (-24)
 Aug 19 12:22:15 jy-malaria-t1055-008 ntpd[28272]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
-"Aug 19 12:22:15 jy-malaria-t1055-008 ntpd[28272]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37"
+Aug 19 12:22:15 jy-malaria-t1055-008 ntpd[28272]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
 Aug 19 12:22:15 jy-malaria-t1055-008 ntpd[28272]: Listen and drop on 0 v6wildcard [::]:123
 Aug 19 12:22:15 jy-malaria-t1055-008 ntpd[28272]: Listen and drop on 1 v4wildcard 0.0.0.0:123
 Aug 19 12:22:15 jy-malaria-t1055-008 ntpd[28272]: Listen normally on 2 lo 127.0.0.1:123
@@ -113,7 +113,7 @@ Aug 19 12:24:43 jy-malaria-t1055-008 ntpd[28354]: Command line: /usr/sbin/ntpd -
 Aug 19 12:24:43 jy-malaria-t1055-008 systemd[1]: Started Network Time Service.
 Aug 19 12:24:43 jy-malaria-t1055-008 ntpd[28363]: proto: precision = 0.071 usec (-24)
 Aug 19 12:24:43 jy-malaria-t1055-008 ntpd[28363]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
-"Aug 19 12:24:43 jy-malaria-t1055-008 ntpd[28363]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37"
+Aug 19 12:24:43 jy-malaria-t1055-008 ntpd[28363]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
 Aug 19 12:24:43 jy-malaria-t1055-008 ntpd[28363]: Listen and drop on 0 v6wildcard [::]:123
 Aug 19 12:24:43 jy-malaria-t1055-008 ntpd[28363]: Listen and drop on 1 v4wildcard 0.0.0.0:123
 Aug 19 12:24:43 jy-malaria-t1055-008 ntpd[28363]: Listen normally on 2 lo 127.0.0.1:123
@@ -136,7 +136,7 @@ Aug 19 12:28:10 jy-malaria-t1055-008 kernel: [130312.627324] [UFW BLOCK] IN=ens3
 Aug 19 12:28:42 jy-malaria-t1055-008 kernel: [130344.733690] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:47:48:7f:fa:16:3e:7a:01:fb:08:00 SRC=193.27.229.221 DST=10.0.2.27 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=620 PROTO=TCP SPT=41412 DPT=9303 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 19 12:28:48 jy-malaria-t1055-008 kernel: [130350.449839] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:47:48:7f:fa:16:3e:7a:01:fb:08:00 SRC=51.91.212.81 DST=10.0.2.27 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=54321 PROTO=TCP SPT=43346 DPT=6006 WINDOW=65535 RES=0x00 SYN URGP=0 
 Aug 19 12:29:41 jy-malaria-t1055-008 systemd-networkd[7491]: ens3: DHCP lease lost
-"Aug 19 12:29:41 jy-malaria-t1055-008 dbus-daemon[952]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.20' (uid=100 pid=7491 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug 19 12:29:41 jy-malaria-t1055-008 dbus-daemon[952]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.20' (uid=100 pid=7491 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
 Aug 19 12:29:41 jy-malaria-t1055-008 systemd[1]: Starting Hostname Service...
 Aug 19 12:29:41 jy-malaria-t1055-008 systemd[1]: Started ntp-systemd-netif.service.
 Aug 19 12:29:41 jy-malaria-t1055-008 systemd-networkd[7491]: ens3: DHCPv4 address 10.0.2.27/24 via 10.0.2.1
@@ -153,14 +153,14 @@ Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28946]: Command line: /usr/sbin/ntpd -
 Aug 19 12:29:41 jy-malaria-t1055-008 systemd[1]: Started Network Time Service.
 Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: proto: precision = 0.057 usec (-24)
 Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
-"Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37"
+Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
 Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: Listen and drop on 0 v6wildcard [::]:123
 Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: Listen and drop on 1 v4wildcard 0.0.0.0:123
 Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: Listen normally on 2 lo 127.0.0.1:123
 Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: Listen normally on 3 ens3 10.0.2.27:123
 Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: Listen normally on 4 ens3 [fe80::f816:3eff:fe47:487f%2]:123
 Aug 19 12:29:41 jy-malaria-t1055-008 ntpd[28959]: Listening on routing socket on fd #21 for interface updates
-"Aug 19 12:29:41 jy-malaria-t1055-008 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug 19 12:29:41 jy-malaria-t1055-008 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Aug 19 12:29:41 jy-malaria-t1055-008 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Aug 19 12:29:41 jy-malaria-t1055-008 systemd[1]: Failed to start Hostname Service.
 Aug 19 12:29:42 jy-malaria-t1055-008 ntpd[28959]: Soliciting pool server 173.255.215.209

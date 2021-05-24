@@ -1,50 +1,50 @@
 Aug  1 18:55:18 mw-virus-003 systemd[1]: Starting Docker Application Container Engine...
 Aug  1 18:55:18 mw-virus-003 systemd[1]: Started Audit the activities of users and processes on your system..
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.347275769-05:00"" level=info msg=""Starting up"""
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.361415147-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"""
-"Aug  1 18:55:20 mw-virus-003 kernel: [  281.834249] audit: type=1400 audit(1596326120.458:21): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=10249 comm=""apparmor_parser"""
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.472443352-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.472786340-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.473029947-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.473286038-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.518083181-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.518158736-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.518195793-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.518217788-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.539822360-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2"""
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.347275769-05:00"" level=info msg=""Starting up""
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.361415147-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf""
+Aug  1 18:55:20 mw-virus-003 kernel: [  281.834249] audit: type=1400 audit(1596326120.458:21): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=10249 comm=""apparmor_parser""
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.472443352-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.472786340-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.473029947-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.473286038-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.518083181-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.518158736-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.518195793-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.518217788-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.539822360-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2""
 Aug  1 18:55:20 mw-virus-003 kernel: [  282.278861] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=94.102.49.114 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=3022 PROTO=TCP SPT=52400 DPT=3249 WINDOW=1024 RES=0x00 SYN URGP=0 
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.906088320-05:00"" level=warning msg=""Your kernel does not support swap memory limit"""
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.906153867-05:00"" level=warning msg=""Your kernel does not support cgroup rt period"""
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.906171141-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime"""
-"Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.907808174-05:00"" level=info msg=""Loading containers: start."""
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.906088320-05:00"" level=warning msg=""Your kernel does not support swap memory limit""
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.906153867-05:00"" level=warning msg=""Your kernel does not support cgroup rt period""
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.906171141-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime""
+Aug  1 18:55:20 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:20.907808174-05:00"" level=info msg=""Loading containers: start.""
 Aug  1 18:55:21 mw-virus-003 kernel: [  282.381022] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
 Aug  1 18:55:21 mw-virus-003 kernel: [  282.385121] Bridge firewalling registered
 Aug  1 18:55:21 mw-virus-003 kernel: [  282.743167] Initializing XFRM netlink socket
 Aug  1 18:55:21 mw-virus-003 kernel: [  282.763436] Netfilter messages via NETLINK v0.30.
 Aug  1 18:55:21 mw-virus-003 kernel: [  282.776020] ctnetlink v0.93: registering with nfnetlink.
-"Aug  1 18:55:21 mw-virus-003 systemd-udevd[10309]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable."
-"Aug  1 18:55:21 mw-virus-003 systemd-timesyncd[630]: Network configuration changed, trying to establish connection."
+Aug  1 18:55:21 mw-virus-003 systemd-udevd[10309]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug  1 18:55:21 mw-virus-003 systemd-timesyncd[630]: Network configuration changed, trying to establish connection.
 Aug  1 18:55:21 mw-virus-003 systemd-timesyncd[630]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
-"Aug  1 18:55:21 mw-virus-003 networkd-dispatcher[1032]: WARNING:Unknown index 3 seen, reloading interface list"
+Aug  1 18:55:21 mw-virus-003 networkd-dispatcher[1032]: WARNING:Unknown index 3 seen, reloading interface list
 Aug  1 18:55:21 mw-virus-003 systemd-networkd[774]: docker0: Link UP
-"Aug  1 18:55:21 mw-virus-003 systemd-timesyncd[630]: Network configuration changed, trying to establish connection."
+Aug  1 18:55:21 mw-virus-003 systemd-timesyncd[630]: Network configuration changed, trying to establish connection.
 Aug  1 18:55:21 mw-virus-003 systemd-timesyncd[630]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
-"Aug  1 18:55:22 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:22.088800749-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"""
-"Aug  1 18:55:22 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:22.403978904-05:00"" level=info msg=""Loading containers: done."""
-"Aug  1 18:55:22 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:22.986116336-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6"
-"Aug  1 18:55:22 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:22.987319699-05:00"" level=info msg=""Daemon has completed initialization"""
-"Aug  1 18:55:23 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:23.279366599-05:00"" level=info msg=""API listen on /var/run/docker.sock"""
+Aug  1 18:55:22 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:22.088800749-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address""
+Aug  1 18:55:22 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:22.403978904-05:00"" level=info msg=""Loading containers: done.""
+Aug  1 18:55:22 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:22.986116336-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6
+Aug  1 18:55:22 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:22.987319699-05:00"" level=info msg=""Daemon has completed initialization""
+Aug  1 18:55:23 mw-virus-003 dockerd[10169]: time=""2020-08-01T18:55:23.279366599-05:00"" level=info msg=""API listen on /var/run/docker.sock""
 Aug  1 18:55:23 mw-virus-003 systemd[1]: Started Docker Application Container Engine.
 Aug  1 18:56:01 mw-virus-003 systemd-networkd[774]: ens3: DHCP lease lost
-"Aug  1 18:56:01 mw-virus-003 dbus-daemon[970]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=774 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
-"Aug  1 18:56:01 mw-virus-003 systemd-timesyncd[630]: Network configuration changed, trying to establish connection."
+Aug  1 18:56:01 mw-virus-003 dbus-daemon[970]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=774 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug  1 18:56:01 mw-virus-003 systemd-timesyncd[630]: Network configuration changed, trying to establish connection.
 Aug  1 18:56:01 mw-virus-003 systemd[1]: Started ntp-systemd-netif.service.
 Aug  1 18:56:01 mw-virus-003 systemd[1]: Starting Hostname Service...
 Aug  1 18:56:01 mw-virus-003 systemd-networkd[774]: ens3: DHCPv4 address 10.0.2.4/24 via 10.0.2.1
 Aug  1 18:56:01 mw-virus-003 systemd-networkd[774]: ens3: Configured
 Aug  1 18:56:01 mw-virus-003 systemd[10495]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
 Aug  1 18:56:01 mw-virus-003 systemd[10495]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
-"Aug  1 18:56:01 mw-virus-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 18:56:01 mw-virus-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Aug  1 18:56:01 mw-virus-003 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Aug  1 18:56:01 mw-virus-003 systemd[1]: Failed to start Hostname Service.
 Aug  1 18:56:08 mw-virus-003 kernel: [  329.684675] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=94.102.51.17 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=58187 PROTO=TCP SPT=46377 DPT=5315 WINDOW=1024 RES=0x00 SYN URGP=0 
@@ -56,8 +56,8 @@ Aug  1 18:56:54 mw-virus-003 kernel: [  375.602450] [UFW BLOCK] IN=ens3 OUT= MAC
 Aug  1 18:56:55 mw-virus-003 kernel: [  376.926381] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.148 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=45203 PROTO=TCP SPT=41207 DPT=31690 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug  1 18:56:57 mw-virus-003 kernel: [  378.984888] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=164.163.233.9 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=17991 DF PROTO=TCP SPT=48357 DPT=23 WINDOW=14600 RES=0x00 SYN URGP=0 
 Aug  1 18:57:15 mw-virus-003 kernel: [  397.137713] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=185.156.73.42 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=47616 PROTO=TCP SPT=40681 DPT=63382 WINDOW=1024 RES=0x00 SYN URGP=0 
-"Aug  1 18:57:16 mw-virus-003 systemd-resolved[793]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
-"Aug  1 18:57:16 mw-virus-003 systemd-resolved[793]: message repeated 11 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]"
+Aug  1 18:57:16 mw-virus-003 systemd-resolved[793]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Aug  1 18:57:16 mw-virus-003 systemd-resolved[793]: message repeated 11 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
 Aug  1 18:57:30 mw-virus-003 kernel: [  411.645852] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.102 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=46427 PROTO=TCP SPT=44184 DPT=26198 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug  1 18:57:40 mw-virus-003 kernel: [  422.018510] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=61220 PROTO=TCP SPT=55206 DPT=7082 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug  1 18:57:41 mw-virus-003 kernel: [  422.583624] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=92.63.196.27 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=53396 PROTO=TCP SPT=44788 DPT=41429 WINDOW=1024 RES=0x00 SYN URGP=0 
@@ -76,7 +76,7 @@ Aug  1 19:00:32 mw-virus-003 kernel: [  593.823347] [UFW BLOCK] IN=ens3 OUT= MAC
 Aug  1 19:00:44 mw-virus-003 kernel: [  605.884867] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.132 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=37591 PROTO=TCP SPT=41208 DPT=31881 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug  1 19:00:45 mw-virus-003 kernel: [  606.616931] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=194.26.25.104 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=16448 PROTO=TCP SPT=41210 DPT=31842 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug  1 19:01:00 mw-virus-003 systemd-networkd[774]: ens3: DHCP lease lost
-"Aug  1 19:01:00 mw-virus-003 dbus-daemon[970]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=774 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug  1 19:01:00 mw-virus-003 dbus-daemon[970]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=774 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
 Aug  1 19:01:00 mw-virus-003 systemd[1]: Started ntp-systemd-netif.service.
 Aug  1 19:01:00 mw-virus-003 systemd[1]: Starting Hostname Service...
 Aug  1 19:01:00 mw-virus-003 systemd-networkd[774]: ens3: DHCPv4 address 10.0.2.4/24 via 10.0.2.1
@@ -84,7 +84,7 @@ Aug  1 19:01:00 mw-virus-003 systemd-networkd[774]: ens3: Configured
 Aug  1 19:01:00 mw-virus-003 systemd[1]: Started ntp-systemd-netif.service.
 Aug  1 19:01:00 mw-virus-003 systemd[10746]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
 Aug  1 19:01:00 mw-virus-003 systemd[10746]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
-"Aug  1 19:01:00 mw-virus-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 19:01:00 mw-virus-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Aug  1 19:01:00 mw-virus-003 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Aug  1 19:01:00 mw-virus-003 systemd[1]: Failed to start Hostname Service.
 Aug  1 19:01:09 mw-virus-003 kernel: [  631.076376] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.9 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=19482 PROTO=TCP SPT=49632 DPT=11170 WINDOW=1024 RES=0x00 SYN URGP=0 
@@ -108,15 +108,15 @@ Aug  1 19:05:43 mw-virus-003 systemd[1]: Starting Cleanup of Temporary Directori
 Aug  1 19:05:44 mw-virus-003 kernel: [  905.899721] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=31.163.174.189 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=50 ID=22735 PROTO=TCP SPT=62567 DPT=23 WINDOW=55631 RES=0x00 SYN URGP=0 
 Aug  1 19:05:45 mw-virus-003 systemd[1]: Started Cleanup of Temporary Directories.
 Aug  1 19:05:59 mw-virus-003 systemd-networkd[774]: ens3: DHCP lease lost
-"Aug  1 19:05:59 mw-virus-003 systemd-timesyncd[630]: Network configuration changed, trying to establish connection."
-"Aug  1 19:05:59 mw-virus-003 dbus-daemon[970]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=774 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug  1 19:05:59 mw-virus-003 systemd-timesyncd[630]: Network configuration changed, trying to establish connection.
+Aug  1 19:05:59 mw-virus-003 dbus-daemon[970]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=774 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
 Aug  1 19:05:59 mw-virus-003 systemd[1]: Starting Hostname Service...
 Aug  1 19:05:59 mw-virus-003 systemd[1]: Started ntp-systemd-netif.service.
 Aug  1 19:05:59 mw-virus-003 systemd-networkd[774]: ens3: DHCPv4 address 10.0.2.4/24 via 10.0.2.1
 Aug  1 19:05:59 mw-virus-003 systemd-networkd[774]: ens3: Configured
 Aug  1 19:05:59 mw-virus-003 systemd[10892]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
 Aug  1 19:05:59 mw-virus-003 systemd[10892]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
-"Aug  1 19:05:59 mw-virus-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 19:05:59 mw-virus-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Aug  1 19:05:59 mw-virus-003 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Aug  1 19:05:59 mw-virus-003 systemd[1]: Failed to start Hostname Service.
 Aug  1 19:06:06 mw-virus-003 kernel: [  927.808413] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=80.82.78.82 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=47582 PROTO=TCP SPT=58579 DPT=4361 WINDOW=1024 RES=0x00 SYN URGP=0 
@@ -139,14 +139,14 @@ Aug  1 19:10:31 mw-virus-003 kernel: [ 1193.305943] [UFW BLOCK] IN=ens3 OUT= MAC
 Aug  1 19:10:35 mw-virus-003 kernel: [ 1196.551573] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=31.163.174.189 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=50 ID=22735 PROTO=TCP SPT=62567 DPT=23 WINDOW=55631 RES=0x00 SYN URGP=0 
 Aug  1 19:10:49 mw-virus-003 kernel: [ 1210.617154] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=185.153.197.32 DST=10.0.2.4 LEN=40 TOS=0x08 PREC=0x20 TTL=232 ID=41568 PROTO=TCP SPT=51028 DPT=5588 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug  1 19:10:56 mw-virus-003 systemd-networkd[774]: ens3: DHCP lease lost
-"Aug  1 19:10:56 mw-virus-003 dbus-daemon[970]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=774 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug  1 19:10:56 mw-virus-003 dbus-daemon[970]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=100 pid=774 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
 Aug  1 19:10:56 mw-virus-003 systemd[1]: Starting Hostname Service...
 Aug  1 19:10:56 mw-virus-003 systemd[1]: Started ntp-systemd-netif.service.
 Aug  1 19:10:56 mw-virus-003 systemd-networkd[774]: ens3: DHCPv4 address 10.0.2.4/24 via 10.0.2.1
 Aug  1 19:10:56 mw-virus-003 systemd-networkd[774]: ens3: Configured
 Aug  1 19:10:56 mw-virus-003 systemd[10982]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
 Aug  1 19:10:56 mw-virus-003 systemd[10982]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
-"Aug  1 19:10:56 mw-virus-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug  1 19:10:56 mw-virus-003 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Aug  1 19:10:56 mw-virus-003 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Aug  1 19:10:56 mw-virus-003 systemd[1]: Failed to start Hostname Service.
 Aug  1 19:11:08 mw-virus-003 kernel: [ 1229.609621] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:d4:13:19:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.4 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=5539 PROTO=TCP SPT=55206 DPT=1961 WINDOW=1024 RES=0x00 SYN URGP=0 
@@ -198,5 +198,5 @@ Aug  1 19:12:32 mw-virus-003 systemd[11095]: Reached target Basic System.
 Aug  1 19:12:32 mw-virus-003 systemd[1]: Started User Manager for UID 0.
 Aug  1 19:12:32 mw-virus-003 systemd[11095]: Reached target Default.
 Aug  1 19:12:32 mw-virus-003 systemd[11095]: Startup finished in 689ms.
-"Aug  1 19:12:37 mw-virus-003 systemd-resolved[793]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
-"Aug  1 19:12:37 mw-virus-003 systemd-resolved[793]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
+Aug  1 19:12:37 mw-virus-003 systemd-resolved[793]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Aug  1 19:12:37 mw-virus-003 systemd-resolved[793]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.

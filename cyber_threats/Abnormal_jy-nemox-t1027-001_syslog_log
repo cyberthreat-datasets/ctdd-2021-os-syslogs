@@ -1,44 +1,44 @@
 Aug 13 00:07:13 jy-nemox-t1027-001 systemd[1]: Starting Docker Application Container Engine...
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.104316330-05:00"" level=info msg=""Starting up"""
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.109535864-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"""
-"Aug 13 00:07:17 jy-nemox-t1027-001 kernel: [  615.341690] audit: type=1400 audit(1597295237.193:24): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=19658 comm=""apparmor_parser"""
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.201382606-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.201606919-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.201849808-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.202073045-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.258597884-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc"
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.258932355-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc"
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.259281638-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc"
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.259576677-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc"
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.270799436-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2"""
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.339349115-05:00"" level=warning msg=""Your kernel does not support swap memory limit"""
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.339389783-05:00"" level=warning msg=""Your kernel does not support cgroup rt period"""
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.339405030-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime"""
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.340975663-05:00"" level=info msg=""Loading containers: start."""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.104316330-05:00"" level=info msg=""Starting up""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.109535864-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf""
+Aug 13 00:07:17 jy-nemox-t1027-001 kernel: [  615.341690] audit: type=1400 audit(1597295237.193:24): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=19658 comm=""apparmor_parser""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.201382606-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.201606919-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.201849808-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.202073045-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.258597884-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.258932355-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.259281638-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.259576677-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.270799436-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.339349115-05:00"" level=warning msg=""Your kernel does not support swap memory limit""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.339389783-05:00"" level=warning msg=""Your kernel does not support cgroup rt period""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.339405030-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.340975663-05:00"" level=info msg=""Loading containers: start.""
 Aug 13 00:07:17 jy-nemox-t1027-001 kernel: [  615.506909] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
 Aug 13 00:07:17 jy-nemox-t1027-001 kernel: [  615.517911] Bridge firewalling registered
 Aug 13 00:07:17 jy-nemox-t1027-001 kernel: [  615.713331] Initializing XFRM netlink socket
 Aug 13 00:07:17 jy-nemox-t1027-001 kernel: [  615.755295] Netfilter messages via NETLINK v0.30.
 Aug 13 00:07:17 jy-nemox-t1027-001 kernel: [  615.768409] ctnetlink v0.93: registering with nfnetlink.
-"Aug 13 00:07:17 jy-nemox-t1027-001 systemd-udevd[19712]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable."
-"Aug 13 00:07:17 jy-nemox-t1027-001 networkd-dispatcher[1119]: WARNING:Unknown index 3 seen, reloading interface list"
+Aug 13 00:07:17 jy-nemox-t1027-001 systemd-udevd[19712]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug 13 00:07:17 jy-nemox-t1027-001 networkd-dispatcher[1119]: WARNING:Unknown index 3 seen, reloading interface list
 Aug 13 00:07:17 jy-nemox-t1027-001 systemd-networkd[7864]: docker0: Link UP
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.856107714-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"""
-"Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.931969382-05:00"" level=info msg=""Loading containers: done."""
-"Aug 13 00:07:20 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:20.068362756-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6"
-"Aug 13 00:07:20 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:20.088719488-05:00"" level=info msg=""Daemon has completed initialization"""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.856107714-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address""
+Aug 13 00:07:17 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:17.931969382-05:00"" level=info msg=""Loading containers: done.""
+Aug 13 00:07:20 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:20.068362756-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6
+Aug 13 00:07:20 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:20.088719488-05:00"" level=info msg=""Daemon has completed initialization""
 Aug 13 00:07:20 jy-nemox-t1027-001 systemd[1]: Started Docker Application Container Engine.
-"Aug 13 00:07:20 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:20.206533177-05:00"" level=info msg=""API listen on /var/run/docker.sock"""
-"Aug 13 00:07:39 jy-nemox-t1027-001 systemd-resolved[7904]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
+Aug 13 00:07:20 jy-nemox-t1027-001 dockerd[19560]: time=""2020-08-13T00:07:20.206533177-05:00"" level=info msg=""API listen on /var/run/docker.sock""
+Aug 13 00:07:39 jy-nemox-t1027-001 systemd-resolved[7904]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
 Aug 13 00:07:42 jy-nemox-t1027-001 kernel: [  640.610756] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:7e:15:52:fa:16:3e:7a:01:fb:08:00 SRC=194.26.29.137 DST=10.0.2.14 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=26265 PROTO=TCP SPT=59785 DPT=40624 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 13 00:07:44 jy-nemox-t1027-001 kernel: [  642.849536] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:7e:15:52:fa:16:3e:7a:01:fb:08:00 SRC=220.83.177.93 DST=10.0.2.14 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=25980 DF PROTO=TCP SPT=34027 DPT=23 WINDOW=14600 RES=0x00 SYN URGP=0 
-"Aug 13 00:07:39 jy-nemox-t1027-001 systemd-resolved[7904]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]"
+Aug 13 00:07:39 jy-nemox-t1027-001 systemd-resolved[7904]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
 Aug 13 00:08:01 jy-nemox-t1027-001 kernel: [  659.182007] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:7e:15:52:fa:16:3e:7a:01:fb:08:00 SRC=46.161.27.48 DST=10.0.2.14 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=9330 PROTO=TCP SPT=51935 DPT=33389 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 13 00:08:01 jy-nemox-t1027-001 CRON[19884]: (pcp) CMD ( /usr/lib/pcp/bin/pmie_daily -X xz -x 3)
 Aug 13 00:08:01 jy-nemox-t1027-001 pcp-pmie[1891]: High aggregate context switch rate 9549ctxsw/s@jy-nemox-t1027-001
 Aug 13 00:08:01 jy-nemox-t1027-001 pcp-pmie[1891]: Low random number entropy available 2.20%avail@jy-nemox-t1027-001
 Aug 13 00:08:08 jy-nemox-t1027-001 systemd-networkd[7864]: ens3: DHCP lease lost
-"Aug 13 00:08:08 jy-nemox-t1027-001 dbus-daemon[978]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.25' (uid=100 pid=7864 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")"
+Aug 13 00:08:08 jy-nemox-t1027-001 dbus-daemon[978]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.25' (uid=100 pid=7864 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
 Aug 13 00:08:08 jy-nemox-t1027-001 systemd[1]: Starting Hostname Service...
 Aug 13 00:08:08 jy-nemox-t1027-001 systemd[1]: Started ntp-systemd-netif.service.
 Aug 13 00:08:08 jy-nemox-t1027-001 systemd-networkd[7864]: ens3: DHCPv4 address 10.0.2.14/24 via 10.0.2.1
@@ -55,13 +55,13 @@ Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20115]: Command line: /usr/sbin/ntpd -p 
 Aug 13 00:08:08 jy-nemox-t1027-001 systemd[1]: Started Network Time Service.
 Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: proto: precision = 0.052 usec (-24)
 Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
-"Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37"
+Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
 Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: Listen and drop on 0 v6wildcard [::]:123
 Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: Listen and drop on 1 v4wildcard 0.0.0.0:123
 Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: Listen normally on 2 lo 127.0.0.1:123
 Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: Listen normally on 3 ens3 10.0.2.14:123
 Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: Listen normally on 4 ens3 [fe80::f816:3eff:fe7e:1552%2]:123
-"Aug 13 00:08:08 jy-nemox-t1027-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE"
+Aug 13 00:08:08 jy-nemox-t1027-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
 Aug 13 00:08:08 jy-nemox-t1027-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
 Aug 13 00:08:08 jy-nemox-t1027-001 systemd[1]: Failed to start Hostname Service.
 Aug 13 00:08:08 jy-nemox-t1027-001 ntpd[20118]: Listening on routing socket on fd #21 for interface updates
@@ -98,8 +98,8 @@ Aug 13 00:09:07 jy-nemox-t1027-001 kernel: [  725.890798] [UFW BLOCK] IN=ens3 OU
 Aug 13 00:09:24 jy-nemox-t1027-001 kernel: [  742.983938] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:7e:15:52:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.14 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=27319 PROTO=TCP SPT=40268 DPT=8786 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 13 00:09:44 jy-nemox-t1027-001 kernel: [  762.516704] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:7e:15:52:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.166 DST=10.0.2.14 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=17780 PROTO=TCP SPT=42678 DPT=12667 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 13 00:10:01 jy-nemox-t1027-001 CRON[20581]: (pcp) CMD ( /usr/lib/pcp/bin/pmlogger_daily)
-"Aug 13 00:10:12 jy-nemox-t1027-001 systemd-resolved[7904]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP."
-"Aug 13 00:10:12 jy-nemox-t1027-001 systemd-resolved[7904]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]"
+Aug 13 00:10:12 jy-nemox-t1027-001 systemd-resolved[7904]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Aug 13 00:10:12 jy-nemox-t1027-001 systemd-resolved[7904]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
 Aug 13 00:10:23 jy-nemox-t1027-001 kernel: [  801.984975] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:7e:15:52:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.148 DST=10.0.2.14 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=60522 PROTO=TCP SPT=48685 DPT=63618 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 13 00:10:41 jy-nemox-t1027-001 kernel: [  819.659548] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:7e:15:52:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.44 DST=10.0.2.14 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=49197 PROTO=TCP SPT=44053 DPT=3402 WINDOW=1024 RES=0x00 SYN URGP=0 
 Aug 13 00:10:54 jy-nemox-t1027-001 kernel: [  832.206816] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:7e:15:52:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.51 DST=10.0.2.14 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=37509 PROTO=TCP SPT=54085 DPT=3388 WINDOW=1024 RES=0x00 SYN URGP=0 

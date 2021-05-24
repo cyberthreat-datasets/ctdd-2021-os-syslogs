@@ -1,0 +1,292 @@
+Aug  1 00:35:18 mw-virus-001 systemd[1]: Starting Docker Application Container Engine...
+Aug  1 00:35:20 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:20.893359349-05:00"" level=info msg=""Starting up""
+Aug  1 00:35:20 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:20.908071239-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf""
+Aug  1 00:35:21 mw-virus-001 kernel: [  485.214133] audit: type=1400 audit(1596260120.997:21): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=10291 comm=""apparmor_parser""
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.007471754-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.007511788-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.007543879-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.007576205-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.153184718-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.153238336-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.153272939-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.153292909-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.164545786-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2""
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.629230203-05:00"" level=warning msg=""Your kernel does not support swap memory limit""
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.629651177-05:00"" level=warning msg=""Your kernel does not support cgroup rt period""
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.629974964-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime""
+Aug  1 00:35:21 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:21.632021774-05:00"" level=info msg=""Loading containers: start.""
+Aug  1 00:35:21 mw-virus-001 kernel: [  485.965960] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Aug  1 00:35:21 mw-virus-001 kernel: [  485.970382] Bridge firewalling registered
+Aug  1 00:35:21 mw-virus-001 kernel: [  486.205097] Initializing XFRM netlink socket
+Aug  1 00:35:22 mw-virus-001 kernel: [  486.233154] Netfilter messages via NETLINK v0.30.
+Aug  1 00:35:22 mw-virus-001 kernel: [  486.245617] ctnetlink v0.93: registering with nfnetlink.
+Aug  1 00:35:22 mw-virus-001 systemd-udevd[10346]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug  1 00:35:22 mw-virus-001 networkd-dispatcher[1170]: WARNING:Unknown index 3 seen, reloading interface list
+Aug  1 00:35:22 mw-virus-001 systemd-networkd[759]: docker0: Link UP
+Aug  1 00:35:22 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:22.284088352-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address""
+Aug  1 00:35:22 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:22.362690852-05:00"" level=info msg=""Loading containers: done.""
+Aug  1 00:35:23 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:23.145346037-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6
+Aug  1 00:35:23 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:23.147319430-05:00"" level=info msg=""Daemon has completed initialization""
+Aug  1 00:35:23 mw-virus-001 systemd[1]: Started Docker Application Container Engine.
+Aug  1 00:35:23 mw-virus-001 dockerd[10246]: time=""2020-08-01T00:35:23.391049979-05:00"" level=info msg=""API listen on /var/run/docker.sock""
+Aug  1 00:35:30 mw-virus-001 kernel: [  494.763403] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=176.107.131.9 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=60761 PROTO=TCP SPT=46410 DPT=26108 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:35:30 mw-virus-001 kernel: [  494.834150] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+Aug  1 00:35:30 mw-virus-001 kernel: [  494.834191] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=208.100.26.241 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=4797 PROTO=TCP SPT=50877 DPT=21 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:35:46 mw-virus-001 kernel: [  511.062762] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=27623 DF PROTO=TCP SPT=20294 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:35:47 mw-virus-001 kernel: [  511.801911] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.14 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=30519 PROTO=TCP SPT=56696 DPT=24887 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:35:48 mw-virus-001 kernel: [  512.302760] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=49559 PROTO=TCP SPT=55206 DPT=2330 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:35:49 mw-virus-001 kernel: [  514.061579] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=27667 DF PROTO=TCP SPT=20294 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:35:56 mw-virus-001 systemd-resolved[793]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Aug  1 00:35:56 mw-virus-001 systemd-resolved[793]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Aug  1 00:36:31 mw-virus-001 kernel: [  555.763361] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.16 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=61486 PROTO=TCP SPT=49088 DPT=13602 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:36:52 mw-virus-001 kernel: [  576.677734] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=193.27.229.218 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=55309 PROTO=TCP SPT=44235 DPT=4207 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:36:57 mw-virus-001 systemd-timesyncd[594]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
+Aug  1 00:37:02 mw-virus-001 kernel: [  587.197782] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.34 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=21991 PROTO=TCP SPT=58003 DPT=24890 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:37:06 mw-virus-001 kernel: [  590.688250] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.7 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=29592 PROTO=TCP SPT=49443 DPT=5704 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:37:09 mw-virus-001 kernel: [  593.256119] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.30 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=39483 PROTO=TCP SPT=58905 DPT=24900 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:37:20 mw-virus-001 kernel: [  604.280591] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=113.141.177.159 DST=10.0.2.5 LEN=44 TOS=0x00 PREC=0x00 TTL=228 ID=11515 PROTO=TCP SPT=52056 DPT=22122 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:37:35 mw-virus-001 kernel: [  619.396315] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=182.115.171.188 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=37428 PROTO=TCP SPT=31244 DPT=23 WINDOW=54708 RES=0x00 SYN URGP=0 
+Aug  1 00:37:40 mw-virus-001 systemd-networkd[759]: ens3: DHCP lease lost
+Aug  1 00:37:40 mw-virus-001 dbus-daemon[1004]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=100 pid=759 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug  1 00:37:40 mw-virus-001 systemd-timesyncd[594]: Network configuration changed, trying to establish connection.
+Aug  1 00:37:40 mw-virus-001 systemd[1]: Starting Hostname Service...
+Aug  1 00:37:40 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 00:37:40 mw-virus-001 systemd-networkd[759]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 00:37:40 mw-virus-001 systemd-networkd[759]: ens3: Configured
+Aug  1 00:37:40 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 00:37:40 mw-virus-001 systemd[10534]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 00:37:40 mw-virus-001 systemd[10534]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug  1 00:37:40 mw-virus-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
+Aug  1 00:37:40 mw-virus-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 00:37:40 mw-virus-001 systemd[1]: Failed to start Hostname Service.
+Aug  1 00:37:42 mw-virus-001 kernel: [  626.719754] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=28533 DF PROTO=TCP SPT=2717 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:37:45 mw-virus-001 kernel: [  629.714637] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=28577 DF PROTO=TCP SPT=2717 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:38:00 mw-virus-001 kernel: [  644.635364] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=159.65.138.161 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=30366 PROTO=TCP SPT=43372 DPT=4261 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:38:01 mw-virus-001 systemd[1]: Created slice User Slice of ubuntu.
+Aug  1 00:38:01 mw-virus-001 systemd[1]: Starting User Manager for UID 1000...
+Aug  1 00:38:01 mw-virus-001 systemd[1]: Started Session 3 of user ubuntu.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Listening on REST API socket for snapd user session agent.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Listening on GnuPG cryptographic agent and passphrase cache.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Reached target Timers.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Starting D-Bus User Message Bus Socket.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Reached target Paths.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Listening on GnuPG network certificate management daemon.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Listening on D-Bus User Message Bus Socket.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Reached target Sockets.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Reached target Basic System.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Reached target Default.
+Aug  1 00:38:01 mw-virus-001 systemd[10601]: Startup finished in 102ms.
+Aug  1 00:38:01 mw-virus-001 systemd[1]: Started User Manager for UID 1000.
+Aug  1 00:38:05 mw-virus-001 systemd-networkd[759]: Could not set hostname: Method call timed out
+Aug  1 00:38:05 mw-virus-001 systemd-networkd[759]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 00:38:24 mw-virus-001 kernel: [  669.038515] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=146.88.240.4 DST=10.0.2.5 LEN=54 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=UDP SPT=52668 DPT=69 LEN=34 
+Aug  1 00:39:09 mw-virus-001 kernel: [  713.330591] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=195.54.160.53 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=55163 PROTO=TCP SPT=42327 DPT=3301 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:39:12 mw-virus-001 kernel: [  716.779302] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.7 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=42032 PROTO=TCP SPT=49443 DPT=5749 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:39:29 mw-virus-001 kernel: [  733.426783] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.242 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=50403 PROTO=TCP SPT=57047 DPT=14937 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:39:36 mw-virus-001 kernel: [  740.462615] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=29443 DF PROTO=TCP SPT=44434 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:39:39 mw-virus-001 kernel: [  743.454583] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=29487 DF PROTO=TCP SPT=44434 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:39:58 mw-virus-001 kernel: [  762.902900] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=139.186.73.19 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=42 ID=45155 DF PROTO=TCP SPT=58514 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 00:40:11 mw-virus-001 kernel: [  775.870596] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=94.102.49.191 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=35191 PROTO=TCP SPT=58859 DPT=3670 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:40:48 mw-virus-001 kernel: [  813.091951] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=193.32.161.143 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=38582 PROTO=TCP SPT=56207 DPT=5029 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:41:20 mw-virus-001 kernel: [  844.411998] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.14 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=6896 PROTO=TCP SPT=40286 DPT=24980 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:41:24 mw-virus-001 kernel: [  848.304349] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.88.110.218 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=39565 PROTO=TCP SPT=30120 DPT=22 WINDOW=5840 RES=0x00 SYN URGP=0 
+Aug  1 00:41:32 mw-virus-001 kernel: [  856.389504] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=30396 DF PROTO=TCP SPT=27280 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:41:53 mw-virus-001 kernel: [  878.115648] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=49971 PROTO=TCP SPT=55206 DPT=4407 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:42:23 mw-virus-001 systemd[1]: Starting Cleanup of Temporary Directories...
+Aug  1 00:42:24 mw-virus-001 systemd[1]: Started Cleanup of Temporary Directories.
+Aug  1 00:42:36 mw-virus-001 kernel: [  920.956406] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.15 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=2344 PROTO=TCP SPT=50262 DPT=8680 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:42:39 mw-virus-001 systemd-networkd[759]: ens3: DHCP lease lost
+Aug  1 00:42:39 mw-virus-001 dbus-daemon[1004]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=100 pid=759 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug  1 00:42:39 mw-virus-001 systemd[1]: Starting Hostname Service...
+Aug  1 00:42:39 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 00:42:39 mw-virus-001 systemd-networkd[759]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 00:42:39 mw-virus-001 systemd-networkd[759]: ens3: Configured
+Aug  1 00:42:39 mw-virus-001 systemd[10741]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 00:42:39 mw-virus-001 systemd[10741]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug  1 00:42:39 mw-virus-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
+Aug  1 00:42:39 mw-virus-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 00:42:39 mw-virus-001 systemd[1]: Failed to start Hostname Service.
+Aug  1 00:42:41 mw-virus-001 kernel: [  925.265275] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.26 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=10074 PROTO=TCP SPT=58065 DPT=24896 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:43:04 mw-virus-001 systemd-networkd[759]: Could not set hostname: Method call timed out
+Aug  1 00:43:04 mw-virus-001 systemd-networkd[759]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 00:43:23 mw-virus-001 kernel: [  967.899911] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=31259 DF PROTO=TCP SPT=9866 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:43:26 mw-virus-001 kernel: [  970.901361] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=31304 DF PROTO=TCP SPT=9866 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:43:30 mw-virus-001 kernel: [  974.799728] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=6159 PROTO=TCP SPT=55206 DPT=6086 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:43:52 mw-virus-001 kernel: [  996.584705] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=23625 PROTO=TCP SPT=55206 DPT=3376 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:43:59 mw-virus-001 kernel: [ 1004.017151] file[10799]: segfault at fffffffc ip 000000000804807d sp 0000000000000000 error 6 in file[8048000+1000]
+Aug  1 00:44:16 mw-virus-001 kernel: [ 1020.291997] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=32514 PROTO=TCP SPT=55206 DPT=9544 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:44:58 mw-virus-001 kernel: [ 1062.340613] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.11 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=10174 PROTO=TCP SPT=56872 DPT=5699 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:45:05 mw-virus-001 kernel: [ 1069.474384] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=89.248.167.141 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=61524 PROTO=TCP SPT=40634 DPT=5522 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:45:11 mw-virus-001 kernel: [ 1075.588327] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=92.63.196.25 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=48019 PROTO=TCP SPT=56329 DPT=36746 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:45:43 mw-virus-001 kernel: [ 1107.574192] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.13 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54185 PROTO=TCP SPT=49818 DPT=1653 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:46:35 mw-virus-001 kernel: [ 1159.615166] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=92.63.196.25 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=42039 PROTO=TCP SPT=56329 DPT=36745 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:46:39 mw-virus-001 kernel: [ 1163.900274] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.102 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=53437 PROTO=TCP SPT=58063 DPT=24892 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:46:41 mw-virus-001 kernel: [ 1166.196961] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=42.116.53.61 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=48 ID=34662 PROTO=TCP SPT=32852 DPT=23 WINDOW=49004 RES=0x00 SYN URGP=0 
+Aug  1 00:47:04 mw-virus-001 kernel: [ 1188.487617] file_sys[10820]: segfault at fffffffc ip 000000000804807d sp 0000000000000000 error 6 in file_sys[8048000+1000]
+Aug  1 00:47:08 mw-virus-001 kernel: [ 1192.497125] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=310 DF PROTO=TCP SPT=34385 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:47:11 mw-virus-001 kernel: [ 1195.497108] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=355 DF PROTO=TCP SPT=34385 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:47:37 mw-virus-001 systemd-networkd[759]: ens3: DHCP lease lost
+Aug  1 00:47:37 mw-virus-001 dbus-daemon[1004]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=100 pid=759 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug  1 00:47:37 mw-virus-001 systemd[1]: Starting Hostname Service...
+Aug  1 00:47:37 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 00:47:37 mw-virus-001 systemd-networkd[759]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 00:47:37 mw-virus-001 systemd-networkd[759]: ens3: Configured
+Aug  1 00:47:37 mw-virus-001 systemd[10827]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 00:47:37 mw-virus-001 systemd[10827]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug  1 00:47:37 mw-virus-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
+Aug  1 00:47:37 mw-virus-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 00:47:37 mw-virus-001 systemd[1]: Failed to start Hostname Service.
+Aug  1 00:47:40 mw-virus-001 kernel: [ 1225.099357] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=195.54.160.228 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=40069 PROTO=TCP SPT=54315 DPT=34854 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:47:53 mw-virus-001 kernel: [ 1237.947028] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=202.131.69.18 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=55406 DF PROTO=TCP SPT=37872 DPT=22 WINDOW=5840 RES=0x00 SYN URGP=0 
+Aug  1 00:48:02 mw-virus-001 systemd-networkd[759]: Could not set hostname: Method call timed out
+Aug  1 00:48:02 mw-virus-001 systemd-networkd[759]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 00:48:33 mw-virus-001 kernel: [ 1278.151835] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.171.152.215 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=19787 DF PROTO=TCP SPT=27146 DPT=23 WINDOW=14600 RES=0x00 SYN URGP=0 
+Aug  1 00:48:36 mw-virus-001 kernel: [ 1280.296029] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.156.73.45 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=48148 PROTO=TCP SPT=47130 DPT=65465 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:48:56 mw-virus-001 kernel: [ 1301.144643] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=134.209.150.94 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=44592 PROTO=TCP SPT=43992 DPT=12126 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:49:12 mw-virus-001 kernel: [ 1316.281493] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=195.54.160.21 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=28763 PROTO=TCP SPT=40454 DPT=8081 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:49:52 mw-virus-001 kernel: [ 1356.975557] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=89.248.172.85 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=63113 PROTO=TCP SPT=53026 DPT=33894 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:49:57 mw-virus-001 kernel: [ 1362.002928] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.12 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=55234 PROTO=TCP SPT=45046 DPT=8576 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:50:29 mw-virus-001 kernel: [ 1393.272075] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=222.186.61.115 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=54321 PROTO=TCP SPT=40633 DPT=1189 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug  1 00:50:37 mw-virus-001 kernel: [ 1401.837619] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=110.170.180.66 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=13890 PROTO=TCP SPT=53087 DPT=22322 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:51:00 mw-virus-001 kernel: [ 1424.584858] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=2132 DF PROTO=TCP SPT=58595 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:51:25 mw-virus-001 kernel: [ 1449.980087] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.143.223.250 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=19538 PROTO=TCP SPT=58156 DPT=33389 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:51:51 mw-virus-001 kernel: [ 1475.755825] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=193.27.229.215 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=44240 PROTO=TCP SPT=42809 DPT=3384 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:52:08 mw-virus-001 kernel: [ 1492.931943] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=62005 PROTO=TCP SPT=55206 DPT=9701 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:52:27 mw-virus-001 kernel: [ 1511.547842] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=35946 PROTO=TCP SPT=55206 DPT=2478 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:52:35 mw-virus-001 systemd-networkd[759]: ens3: DHCP lease lost
+Aug  1 00:52:35 mw-virus-001 dbus-daemon[1004]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=100 pid=759 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug  1 00:52:35 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 00:52:35 mw-virus-001 systemd[1]: Starting Hostname Service...
+Aug  1 00:52:35 mw-virus-001 systemd-networkd[759]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 00:52:35 mw-virus-001 systemd-networkd[759]: ens3: Configured
+Aug  1 00:52:36 mw-virus-001 systemd[10882]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 00:52:36 mw-virus-001 systemd[10882]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug  1 00:52:36 mw-virus-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
+Aug  1 00:52:36 mw-virus-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 00:52:36 mw-virus-001 systemd[1]: Failed to start Hostname Service.
+Aug  1 00:52:52 mw-virus-001 kernel: [ 1536.829302] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=3041 DF PROTO=TCP SPT=41450 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:52:55 mw-virus-001 kernel: [ 1539.827446] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=3086 DF PROTO=TCP SPT=41450 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:53:00 mw-virus-001 systemd-networkd[759]: Could not set hostname: Method call timed out
+Aug  1 00:53:00 mw-virus-001 systemd-networkd[759]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 00:54:10 mw-virus-001 kernel: [ 1614.778175] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=62626 PROTO=TCP SPT=55206 DPT=3707 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:54:28 mw-virus-001 kernel: [ 1632.764240] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=94.102.51.77 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=19480 PROTO=TCP SPT=52551 DPT=2509 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:54:42 mw-virus-001 kernel: [ 1647.061252] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.15 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=34483 PROTO=TCP SPT=50262 DPT=8664 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:54:44 mw-virus-001 systemd-timesyncd[594]: Synchronized to time server 129.79.5.100:123 (129.79.5.100).
+Aug  1 00:54:46 mw-virus-001 kernel: [ 1650.508612] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.5 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=22374 PROTO=TCP SPT=44601 DPT=4657 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:54:50 mw-virus-001 kernel: [ 1654.546657] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=3951 DF PROTO=TCP SPT=24137 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:54:53 mw-virus-001 kernel: [ 1657.542057] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=3995 DF PROTO=TCP SPT=24137 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:55:01 mw-virus-001 CRON[10928]: (pcp) CMD ( /usr/lib/pcp/bin/pmlogger_check -C)
+Aug  1 00:55:18 mw-virus-001 kernel: [ 1682.722973] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=222.186.61.19 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=54321 PROTO=TCP SPT=38319 DPT=8085 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug  1 00:55:43 mw-virus-001 kernel: [ 1707.560693] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=89.248.172.85 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=55787 PROTO=TCP SPT=53026 DPT=33920 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:55:55 mw-virus-001 kernel: [ 1719.902446] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=89.248.168.217 DST=10.0.2.5 LEN=57 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=UDP SPT=49680 DPT=593 LEN=37 
+Aug  1 00:56:13 mw-virus-001 kernel: [ 1737.682692] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=202.152.1.89 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=23412 PROTO=TCP SPT=44195 DPT=30498 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:56:34 mw-virus-001 kernel: [ 1758.885219] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.176.27.30 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=44881 PROTO=TCP SPT=58905 DPT=24899 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:56:57 mw-virus-001 kernel: [ 1782.076073] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=193.27.229.220 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=45762 PROTO=TCP SPT=44388 DPT=6004 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:57:18 mw-virus-001 kernel: [ 1802.652379] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=87.251.73.231 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=7024 PROTO=TCP SPT=41209 DPT=29000 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:57:32 mw-virus-001 systemd-networkd[759]: ens3: DHCP lease lost
+Aug  1 00:57:32 mw-virus-001 dbus-daemon[1004]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=100 pid=759 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug  1 00:57:32 mw-virus-001 systemd-timesyncd[594]: Network configuration changed, trying to establish connection.
+Aug  1 00:57:32 mw-virus-001 systemd[1]: Starting Hostname Service...
+Aug  1 00:57:33 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 00:57:33 mw-virus-001 systemd-networkd[759]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 00:57:33 mw-virus-001 systemd-networkd[759]: ens3: Configured
+Aug  1 00:57:33 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 00:57:33 mw-virus-001 systemd[11304]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 00:57:33 mw-virus-001 systemd[11304]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug  1 00:57:33 mw-virus-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
+Aug  1 00:57:33 mw-virus-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 00:57:33 mw-virus-001 systemd[1]: Failed to start Hostname Service.
+Aug  1 00:57:57 mw-virus-001 systemd-networkd[759]: Could not set hostname: Method call timed out
+Aug  1 00:57:57 mw-virus-001 systemd-networkd[759]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 00:58:00 mw-virus-001 kernel: [ 1844.713295] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=179.191.123.46 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=39878 PROTO=TCP SPT=46778 DPT=8840 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:58:01 mw-virus-001 CRON[11353]: (pcp) CMD ( /usr/lib/pcp/bin/pmie_check -C)
+Aug  1 00:58:02 mw-virus-001 kernel: [ 1846.998327] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=94.102.49.191 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=36322 PROTO=TCP SPT=58859 DPT=3503 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:58:36 mw-virus-001 kernel: [ 1880.768290] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=5769 DF PROTO=TCP SPT=48353 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 00:58:36 mw-virus-001 kernel: [ 1880.888099] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=94.102.51.77 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=46646 PROTO=TCP SPT=52551 DPT=2542 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:58:54 mw-virus-001 kernel: [ 1898.624706] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=193.27.229.217 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=27171 PROTO=TCP SPT=43823 DPT=600 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:59:21 mw-virus-001 kernel: [ 1925.342643] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=23545 PROTO=TCP SPT=55206 DPT=3408 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 00:59:44 mw-virus-001 kernel: [ 1949.111804] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=111.229.147.125 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=41 ID=55141 PROTO=TCP SPT=21223 DPT=23 WINDOW=52740 RES=0x00 SYN URGP=0 
+Aug  1 01:00:20 mw-virus-001 kernel: [ 1984.599562] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.9 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=30228 PROTO=TCP SPT=49632 DPT=11162 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:00:32 mw-virus-001 kernel: [ 1996.654624] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=6680 DF PROTO=TCP SPT=31216 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 01:00:35 mw-virus-001 kernel: [ 1999.650545] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=6724 DF PROTO=TCP SPT=31216 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 01:01:01 mw-virus-001 kernel: [ 2025.268265] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=220.134.58.141 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=49 ID=9362 PROTO=TCP SPT=63049 DPT=23 WINDOW=18654 RES=0x00 SYN URGP=0 
+Aug  1 01:01:17 mw-virus-001 kernel: [ 2041.218389] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=159.65.136.196 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=7455 PROTO=TCP SPT=48878 DPT=15371 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:01:37 mw-virus-001 kernel: [ 2061.421352] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=193.27.229.222 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=595 PROTO=TCP SPT=44731 DPT=16008 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:01:54 mw-virus-001 kernel: [ 2078.543731] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=122.51.77.128 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=19506 PROTO=TCP SPT=50908 DPT=10989 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:02:26 mw-virus-001 kernel: [ 2110.316915] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=7588 DF PROTO=TCP SPT=13893 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 01:02:30 mw-virus-001 systemd-networkd[759]: ens3: DHCP lease lost
+Aug  1 01:02:30 mw-virus-001 dbus-daemon[1004]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=100 pid=759 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug  1 01:02:30 mw-virus-001 systemd[1]: Starting Hostname Service...
+Aug  1 01:02:30 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 01:02:30 mw-virus-001 systemd-networkd[759]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 01:02:30 mw-virus-001 systemd-networkd[759]: ens3: Configured
+Aug  1 01:02:30 mw-virus-001 systemd[11525]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 01:02:30 mw-virus-001 systemd[11525]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug  1 01:02:30 mw-virus-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
+Aug  1 01:02:30 mw-virus-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 01:02:30 mw-virus-001 systemd[1]: Failed to start Hostname Service.
+Aug  1 01:02:37 mw-virus-001 kernel: [ 2121.585752] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=80.82.77.139 DST=10.0.2.5 LEN=44 TOS=0x00 PREC=0x00 TTL=117 ID=65485 PROTO=TCP SPT=29011 DPT=8001 WINDOW=47091 RES=0x00 SYN URGP=0 
+Aug  1 01:02:55 mw-virus-001 systemd-networkd[759]: Could not set hostname: Method call timed out
+Aug  1 01:02:55 mw-virus-001 systemd-networkd[759]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 01:03:10 mw-virus-001 kernel: [ 2154.595342] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=98.199.162.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=5575 DF PROTO=TCP SPT=50916 DPT=81 WINDOW=14600 RES=0x00 SYN URGP=0 
+Aug  1 01:03:22 mw-virus-001 kernel: [ 2166.710358] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=122.51.237.131 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=41 ID=13114 DF PROTO=TCP SPT=37384 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 01:03:54 mw-virus-001 kernel: [ 2198.697429] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=92.63.196.27 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=23426 PROTO=TCP SPT=58789 DPT=42162 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:03:59 mw-virus-001 kernel: [ 2203.344522] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.5 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=43933 PROTO=TCP SPT=44601 DPT=4652 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:04:12 mw-virus-001 kernel: [ 2217.002522] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=51733 PROTO=TCP SPT=55206 DPT=9813 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:05:03 mw-virus-001 kernel: [ 2267.711940] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=195.54.160.155 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=49035 PROTO=TCP SPT=46666 DPT=59801 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:05:06 mw-virus-001 kernel: [ 2270.780942] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=167.88.161.157 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=52874 DPT=554 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug  1 01:05:11 mw-virus-001 kernel: [ 2275.602190] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=210.179.39.228 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=46 ID=22863 PROTO=TCP SPT=33468 DPT=5555 WINDOW=28934 RES=0x00 SYN URGP=0 
+Aug  1 01:05:47 mw-virus-001 kernel: [ 2311.759698] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.11 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=45910 PROTO=TCP SPT=56872 DPT=5657 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:05:51 mw-virus-001 kernel: [ 2316.068852] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=195.54.160.183 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=115 ID=15473 DF PROTO=TCP SPT=32126 DPT=22 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 01:06:11 mw-virus-001 kernel: [ 2335.664173] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=1.53.26.85 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=1116 PROTO=TCP SPT=43184 DPT=23 WINDOW=45992 RES=0x00 SYN URGP=0 
+Aug  1 01:06:49 mw-virus-001 kernel: [ 2373.828793] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=47.99.134.42 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=41 ID=13817 DF PROTO=TCP SPT=50383 DPT=7001 WINDOW=14600 RES=0x00 SYN URGP=0 
+Aug  1 01:06:50 mw-virus-001 kernel: [ 2374.827905] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=47.99.134.42 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=41 ID=13818 DF PROTO=TCP SPT=50383 DPT=7001 WINDOW=14600 RES=0x00 SYN URGP=0 
+Aug  1 01:07:12 mw-virus-001 kernel: [ 2396.528434] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=54.38.65.215 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=44 ID=14395 DF PROTO=TCP SPT=34735 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 01:07:29 mw-virus-001 systemd-networkd[759]: ens3: DHCP lease lost
+Aug  1 01:07:29 mw-virus-001 dbus-daemon[1004]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=100 pid=759 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug  1 01:07:29 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 01:07:29 mw-virus-001 systemd[1]: Starting Hostname Service...
+Aug  1 01:07:29 mw-virus-001 systemd-networkd[759]: ens3: DHCPv4 address 10.0.2.5/24 via 10.0.2.1
+Aug  1 01:07:29 mw-virus-001 systemd-networkd[759]: ens3: Configured
+Aug  1 01:07:29 mw-virus-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug  1 01:07:29 mw-virus-001 systemd[11594]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug  1 01:07:29 mw-virus-001 systemd[11594]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug  1 01:07:29 mw-virus-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
+Aug  1 01:07:29 mw-virus-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug  1 01:07:29 mw-virus-001 systemd[1]: Failed to start Hostname Service.
+Aug  1 01:07:45 mw-virus-001 kernel: [ 2430.108825] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=45.145.66.22 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=23448 PROTO=TCP SPT=41673 DPT=12270 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug  1 01:07:54 mw-virus-001 systemd-networkd[759]: Could not set hostname: Method call timed out
+Aug  1 01:07:54 mw-virus-001 systemd-networkd[759]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug  1 01:08:05 mw-virus-001 kernel: [ 2449.372148] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=111.251.67.203 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=49 ID=19552 PROTO=TCP SPT=25751 DPT=23 WINDOW=29829 RES=0x00 SYN URGP=0 
+Aug  1 01:08:15 mw-virus-001 kernel: [ 2460.167317] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=89.248.168.51 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=48667 DPT=4022 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug  1 01:08:36 mw-virus-001 kernel: [ 2481.153726] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=146.88.240.4 DST=10.0.2.5 LEN=37 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=UDP SPT=36115 DPT=7787 LEN=17 
+Aug  1 01:08:52 mw-virus-001 kernel: [ 2497.096301] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=62.234.137.128 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=44 ID=56853 DF PROTO=TCP SPT=47150 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug  1 01:09:24 mw-virus-001 kernel: [ 2528.354572] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=129.28.163.90 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=42 ID=11191 DF PROTO=TCP SPT=53100 DPT=22 WINDOW=64240 RES=0x00 SYN URGP=0 
+Aug  1 01:09:31 mw-virus-001 kernel: [ 2535.653501] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=129.28.163.90 DST=10.0.2.5 LEN=60 TOS=0x00 PREC=0x00 TTL=42 ID=11194 DF PROTO=TCP SPT=53100 DPT=22 WINDOW=64240 RES=0x00 SYN URGP=0 
+Aug  1 01:09:52 mw-virus-001 kernel: [ 2556.681912] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=185.75.97.30 DST=10.0.2.5 LEN=40 TOS=0x08 PREC=0x20 TTL=45 ID=36073 PROTO=TCP SPT=1833 DPT=9530 WINDOW=59431 RES=0x00 SYN URGP=0 
+Aug  1 01:10:18 mw-virus-001 kernel: [ 2582.997724] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=125.64.94.130 DST=10.0.2.5 LEN=58 TOS=0x00 PREC=0x00 TTL=236 ID=54321 PROTO=UDP SPT=35526 DPT=69 LEN=38 
+Aug  1 01:10:36 mw-virus-001 kernel: [ 2600.606843] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=78.128.113.246 DST=10.0.2.5 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=11227 DF PROTO=TCP SPT=2205 DPT=5901 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Aug  1 01:10:46 mw-virus-001 systemd[1]: Stopping User Manager for UID 1000...
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Stopped target Default.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Stopped target Basic System.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Stopped target Paths.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Stopped target Sockets.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Closed REST API socket for snapd user session agent.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Closed GnuPG network certificate management daemon.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Stopped target Timers.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Closed D-Bus User Message Bus Socket.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Closed GnuPG cryptographic agent and passphrase cache.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Reached target Shutdown.
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Starting Exit the Session...
+Aug  1 01:10:46 mw-virus-001 systemd[10601]: Received SIGRTMIN+24 from PID 11657 (kill).
+Aug  1 01:10:46 mw-virus-001 systemd[1]: user@1000.service: Killing process 11657 (kill) with signal SIGKILL.
+Aug  1 01:10:46 mw-virus-001 systemd[1]: Stopped User Manager for UID 1000.
+Aug  1 01:10:46 mw-virus-001 systemd[1]: Removed slice User Slice of ubuntu.
+Aug  1 01:11:07 mw-virus-001 kernel: [ 2632.137045] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=216.218.206.78 DST=10.0.2.5 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=54321 PROTO=TCP SPT=49805 DPT=7547 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug  1 01:11:12 mw-virus-001 kernel: [ 2636.398446] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:2f:2b:fd:fa:16:3e:7a:01:fb:08:00 SRC=94.8.79.144 DST=10.0.2.5 LEN=44 TOS=0x00 PREC=0x00 TTL=52 ID=18337 PROTO=TCP SPT=33289 DPT=23 WINDOW=53585 RES=0x00 SYN URGP=0 

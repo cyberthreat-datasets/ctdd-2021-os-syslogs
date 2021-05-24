@@ -1,0 +1,135 @@
+Aug 12 00:06:52 jy-nf3ct0r-t1027-001 systemd[1]: Starting Docker Application Container Engine...
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.558737020-05:00"" level=info msg=""Starting up""
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.569106302-05:00"" level=info msg=""detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf""
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 kernel: [  705.618848] audit: type=1400 audit(1597208815.662:25): apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" name=""docker-default"" pid=18828 comm=""apparmor_parser""
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.669962236-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.670331767-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.670667637-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.670982862-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.688956504-05:00"" level=info msg=""parsed scheme: \""unix\"""" module=grpc
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.689020539-05:00"" level=info msg=""scheme \""unix\"" not registered, fallback to default scheme"" module=grpc
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.689051266-05:00"" level=info msg=""ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock 0  <nil>}] <nil>}"" module=grpc
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.689067352-05:00"" level=info msg=""ClientConn switching balancer to \""pick_first\"""" module=grpc
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.698632119-05:00"" level=info msg=""[graphdriver] using prior storage driver: overlay2""
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.766935979-05:00"" level=warning msg=""Your kernel does not support swap memory limit""
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.766976122-05:00"" level=warning msg=""Your kernel does not support cgroup rt period""
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.766990620-05:00"" level=warning msg=""Your kernel does not support cgroup rt runtime""
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:55.769778626-05:00"" level=info msg=""Loading containers: start.""
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 kernel: [  705.746753] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Aug 12 00:06:55 jy-nf3ct0r-t1027-001 kernel: [  705.812090] Bridge firewalling registered
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 kernel: [  706.019191] Initializing XFRM netlink socket
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 kernel: [  706.046254] Netfilter messages via NETLINK v0.30.
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 kernel: [  706.058684] ctnetlink v0.93: registering with nfnetlink.
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 systemd-udevd[18885]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 systemd-networkd[7516]: docker0: Link UP
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 networkd-dispatcher[941]: WARNING:Unknown index 3 seen, reloading interface list
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:56.246838127-05:00"" level=info msg=""Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address""
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:56.326714859-05:00"" level=info msg=""Loading containers: done.""
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:56.867439329-05:00"" level=info msg=""Docker daemon"" commit=369ce74a3c graphdriver(s)=overlay2 version=19.03.6
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:56.869683424-05:00"" level=info msg=""Daemon has completed initialization""
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 systemd[1]: Started Docker Application Container Engine.
+Aug 12 00:06:56 jy-nf3ct0r-t1027-001 dockerd[18756]: time=""2020-08-12T00:06:56.970605637-05:00"" level=info msg=""API listen on /var/run/docker.sock""
+Aug 12 00:07:14 jy-nf3ct0r-t1027-001 kernel: [  724.036498] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.9 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=23221 PROTO=TCP SPT=48570 DPT=11493 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd-networkd[7516]: ens3: DHCP lease lost
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.20' (uid=100 pid=7516 comm=""/lib/systemd/systemd-networkd "" label=""unconfined"")
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: Starting Hostname Service...
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd-networkd[7516]: ens3: DHCPv4 address 10.0.2.29/24 via 10.0.2.1
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd-networkd[7516]: ens3: Configured
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: Stopping Network Time Service...
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[17948]: ntpd exiting on signal 15 (Terminated)
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: Stopped Network Time Service.
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[17948]: 129.79.5.100 local addr 10.0.2.29 -> <null>
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: Starting Network Time Service...
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[19046]: systemd-hostnamed.service: Failed to set up mount namespacing: No such file or directory
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[19046]: systemd-hostnamed.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-hostnamed: No such file or directory
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19074]: ntpd 4.2.8p10@1.3728-o (1): Starting
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19074]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 111:115
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: Started Network Time Service.
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: systemd-hostnamed.service: Main process exited, code=exited, status=226/NAMESPACE
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: systemd-hostnamed.service: Failed with result 'exit-code'.
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 systemd[1]: Failed to start Hostname Service.
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: proto: precision = 0.069 usec (-24)
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: Listen and drop on 0 v6wildcard [::]:123
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: Listen normally on 2 lo 127.0.0.1:123
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: Listen normally on 3 ens3 10.0.2.29:123
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: Listen normally on 4 ens3 [fe80::f816:3eff:fecf:f917%2]:123
+Aug 12 00:07:17 jy-nf3ct0r-t1027-001 ntpd[19077]: Listening on routing socket on fd #21 for interface updates
+Aug 12 00:07:18 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 208.88.126.235
+Aug 12 00:07:19 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 162.159.200.1
+Aug 12 00:07:19 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 204.11.201.12
+Aug 12 00:07:20 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 198.144.194.12
+Aug 12 00:07:20 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 216.229.4.66
+Aug 12 00:07:20 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 50.205.244.37
+Aug 12 00:07:21 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 207.244.103.95
+Aug 12 00:07:21 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 69.164.213.136
+Aug 12 00:07:21 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 208.67.75.242
+Aug 12 00:07:21 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 12.167.151.1
+Aug 12 00:07:22 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 208.67.72.43
+Aug 12 00:07:22 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 64.251.10.152
+Aug 12 00:07:22 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 129.250.35.251
+Aug 12 00:07:22 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 91.189.89.198
+Aug 12 00:07:23 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 91.189.91.157
+Aug 12 00:07:23 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 159.203.82.102
+Aug 12 00:07:23 jy-nf3ct0r-t1027-001 ntpd[19077]: Soliciting pool server 163.237.218.19
+Aug 12 00:07:42 jy-nf3ct0r-t1027-001 systemd-networkd[7516]: Could not set hostname: Method call timed out
+Aug 12 00:07:42 jy-nf3ct0r-t1027-001 systemd-networkd[7516]: Could not set hostname: Failed to activate service 'org.freedesktop.hostname1': timed out (service_start_timeout=25000ms)
+Aug 12 00:07:51 jy-nf3ct0r-t1027-001 kernel: [  761.757972] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=91.241.19.15 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=29733 PROTO=TCP SPT=46557 DPT=19352 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:07:58 jy-nf3ct0r-t1027-001 kernel: [  768.822928] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=184.105.139.67 DST=10.0.2.29 LEN=113 TOS=0x00 PREC=0x00 TTL=52 ID=25028 DF PROTO=UDP SPT=11099 DPT=161 LEN=93 
+Aug 12 00:08:01 jy-nf3ct0r-t1027-001 CRON[19431]: (pcp) CMD ( /usr/lib/pcp/bin/pmie_daily -X xz -x 3)
+Aug 12 00:08:26 jy-nf3ct0r-t1027-001 kernel: [  796.696328] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=183.111.148.118 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=18530 PROTO=TCP SPT=42292 DPT=11718 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:08:41 jy-nf3ct0r-t1027-001 kernel: [  811.171797] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=29298 PROTO=TCP SPT=40268 DPT=7766 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:08:43 jy-nf3ct0r-t1027-001 kernel: [  813.320545] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=223.71.167.165 DST=10.0.2.29 LEN=44 TOS=0x08 PREC=0x20 TTL=106 ID=36349 PROTO=TCP SPT=8205 DPT=16993 WINDOW=29200 RES=0x00 SYN URGP=0 
+Aug 12 00:08:48 jy-nf3ct0r-t1027-001 kernel: [  818.050613] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=213.74.115.211 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=43683 PROTO=TCP SPT=43368 DPT=17678 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:08:55 jy-nf3ct0r-t1027-001 kernel: [  825.641501] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=10.255.29.42 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=50 ID=49380 PROTO=TCP SPT=60609 DPT=8080 WINDOW=15829 RES=0x00 SYN URGP=0 
+Aug 12 00:08:59 jy-nf3ct0r-t1027-001 kernel: [  829.033429] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=185.137.233.123 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=36012 PROTO=TCP SPT=49755 DPT=7013 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:09:04 jy-nf3ct0r-t1027-001 kernel: [  834.457877] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=58073 PROTO=TCP SPT=40268 DPT=8899 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:09:08 jy-nf3ct0r-t1027-001 kernel: [  838.441539] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=45.129.33.7 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54605 PROTO=TCP SPT=50815 DPT=6189 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:09:33 jy-nf3ct0r-t1027-001 kernel: [  863.191651] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=172.93.99.2 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=45813 DPT=8000 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug 12 00:09:36 jy-nf3ct0r-t1027-001 kernel: [  866.392841] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=7589 PROTO=TCP SPT=40268 DPT=3762 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 systemd-networkd[7516]: ens3: Configured
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 systemd[1]: Started ntp-systemd-netif.service.
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 systemd[1]: Stopping Network Time Service...
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: ntpd exiting on signal 15 (Terminated)
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 208.88.126.235 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 162.159.200.1 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 204.11.201.12 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 216.229.4.66 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 systemd[1]: Stopped Network Time Service.
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 198.144.194.12 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 systemd[1]: Starting Network Time Service...
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 50.205.244.37 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 69.164.213.136 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 207.244.103.95 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 208.67.75.242 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 12.167.151.1 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 129.250.35.251 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 64.251.10.152 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 208.67.72.43 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 91.189.89.198 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 163.237.218.19 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 159.203.82.102 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19077]: 91.189.91.157 local addr 10.0.2.29 -> <null>
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19850]: ntpd 4.2.8p10@1.3728-o (1): Starting
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19850]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -c /run/ntp.conf.dhcp -u 111:115
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 systemd[1]: Started Network Time Service.
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: proto: precision = 0.071 usec (-24)
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: Listen and drop on 0 v6wildcard [::]:123
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: Listen normally on 2 lo 127.0.0.1:123
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: Listen normally on 3 ens3 10.0.2.29:123
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: Listen normally on 4 ens3 [fe80::f816:3eff:fecf:f917%2]:123
+Aug 12 00:09:45 jy-nf3ct0r-t1027-001 ntpd[19854]: Listening on routing socket on fd #21 for interface updates
+Aug 12 00:09:57 jy-nf3ct0r-t1027-001 kernel: [  887.228514] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=103.145.12.210 DST=10.0.2.29 LEN=444 TOS=0x00 PREC=0x00 TTL=50 ID=24275 DF PROTO=UDP SPT=5169 DPT=5060 LEN=424 
+Aug 12 00:10:01 jy-nf3ct0r-t1027-001 CRON[19862]: (pcp) CMD ( /usr/lib/pcp/bin/pmlogger_daily)
+Aug 12 00:10:05 jy-nf3ct0r-t1027-001 kernel: [  894.982521] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=185.154.13.29 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=50340 PROTO=TCP SPT=40268 DPT=9653 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:10:07 jy-nf3ct0r-t1027-001 systemd-resolved[7558]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Aug 12 00:10:13 jy-nf3ct0r-t1027-001 kernel: [  903.892902] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=222.195.69.23 DST=10.0.2.29 LEN=48 TOS=0x00 PREC=0x00 TTL=103 ID=41395 PROTO=TCP SPT=6487 DPT=60001 WINDOW=65535 RES=0x00 SYN URGP=0 
+Aug 12 00:10:23 jy-nf3ct0r-t1027-001 kernel: [  913.291138] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=94.102.51.17 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=42598 PROTO=TCP SPT=48526 DPT=6317 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:10:23 jy-nf3ct0r-t1027-001 kernel: [  913.340620] [UFW BLOCK] IN=ens3 OUT= MAC=fa:16:3e:cf:f9:17:fa:16:3e:7a:01:fb:08:00 SRC=193.93.62.13 DST=10.0.2.29 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=14942 PROTO=TCP SPT=45636 DPT=3373 WINDOW=1024 RES=0x00 SYN URGP=0 
+Aug 12 00:10:23 jy-nf3ct0r-t1027-001 kernel: [  913.469287] Nf3ct0r[20189]: segfault at 8048000 ip 00007f326ffc1020 sp 00007ffe27927158 error 4 in libc-2.27.so[7f326fe36000+1e7000]

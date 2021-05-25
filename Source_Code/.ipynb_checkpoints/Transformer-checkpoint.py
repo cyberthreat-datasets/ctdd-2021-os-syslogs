@@ -713,7 +713,10 @@ def test(args):
     window_size = args.window_size
     use_cuda = args.num_gpus > 0
 
-    model = torch.load(os.path.join(args.model_dir, "global_model.pt" if args.federated else "centralized_model.pt"))
+    if args.model_file:
+        model = torch.load(os.path.join(args.model_dir, args.model_file))    
+    else:
+        model = torch.load(os.path.join(args.model_dir, "global_model.pt" if args.federated else "centralized_model.pt"))
     
     if use_cuda:
         device = "cuda:0"

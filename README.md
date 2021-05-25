@@ -64,7 +64,15 @@ The notebook parser.ipynb is to be used for:
 The notebook pkl_to_logfile.ipynb is for extracting logs in pkl to csv.
 
 Saved Models
-centralized_model: 2 encoder/decoders
-centralized_models: 
-
+   Base models without federated learning, practicum is for CTDD dataset:
+   centralized_model: 2 encoders/decoders
+   centralized_models: 1 encoder/decoder
+   centralized_models_practicum: 6 encoders/decoders
+   
+   Federated models, practicum is for CTDD dataset
+   2c_1l_2h: 2 clients, 1 layer, 2 heads:
+   global_model_2c_1l_2h: 1 encoder/decoder
+   global_models: 1 encoder/decoder
+   global_models_practicum: 4 encoders/decoders
+   global_models_practicum2: 4 encoders/decoders
     

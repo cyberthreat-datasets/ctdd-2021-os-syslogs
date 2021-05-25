@@ -1,0 +1,150 @@
+INFO:root:Testing Normal Time: 0m 3s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 2s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 3s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 2s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 3s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 3s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 3s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 2s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 3s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 3s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%
+INFO:root:Testing Normal Time: 0m 15s
+INFO:root:False positive (FP): 16
+INFO:root:True negative (TN): 74
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 48
+INFO:root:False negative (FN): 27
+INFO:root:Accuracy: 73.939%, 
+Precision: 75.000%, 
+Recall: 64.000%, 
+F1-measure: 69.065%
+INFO:root:Testing Normal Time: 0m 12s
+INFO:root:False positive (FP): 16
+INFO:root:True negative (TN): 74
+INFO:root:Testing Abnormal Time: 0m 2s
+INFO:root:True positive (TP): 48
+INFO:root:False negative (FN): 27
+INFO:root:Accuracy: 73.939%, 
+Precision: 75.000%, 
+Recall: 64.000%, 
+F1-measure: 69.065%
+INFO:root:Testing Normal Time: 0m 13s
+INFO:root:False positive (FP): 16
+INFO:root:True negative (TN): 74
+INFO:root:Testing Abnormal Time: 0m 2s
+INFO:root:True positive (TP): 48
+INFO:root:False negative (FN): 27
+INFO:root:Accuracy: 73.939%, 
+Precision: 75.000%, 
+Recall: 64.000%, 
+F1-measure: 69.065%
+INFO:root:Testing Normal Time: 0m 12s
+INFO:root:False positive (FP): 16
+INFO:root:True negative (TN): 74
+INFO:root:Testing Abnormal Time: 0m 2s
+INFO:root:True positive (TP): 48
+INFO:root:False negative (FN): 27
+INFO:root:Accuracy: 73.939%, 
+Precision: 75.000%, 
+Recall: 64.000%, 
+F1-measure: 69.065%
+INFO:root:Testing Normal Time: 0m 12s
+INFO:root:False positive (FP): 16
+INFO:root:True negative (TN): 74
+INFO:root:Testing Abnormal Time: 0m 2s
+INFO:root:True positive (TP): 48
+INFO:root:False negative (FN): 27
+INFO:root:Accuracy: 73.939%, 
+Precision: 75.000%, 
+Recall: 64.000%, 
+F1-measure: 69.065%
+INFO:root:Testing Normal Time: 0m 3s
+INFO:root:False positive (FP): 199
+INFO:root:True negative (TN): 1
+INFO:root:Testing Abnormal Time: 0m 3s
+INFO:root:True positive (TP): 200
+INFO:root:False negative (FN): 0
+INFO:root:Accuracy: 50.250%, 
+Precision: 50.125%, 
+Recall: 100.000%, 
+F1-measure: 66.778%

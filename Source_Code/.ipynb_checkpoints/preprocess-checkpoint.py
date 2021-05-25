@@ -234,7 +234,7 @@ def federated_split(log_seq, log_source, clients):
         
 def backtrace(pred, log_source, algorithm):
     #log_template = pd.read_csv(algorithm + "_result/practicum_and_abnormal/" + log_source + "_templates.csv")
-    log_template = pd.read_csv("../Source_Code/" + algorithm + "_result/CTDD/" + log_source + "_templates.csv")
+    log_template = pd.read_csv("../Source_Code/" + algorithm + "_result/" + log_source + "_templates.csv")
 #     y = np.squeeze(pred.tolist())
     
     for log in pred:

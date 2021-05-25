@@ -40,7 +40,7 @@ The default values for various paramters parsed to the experiment are given in t
    --num_classes', type=int, help='number of total log keys'
    --num_candidates', default=10, type=int, help='number of predictors sequence as correct predict'
     
-   --federated', default=False, type=bool, help='federated involved'      
+   --federated', default=False, type=bool, help='federated involved'
    --num_gpus', default=1, type=int, help='number of gpus of gpus to train'
    --model_dir', default='Model', type=str, help='the directory to store the model'
    --data_dir', default='Dataset', type=str, help='the directory where training data is stored'
@@ -51,6 +51,8 @@ Additional Federated Parameters:
    --rounds', default=2, type=int, help='number of rounds'
    --frac', default=1.0, type=float, help='percentage of users to use per round'
 
+Auxiliary Notebooks
+
 The notebook detection.ipynb is for easier experimentation along with exposure to:
     data, log templates, log sequences, model training and evaluation
 
@@ -60,4 +62,9 @@ The notebook parser.ipynb is to be used for:
     changing length of sequence by time with time_seq 
     
 The notebook pkl_to_logfile.ipynb is for extracting logs in pkl to csv.
+
+Saved Models
+centralized_model: 2 encoder/decoders
+centralized_models: 
+
     

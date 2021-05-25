@@ -2,6 +2,10 @@
 
 A Pytorch implementation of Interpretable Federated Transformer Log Learning for Threat Forensics.
 
+Dataset
+
+The original HDFS logs can be found http://people.iiis.tsinghua.edu.cn/~weixu/sospdata.html.
+
 Running the experiments
 
 The baseline experiment trains the model in the conventional way.

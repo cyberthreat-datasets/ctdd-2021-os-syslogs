@@ -20,6 +20,8 @@ To run the federated experiment :
 
    python federated_train.py --num_classes=449 --epochs=5 --batch_size=2048 --num_layers=4 --num_heads=2 --clients=4 --rounds=10
 
+The required parameter for training is --num_classes, for HDFS it is 29 and for CTDD it is 449.
+
 The default values for various paramters parsed to the experiment are given in train.py. Details are given some of those parameters:
    --log_file', default='Linux/linux_train', type=str, help='parsed log file'
    --log_normal', default='Linux/linux_test_normal', type=str, help='parsed log file of normal testing data'

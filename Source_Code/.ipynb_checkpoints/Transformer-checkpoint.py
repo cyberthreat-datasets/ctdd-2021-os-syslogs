@@ -584,35 +584,31 @@ def train(args):
     dataloader = DataLoader(seq_dataset, batch, shuffle =True)
     
     start_time = time.time()
-    if use_cuda:
-        model.cuda()
-        criterion.cuda()
-        model_par = nn.DataParallel(model, device_ids = devices)
 
-        for epoch in tqdm(range(epochs)):
-            model_par.train()
-            run_epoch(data_gen(dataloader), model_par, 
-                                MultiGPULossCompute(model.generator, criterion, devices = devices, opt = model_opt))
-            
-            # model_par.eval()
-            # loss = run_epoch(data_gen(dataloader), model_par, 
-            #                           MultiGPULossCompute(model.generator, criterion, devices = devices, opt =None))            
-#             print(loss)
-            
-            epoch_mins, epoch_secs = epoch_time(start_time, time.time())
-            logging.info(f'Training Time: {epoch_mins}m {epoch_secs}s')    
+    model.cuda()
+    criterion.cuda()
+    model_par = nn.DataParallel(model, device_ids = devices)
 
-            if not os.path.exists(args.model_dir):
-                os.mkdir(args.model_dir)
+    for epoch in tqdm(range(epochs)):
+        model_par.train()
+        run_epoch(data_gen(dataloader), model_par, 
+                            MultiGPULossCompute(model.generator, criterion, devices = devices, opt = model_opt))
 
-            torch.save(model, os.path.join(args.model_dir, "centralized_model.pt"))
+        # Validation
+        # model_par.eval()
+        # loss = run_epoch(data_gen(dataloader), model_par, 
+        #                           MultiGPULossCompute(model.generator, criterion, devices = devices, opt =None))            
+        # print(loss)
 
-            test(args)
-    else:
-        model.train()
-        run_epoch(data_gen(args.log_file, window_size, batch), model, SimpleLossCompute(model.generator, criterion, model_opt))
-        # model.eval()
-        # print(run_epoch(data_gen(log_file, window_size, batch), model, SimpleLossCompute(model.generator, criterion, None)))
+        epoch_mins, epoch_secs = epoch_time(start_time, time.time())
+        logging.info(f'Training Time: {epoch_mins}m {epoch_secs}s')    
+
+        if not os.path.exists(args.model_dir):
+            os.mkdir(args.model_dir)
+
+        torch.save(model, os.path.join(args.model_dir, "centralized_model.pt"))
+
+        test(args)
 
     return model
 
@@ -648,86 +644,53 @@ def federated_training(args):
     if not os.path.exists(args.model_dir):
         os.mkdir(args.model_dir)
 
-    if use_cuda:
-        global_model.cuda()
-        criterion.cuda()
-        model_par = nn.DataParallel(global_model, device_ids = devices)
+    global_model.cuda()
+    criterion.cuda()
+    model_par = nn.DataParallel(global_model, device_ids = devices)
 
-        global_model.train()
-        global_weights = global_model.state_dict()
+    global_model.train()
+    global_weights = global_model.state_dict()
 
-        for roundd in tqdm(range(rounds)):
-            local_weights, local_losses = [], []
-            print(f'\n | Global Training Round : {roundd+1} |\n')
-            logging.info(f'\n | Global Training Round : {roundd+1} |\n')
-            
-            m = max(int(frac * clients), 1)
-            idxs_users = np.random.choice(range(1, clients+1), m, replace =False)
-            
-            for i in idxs_users:
-                client_file = args.log_file + "_" + str(i)
-                
-                seq_dataset = train_generate(client_file, data_dir, window_size)
-                dataloader = DataLoader(seq_dataset, batch, shuffle =True)
+    for roundd in tqdm(range(rounds)):
+        local_weights, local_losses = [], []
+        print(f'\n | Global Training Round : {roundd+1} |\n')
+        logging.info(f'\n | Global Training Round : {roundd+1} |\n')
 
-                model = copy.deepcopy(global_model)
-                model_opt = NoamOpt(model.src_embed[0].d_model, 1, 2000, 
-                                    torch.optim.Adam(model.parameters(), lr =0, betas =(0.9, 0.98), eps = 1e-9))
-                model.cuda()
-                model_par = nn.DataParallel(model, device_ids = devices)
+        m = max(int(frac * clients), 1)
+        idxs_users = np.random.choice(range(1, clients+1), m, replace =False)
 
-                for epoch in range(epochs):
-                    model_par.train()
-                    loss = run_epoch(data_gen(dataloader), model_par, 
-                                        MultiGPULossCompute(model.generator, criterion, devices = devices, opt = model_opt))
-                    # model_par.eval()
-                    # loss = run_epoch(data_gen(dataloader), model_par, 
-                    #                   MultiGPULossCompute(model.generator, criterion, devices = devices, opt =None))   
-                    logging.info(f'\n | Loss : {loss} |\n')
-                    
+        for i in idxs_users:
+            client_file = args.log_file + "_" + str(i)
 
-                local_weights.append(copy.deepcopy(model.state_dict()))
+            seq_dataset = train_generate(client_file, data_dir, window_size)
+            dataloader = DataLoader(seq_dataset, batch, shuffle =True)
 
-            global_weights = average_weights(local_weights)
-            global_model.load_state_dict(global_weights)
-            
-            torch.save(global_model, os.path.join(args.model_dir, "global_model.pt"))
-            
-            if (roundd + 1) % 2 == 0:
-                test(args)
-    else:
-        for roundd in tqdm(range(rounds)):
-            local_weights, local_losses = [], []
-            print(f'\n | Global Training Round : {roundd+1} |\n')
-            
-            
-            m = max(int(frac * clients), 1)
-            idxs_users = np.random.choice(range(1, clients+1), m, replace =False)
-            
-            for i in idxs_users:
-                client_file = args.log_file + "_" + str(i)
-                seq_dataset = train_generate(client_file, args.data_dir, window_size)
-                dataloader = DataLoader(seq_dataset, batch, shuffle =True)
+            model = copy.deepcopy(global_model)
+            model_opt = NoamOpt(model.src_embed[0].d_model, 1, 2000, 
+                                torch.optim.Adam(model.parameters(), lr =0, betas =(0.9, 0.98), eps = 1e-9))
+            model.cuda()
+            model_par = nn.DataParallel(model, device_ids = devices)
 
-                model = copy.deepcopy(global_model)
-                model_opt = NoamOpt(model.src_embed[0].d_model, 1, 2000, 
-                                    torch.optim.Adam(model.parameters(), lr =0, betas =(0.9, 0.98), eps = 1e-9))
+            for epoch in range(epochs):
+                model_par.train()
+                loss = run_epoch(data_gen(dataloader), model_par, 
+                                    MultiGPULossCompute(model.generator, criterion, devices = devices, opt = model_opt))
+                # Validation
+                # model_par.eval()
+                # loss = run_epoch(data_gen(dataloader), model_par, 
+                #                   MultiGPULossCompute(model.generator, criterion, devices = devices, opt =None))   
+                logging.info(f'\n | Loss : {loss} |\n')
 
-                for epoch in range(epochs):
-                    model.train()
-                    run_epoch(data_gen(client_file, window_size, batch), model, SimpleLossCompute(model.generator, criterion, model_opt))
-                    # model.eval()
-                    # print(run_epoch(data_gen(log_file, window_size, batch), model, SimpleLossCompute(model.generator, criterion, None)))
 
-                local_weights.append(copy.deepcopy(model.state_dict()))
+            local_weights.append(copy.deepcopy(model.state_dict()))
 
-            global_weights = average_weights(local_weights)
-            global_model.load_state_dict(global_weights)
-            
-            torch.save(global_model, os.path.join(args.model_dir, "global_model.pt"))
-            
-            if (roundd + 1) % 2 == 0:
-                test(args)
+        global_weights = average_weights(local_weights)
+        global_model.load_state_dict(global_weights)
+
+        torch.save(global_model, os.path.join(args.model_dir, "global_model.pt"))
+
+        if (roundd + 1) % 2 == 0:
+            test(args)
 
     epoch_mins, epoch_secs = epoch_time(start_time, time.time())
     logging.info(f'Federated Training Time: {epoch_mins}m {epoch_secs}s')
@@ -755,8 +718,6 @@ def test(args):
     if use_cuda:
         device = "cuda:0"
         model.cuda()
-    else:
-        device = "cpu"
 
     model.eval()
 

@@ -1,32 +1,3 @@
-Log Key,Message,Occurrences
-2,Receiving block <*> src <*> dest <*>,1723232
-6,BLOCK* NameSystem.addStoredBlock blockMap updated <*> is added to <*> size <*>,1719741
-5,Received block <*> of size <*> <*>,1713611
-4,PacketResponder <*> for block <*> <*>,1706728
-14,Deleting block <*> file <*>,1402047
-24,BLOCK* NameSystem.delete <*> is added to invalidSet of <*>,1396174
-3,BLOCK* NameSystem.allocateBlock <*> <*>,575061
-7,<*> block <*> to <*>,435697
-26,<*>Got exception while serving <*> to <*>,356207
-10,Verification succeeded for <*>,120036
-8,<*> Starting thread to transfer block <*> to <*> <*>,7002
-9,BLOCK* ask <*> to replicate <*> to datanode s <*> <*>,7002
-25,Unexpected error trying to delete block <*>. BlockInfo not found in volumeMap.,5545
-11,writeBlock <*> received exception <*>,3300
-15,Receiving empty packet for block <*>,1464
-18,BLOCK* NameSystem.addStoredBlock Redundant addStoredBlock request received for <*> on <*> size <*>,975
-13,writeBlock <*> received exception java.io.IOException Could not read from stream,82
-16,Exception in receiveBlock for block <*> java.io.IOException Connection reset by peer,75
-20,Changing block file offset of block <*> from <*> to <*> meta file offset to <*>,65
-19,Exception in receiveBlock for block <*> <*>,59
-30,PendingReplicationMonitor timed out block <*>,47
-12,PacketResponder <*> <*> Exception <*>,44
-32,Adding an already existing block <*>,10
-23,<*>Failed to transfer <*> to <*> got java.io.IOException Connection reset by peer,9
-22,writeBlock <*> received exception java.io.IOException Block <*> is valid and cannot be written to.,9
-28,Reopen Block <*>,5
-31,PacketResponder <*> <*> Exception java.io.InterruptedIOException Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <*> millis timeout left.,5
-29,BLOCK* Removing block <*> from neededReplications as it does not belong to any file.,4
-17,writeBlock <*> received exception java.io.IOException Connection reset by peer,3
-27,PacketResponder <*> <*> Exception java.io.IOException Connection reset by peer,2
-21,PacketResponder <*> <*> Exception java.io.IOException Broken pipe,2
+version https://git-lfs.github.com/spec/v1
+oid sha256:20c71e75f08be22886213d0c970c07e14cde963348bcadc054eefd85ccc74505
+size 2117

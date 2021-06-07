@@ -15,4 +15,4 @@ The following filters were used to obtain the presented raw logs:
 
   Examples of excluded long log messages: https://github.com/cyberthreat-datasets/ctdd-2021-os-syslogs/tree/main/CTDD_Dataset/normal/itesm/excluded_logs_examples.log
 
-KQL Search:"NOT (message: filebeat OR message: packetbeat OR message: metricbeat OR message: auditbeat) AND log.file.path: /var/log/syslog AND NOT event.module: * AND (_index: filebeat-7*) AND dataset.label: normal AND host.name: itesm*
+KQL Search:"NOT (message: filebeat OR message: packetbeat OR message: metricbeat OR message: auditbeat) AND log.file.path: /var/log/syslog AND NOT event.module: * AND (_index: filebeat-7*) AND dataset.label: normal AND host.name: practicum*

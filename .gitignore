@@ -1,3 +1,5 @@
 *.pyc
 *.cpython-36.pyc
 *.ipynb*
+
+Source_Code/.ipynb*

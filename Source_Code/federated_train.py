@@ -30,6 +30,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--federated', default=True, type=bool, help='number of gpus of gpus to train')    
     parser.add_argument('--num_gpus', default=1, type=int, help='number of gpus to train')
+    parser.add_argument('--model_file', default='', type=str, help='the file of previously trained model')    
     parser.add_argument('--model_dir', default='../Saved_Models', type=str, help='the directory to store the model')
 #     parser.add_argument('--data_dir', default='../HDFS_Dataset/', type=str, help='the directory where training data is stored')
     parser.add_argument('--data_dir', default='../CTDD_Dataset/Sample_Dataset_Train_Test_Log_Keys', type=str, help='the directory where training data is stored')
